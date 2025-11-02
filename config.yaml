@@ -1,0 +1,17 @@
+output_base: ./divar_results
+
+districts:
+  - district_name: "seyyed_khandan"
+    district: "95"
+    bbox: [51.4465828, 35.7176476, 51.4743233, 35.7756462]
+    filters:
+      elevator: true
+      parking: true
+      has-photo: true
+      building-age:
+        maximum: 20
+      size:
+        minimum: 75
+        maximum: 120
+      price_floor: 50000000
+      price_ceiling: 300000000
