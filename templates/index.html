@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mehran District Housing Dashboard</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body { background: #111; color: #eee; font-family: 'Segoe UI', sans-serif; text-align: center; margin: 0; padding: 30px; }
+    h1 { color: #ffa726; margin-bottom: 10px; }
+    .header { display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-bottom: 40px; }
+    .box {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px 30px;
+      box-shadow: 0 0 10px #0006;
+      min-width: 160px;
+    }
+    .label { font-size: 0.9rem; color: #aaa; margin-bottom: 5px; }
+    .value { font-size: 1.6rem; font-weight: bold; }
+    .timestamp { font-size: 0.9rem; margin-top: 10px; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Divar Housing Trends</h1>
+  <div class="timestamp">Last update: {{ last_data.timestamp }}</div>
+
+  <div class="header">
+    <div class="box">
+      <div class="label">Overall Avg (IRR/m²)</div>
+      <div class="value" style="color:#ff9800;">{{ last_data.overall }}</div>
+    </div>
+    <div class="box">
+      <div class="label">Age 0–4</div>
+      <div class="value" style="color:#4caf50;">{{ last_data.age0_4 }}</div>
+    </div>
+    <div class="box">
+      <div class="label">Age 5–9</div>
+      <div class="value" style="color:#2196f3;">{{ last_data.age5_9 }}</div>
+    </div>
+    <div class="box">
+      <div class="label">Age 10–14</div>
+      <div class="value" style="color:#9c27b0;">{{ last_data.age10_14 }}</div>
+    </div>
+    <div class="box">
+      <div class="label">Age 15–20</div>
+      <div class="value" style="color:#f44336;">{{ last_data.age15_20 }}</div>
+    </div>
+  </div>
+
+  {{ chart_html|safe }}
+</body>
+</html>
