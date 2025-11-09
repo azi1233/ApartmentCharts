@@ -1,0 +1,64 @@
+name: Generate report and publish
+
+# Triggers:
+#  - on push to main (but ignore changes to report.html to avoid loops)
+#  - on a daily schedule at 22:00 Iran time (UTC+3:30) -> 18:30 UTC
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'report.html'
+  schedule:
+    - cron: '00 19 * * *'   # daily at 18:30 UTC => 22:00 IRST
+
+permissions:
+  contents: write   # allow pushing back to the repo with the built-in token
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'   # safe choice; change to '3.13' if you need it
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run main.py (generate report.html)
+        run: |
+          python main.py
+
+      - name: Verify generated file
+        run: |
+          echo "report.html exists: $( [ -f report.html ] && echo yes || echo no )"
+          ls -la .
+
+      - name: Commit report.html if changed
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage only the generated file (change path if report.html is elsewhere)
+          git add report.html || true
+
+          # Only commit if there are staged changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update report.html [skip ci]"
+            # Push back to main using the token:
+            git push "$REPO_URL" HEAD:main
+          else
+            echo "No changes to report.html — nothing to commit."
+          fi
