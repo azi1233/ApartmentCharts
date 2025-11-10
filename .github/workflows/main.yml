@@ -1,71 +1,40 @@
-name: Generate report and publish
-
-on:
-  push:
-    branches: [ main ]
-    paths-ignore:
-      - 'report.html'
-  schedule:
-    - cron: '15 13 * * *'   # daily at 18:30 UTC => 22:00 IRST
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Ensure divar_results folder exists
-        run: mkdir -p divar_results
-
-      - name: Run main.py (generate report.html and divar_results)
-        run: python main.py
-
-      - name: Verify generated files
-        run: |
-          echo "report.html exists: $( [ -f report.html ] && echo yes || echo no )"
-          echo "divar_results contents:"
-          ls -la divar_results || echo "divar_results folder empty or missing"
-
       - name: Commit report.html and divar_results if changed
         env:
-          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Fail fast and make pipelines safe
           set -euo pipefail
 
-          # Configure git user
+          # Configure committer identity
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Allow globbing to safely expand to nothing when folder empty
-          shopt -s nullglob
+          # Configure remote so push uses the token
+          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git remote set-url origin "$REPO_URL"
 
-          # Stage the generated files (report + any files in divar_results)
-          # Using separate adds so we don't accidentally fail if there are no files.
-          git add report.html || true
-          git add divar_results/* || true
+          # Ensure we have the latest remote state for main
+          git fetch origin main
 
-          # If there are staged changes, commit and push
+          # Stage report.html if present
+          git add -f report.html || true
+
+          # Stage divar_results files only if there are any (prevents glob expansion errors)
+          if compgen -G "divar_results/*" > /dev/null; then
+            git add divar_results/*
+          else
+            echo "No files in divar_results to add."
+          fi
+
+          # Only commit if there are staged changes
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update report.html and divar_results [skip ci]"
-            git push "$REPO_URL" HEAD:main
+
+            # Rebase on top of the latest remote main to avoid non-fast-forward pushes
+            # (this integrates any remote changes before pushing)
+            git pull --rebase origin main || true
+
+            # Push the result back to main. If there's still a race, this will fail and the action will stop.
+            git push origin HEAD:main
           else
             echo "No changes — nothing to commit."
           fi
