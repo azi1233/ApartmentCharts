@@ -22,3 +22,5 @@ divar_results/20251109_160459/request_payload.json
 divar_results/20251109_160459/summary_20251109_160459.json
 divar_results/20251110_204048/request_payload.json
 divar_results/20251110_204048/summary_20251110_204048.json
+divar_results/20251111_181130/request_payload.json
+divar_results/20251111_181130/summary_20251111_181130.json
