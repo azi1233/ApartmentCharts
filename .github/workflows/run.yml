@@ -1,7 +1,12 @@
 name: Generate report and publish
 
 # Run daily at 22:00 Iran time (18:30 UTC)
-on: 
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'report.html'
+      - 'divar_results/**'
   schedule:
     - cron: '20 20 * * *'   # 18:30 UTC = 22:00 IRST
 
