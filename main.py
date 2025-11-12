@@ -260,13 +260,14 @@ def schedule_thread():
 if __name__ == "__main__":
  #threading.Thread(target=schedule_thread, daemon=True).start()
  #app.run(host="0.0.0.0", port=8000, debug=True)
+ daily_refresh()
  summaries = load_all_summaries()
  if not summaries:
     print("No summary JSON files found.")
     exit(1)
  else:
     render_report(summaries)
- daily_refresh()
+
  
 
     
