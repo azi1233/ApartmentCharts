@@ -59,7 +59,7 @@ def run():
     
     Mehran = DivarRequest(url,headers,payload,paths)
     
-    #extractor(Mehran)
+    extractor(Mehran)
     
     
     
@@ -117,7 +117,7 @@ def run():
     paths ="Gisha"
     
     gisha = DivarRequest(url,headers,payload,paths)
-    #extractor(gisha)
+    extractor(gisha)
     
     
     

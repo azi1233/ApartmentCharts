@@ -2,13 +2,13 @@ name: Generate report and publish
 
 # Run daily at 22:00 Iran time (18:30 UTC)
 on:
-  push:
-    branches: [ main ]
-    paths-ignore:
-      - 'report.html'
-      - 'divar_results/**'
+  #push:
+  #  branches: [ main ]
+  #  paths-ignore:
+  #    - 'report.html'
+  #    - 'divar_results/**'
   schedule:
-    - cron: '30 19 * * *'   # 19:30 UTC = 23:00 IRST
+    - cron: '20 18 * * *'   # 18:20 UTC = 21:50 IRST
 
 permissions:
   contents: write   # allow pushing changes back to the repo
