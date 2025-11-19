@@ -573,3 +573,116 @@ def run():
     
     YousefAbad_up_new = DivarRequest(url,headers,payload,paths)
     extractor2(YousefAbad_up_new)
+    
+    
+    ######
+    
+    ##Javadie_new
+    url = "https://api.divar.ir/v8/mapview/viewport"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Content-Type": "application/json; charset=utf-8",
+        "Accept": "application/json, text/plain, */*",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://divar.ir/",
+        "Accept-Language": "fa-IR,fa;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
+    
+    
+    payload = {
+        "city_ids": ["1"],
+        "search_data": {
+            "form_data": {
+                "data": {
+                    "bbox": {
+                        "repeated_float": {
+                            "value": [
+                                {"value": 51.376478},
+                                {"value": 35.640342},
+                                {"value": 51.417136},
+                                {"value": 35.663281}
+                            ]
+                        }
+                    },
+                    "building-age": {"number_range": {"maximum": "20"}},
+                    "elevator": {"boolean": {"value": True}},
+                    "has-photo": {"boolean": {"value": True}},
+                    "parking": {"boolean": {"value": True}},
+                    "size": {"number_range": {"minimum": "60", "maximum": "150"}},
+                    "category": {"str": {"value": "apartment-sell"}},
+                    "districts": {"repeated_string": {"value": ["265"]}}
+                }
+            }
+        },
+        "camera_info": {
+            "bbox": {
+                "min_latitude": 35.640342,  
+                "min_longitude": 51.376478,
+                "max_latitude": 35.663281,
+                "max_longitude": 51.417136
+            },
+            "place_hash": "1|265|apartment-sell",
+            "zoom": 12.7
+        }
+    }
+    
+    paths ="Javadieh_new"
+    
+    Javadieh_new = DivarRequest(url,headers,payload,paths)
+    extractor2(Javadieh_new)
+    
+    
+       ##HosseinAbad_new
+    url = "https://api.divar.ir/v8/mapview/viewport"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Content-Type": "application/json; charset=utf-8",
+        "Accept": "application/json, text/plain, */*",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://divar.ir/",
+        "Accept-Language": "fa-IR,fa;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
+    
+    
+    payload = {
+        "city_ids": ["1"],
+        "search_data": {
+            "form_data": {
+                "data": {
+                    "bbox": {
+                        "repeated_float": {
+                            "value": [
+                                {"value": 51.466303},
+                                {"value": 35.769012},
+                                {"value": 51.498038},
+                                {"value": 35.786889}
+                            ]
+                        }
+                    },
+                    "building-age": {"number_range": {"maximum": "20"}},
+                    "elevator": {"boolean": {"value": True}},
+                    "has-photo": {"boolean": {"value": True}},
+                    "parking": {"boolean": {"value": True}},
+                    "size": {"number_range": {"minimum": "60", "maximum": "150"}},
+                    "category": {"str": {"value": "apartment-sell"}},
+                    "districts": {"repeated_string": {"value": ["1025"]}}
+                }
+            }
+        },
+        "camera_info": {
+            "bbox": {
+                "min_latitude": 35.769012, 
+                "min_longitude": 51.466303,  
+                "max_latitude": 35.786889,  
+                "max_longitude": 51.498038  
+
+            },
+            "place_hash": "1|1025|apartment-sell",
+            "zoom": 12.7
+        }
+    }
+    
+    paths ="HosseinAbad_new"
+    
+    HosseinAbad_new = DivarRequest(url,headers,payload,paths)
+    extractor2(HosseinAbad_new)
