@@ -21,7 +21,7 @@ def main():
         mainDraw.drawer(str(report_path), str(folder))
 
     # --- Create index.html ---
-    # --- Create index.html ---
+      # --- Create index.html ---
     index_file = Path("index.html")
     html_lines = [
         "<!DOCTYPE html>",
@@ -40,20 +40,30 @@ def main():
         "    header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:24px;}",
         "    h1{margin:0;font-size:1.6rem;color:var(--accent);font-weight:600}",
         "    .subtitle{color:var(--muted);font-size:0.95rem}",
-        "    .grid{display:flex;flex-wrap:wrap;row-gap:30px;column-gap:12px;margin-top:18px}",
+        "",
+        "    /* Fixed Grid for buttons */",
+        "    .grid{display:grid;gap:16px;margin-top:18px;",
+        "      grid-template-columns: repeat(4, 1fr);",  # default desktop: 4 columns
+        "    }",
+        "",
         "    .btn{",
         "      display:inline-flex;align-items:center;justify-content:center;gap:8px;",
-        "      padding:12px 18px;text-decoration:none;border-radius:10px;min-width:220px;flex-shrink:0;height:auto;",
+        "      padding:12px 24px;text-decoration:none;border-radius:999px;flex-shrink:0;height:auto;",
         "      background:linear-gradient(180deg,var(--btn-bg),var(--card));box-shadow:0 6px 18px rgba(0,0,0,0.6);color:var(--text);",
         "      border:1px solid rgba(255,255,255,0.03);transition:transform .15s ease,box-shadow .15s ease,background .15s;",
+        "      font-weight:600;text-align:center;",
         "    }",
         "    .btn .name{font-weight:600}",
         "    .btn .meta{font-size:0.85rem;color:var(--muted)}",
         "    .btn:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(0,0,0,0.7);background:var(--btn-hover)}",
+        "",
         "    .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}",
-        "    .search{padding:8px 12px;border-radius:8px;background:#0f0f12;border:1px solid rgba(255,255,255,0.03);color:var(--text)}",
+        "    .search{padding:8px 12px;border-radius:8px;background:#0f0f12;border:1px solid rgba(255,255,255,0.03);color:var(--text);width:100%;max-width:300px;}",
         "    footer{margin-top:28px;color:var(--muted);font-size:0.85rem;text-align:center}",
-        "    @media (max-width:640px){.btn{min-width:100%;justify-content:flex-start;padding:12px;border-radius:12px}}",
+        "",
+        "    /* Responsive grid */",
+        "    @media (max-width:1024px){.grid{grid-template-columns:repeat(3,1fr);}}",  # tablets
+        "    @media (max-width:640px){.grid{grid-template-columns:repeat(2,1fr);gap:12px;}.btn{padding:14px 24px;font-size:0.95rem;}}",  # mobile",
         "  </style>",
         "</head>",
         "<body>",
@@ -64,8 +74,7 @@ def main():
         "        <div class='subtitle'>Divar scrape results — open a folder to view its report</div>",
         "      </div>",
         "      <div class='controls'>",
-        "        <!-- optional search -->",
-        "        <input class='search' placeholder='Filter reports (client-side)...' oninput=\"(function(){const q=this.value.toLowerCase();document.querySelectorAll('.btn').forEach(b=>{b.style.display = (b.datasetName.toLowerCase().includes(q)||b.datasetMeta.toLowerCase().includes(q)) ? 'inline-flex' : 'none';});}).call(this)\" />",
+        "        <input class='search' placeholder='Filter reports (client-side)...' oninput=\"(function(){const q=this.value.toLowerCase();document.querySelectorAll('.btn').forEach(b=>{b.style.display=(b.datasetName.toLowerCase().includes(q)||b.datasetMeta.toLowerCase().includes(q))?'inline-flex':'none';});}).call(this)\" />",
         "      </div>",
         "    </header>",
         "",
@@ -90,7 +99,8 @@ def main():
         "</body>",
         "</html>",
     ]
-    
+
+
         
     for folder in folders:
         link = f"{folder.name}_report.html"
