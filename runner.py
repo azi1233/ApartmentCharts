@@ -686,3 +686,67 @@ def run():
     
     HosseinAbad_new = DivarRequest(url,headers,payload,paths)
     extractor2(HosseinAbad_new)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        ##Dr_Hooshyar_new
+    url = "https://api.divar.ir/v8/mapview/viewport"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Content-Type": "application/json; charset=utf-8",
+        "Accept": "application/json, text/plain, */*",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://divar.ir/",
+        "Accept-Language": "fa-IR,fa;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
+    
+    
+    payload = {
+        "city_ids": ["1"],
+        "search_data": {
+            "form_data": {
+                "data": {
+                    "bbox": {
+                        "repeated_float": {
+                            "value": [
+                                {"value": 51.3384247},
+                                {"value": 35.6879234},
+                                {"value": 51.3614235},
+                                {"value": 35.7008896}
+                            ]
+                        }
+                    },
+                    "building-age": {"number_range": {"maximum": "20"}},
+                    "elevator": {"boolean": {"value": True}},
+                    "has-photo": {"boolean": {"value": True}},
+                    "parking": {"boolean": {"value": True}},
+                    "size": {"number_range": {"minimum": "60", "maximum": "150"}},
+                    "category": {"str": {"value": "apartment-sell"}},
+                    "districts": {"repeated_string": {"value": ["1029"]}}
+                }
+            }
+        },
+        "camera_info": {
+            "bbox": {
+                "min_latitude": 35.687028,
+                "min_longitude": 51.33617,
+                "max_latitude": 35.701785,
+                "max_longitude": 51.362339
+            },
+            "place_hash": "1|1029|apartment-sell",
+            "zoom": 12.7
+        }
+    }
+    
+    paths ="Dr_Hooshyar_new"
+    
+    Dr_Hooshyar_new = DivarRequest(url,headers,payload,paths)
+    extractor2(Dr_Hooshyar_new)
