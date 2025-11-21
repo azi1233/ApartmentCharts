@@ -1,0 +1,85 @@
+[
+  {
+    "id": "QaYkZ2oE",
+    "title": "آپارتمان در نعمت آباد تنکابن قابل تهاتر",
+    "price_parsed": 433000000,
+    "age_parsed": 0,
+    "size_parsed": 75,
+    "map_post_card": {
+      "token": "QaYkZ2oE",
+      "title": "آپارتمان در نعمت آباد تنکابن قابل تهاتر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳٫۲۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۳٫۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۵ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/imy9qCksbrEoFL0uxwOgUw/c0605a36-bf30-4dbd-b42d-3e6f4386e029.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1m41u7Ng9OT-42QUnjhn3A/f9d7b8d6-0222-45ac-a22b-0447c2198c4c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l817oHVZqUymRICM45q5Ww/04c21ed8-e734-46bd-abe2-ec2edabe4a2e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nh-VsMaWMoBMlItpIQRzPA/fddf0492-0a64-417e-b085-94b1e3e16b3f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fifCgfiiTVB3jmRKm8khBw/3c7b4032-a210-4924-8f99-a9a6228be513.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/n5_IAaVNCcml3OXyMs-t0Q/d46d2b53-3e6d-4cab-b2c4-47d5e4d662b0.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IHGDycHSOrO6SWGJKD_KUA/e150b6dc-6048-4f00-b212-d0950d044d55.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/72M1ga7QmXcR2ASaDJ0GZw/7e626106-fbfa-4ec3-9b45-72eff1eb8412.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1OjUmb3Qs9IcQQ7IrasKsw/41a09829-a103-40ce-917e-01cfc6a526d9.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bujYMe6PGCvrLIsSaqFL3w/4824465d-d671-4a05-8f5b-9d7c548685f3.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cKe-B_jH1tVtVCqpNG0Wtg/61efd4b0-222d-4196-ad6f-013f8ae6008e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5Lcj_mYJg61j8rnXkLjK9g/b7435953-c273-4f35-831b-3080612e016e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gr6VzqqVlMQJC9RewlbXWw/079e752b-ec22-4848-9bcd-9db8c5a486c1.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaYkZ2oE",
+            "index": 2,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "40991000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631}, {\"value\":35.70942}, {\"value\":51.381687}, {\"value\":35.73771}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"201\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"75\", \"maximum\":\"79\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2025-11-20T16:50:12.040991Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
