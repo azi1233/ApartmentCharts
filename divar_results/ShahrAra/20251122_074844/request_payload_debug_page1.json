@@ -1,0 +1,77 @@
+{
+  "city_ids": [
+    "1"
+  ],
+  "search_data": {
+    "form_data": {
+      "data": {
+        "bbox": {
+          "repeated_float": {
+            "value": [
+              {
+                "value": 51.3174362
+              },
+              {
+                "value": 35.7004204
+              },
+              {
+                "value": 51.4182167
+              },
+              {
+                "value": 35.7357216
+              }
+            ]
+          }
+        },
+        "building-age": {
+          "number_range": {
+            "maximum": "20"
+          }
+        },
+        "elevator": {
+          "boolean": {
+            "value": true
+          }
+        },
+        "has-photo": {
+          "boolean": {
+            "value": true
+          }
+        },
+        "parking": {
+          "boolean": {
+            "value": true
+          }
+        },
+        "size": {
+          "number_range": {
+            "minimum": "150",
+            "maximum": "150"
+          }
+        },
+        "category": {
+          "str": {
+            "value": "apartment-sell"
+          }
+        },
+        "districts": {
+          "repeated_string": {
+            "value": [
+              "202"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "camera_info": {
+    "bbox": {
+      "min_latitude": 35.700421,
+      "min_longitude": 51.317436,
+      "max_latitude": 35.735721,
+      "max_longitude": 51.418215
+    },
+    "place_hash": "1|202|apartment-sell",
+    "zoom": 12.450042235879172
+  }
+}
