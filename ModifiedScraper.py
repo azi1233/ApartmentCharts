@@ -14,7 +14,7 @@ import time
 # ------------------------
 # Config: tweak as needed
 # ------------------------
-PRICE_FLOOR_2 = 6_000_000
+PRICE_FLOOR_2 = 5_000_000
 PRICE_CEILING_2 = 500_000_000
 REQUEST_TIMEOUT = 30
 PAGE_SIZE_GUESS = 200
@@ -48,17 +48,17 @@ def extractor2(diverRequest: DivarRequest):
     # ------------------------
     # Parsers (for price, age, size)
     # ------------------------
-    PERSIAN_DIGITS = "۰۱۲۳۴۵۶۷۸۹"
-    ENGLISH_DIGITS = "0123456789"
+    PERSIAN_DIGITS = "۰۱۲۳۴۵۶۷۸۹٫"
+    ENGLISH_DIGITS = "0123456789."
 
-    def persian_to_int(num_str: str) -> Optional[int]:
+    def persian_to_int(num_str: str):
         if not isinstance(num_str, str):
             return None
         s = num_str
         for p, e in zip(PERSIAN_DIGITS, ENGLISH_DIGITS):
             s = s.replace(p, e)
-        s = re.sub(r"[^\d]", "", s)
-        return int(s) if s else None
+        s = re.sub(r"[^0-9.]", "", s)
+        return float(s) if s else None
 
     WORDS_MAP = {
         "صفر":0, "یک":1, "دو":2, "سه":3, "چهار":4, "پنج":5, "شش":6, "هفت":7, "هشت":8, "نه":9,
@@ -69,7 +69,7 @@ def extractor2(diverRequest: DivarRequest):
         "میلیون":1_000_000, "میلیارد":1_000_000_000
     }
 
-    def words_to_number(text: str) -> Optional[int]:
+    def words_to_number(text: str):
         if not isinstance(text, str):
             return None
         text = text.replace("و", " ").replace("-", " ")
