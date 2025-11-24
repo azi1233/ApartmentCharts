@@ -320,7 +320,7 @@ def extractor2(diverRequest: DivarRequest):
     if explicit:
         min_requested, max_requested = explicit
     else:
-        min_requested, max_requested = 75, 120
+        min_requested, max_requested = 60, 150
 
     # Build size ranges strictly from the requested interval
     size_ranges = build_5sqm_intervals(min_requested, max_requested, step=5)
