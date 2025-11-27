@@ -1,0 +1,153 @@
+[
+  {
+    "id": "QadksKtW",
+    "title": "۶۰متر،طراحی فوق العاده/غرب تهران،سند تکبرگ",
+    "price_parsed": 29600000,
+    "age_parsed": 4.0,
+    "size_parsed": 60.0,
+    "map_post_card": {
+      "token": "QadksKtW",
+      "title": "۶۰متر،طراحی فوق العاده/غرب تهران،سند تکبرگ",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱٫۷۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۹٫۶ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۴ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jPpVeuCEAJHq1VxAVe8UBA/99e7e29d-acc2-40a1-934d-19a2bf26d7e5.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sbSiYKJ6TVPOgtWCKHzjBQ/1aca8912-c9af-48c7-8dac-62beb529148f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AKvJLWsYAU6fLGY0wG8h0Q/056f9cfc-1783-4d97-a500-8c3609be231c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dKXm9du3z5g5aOANzuFkkA/37be7de4-9239-46a6-bb78-737f33974661.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UQQoqRXns6ZIa77MRGa-GQ/c14de46c-24f8-47be-a627-dd8419371147.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aIPKvGC9WKTbGWdpoPs9Hg/40109f52-1118-4698-b29e-9f851e93db87.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/57Xx3vDwRb7OnReFa-hEYw/0e05233b-fc17-4e32-a7ca-1e83d4113b3b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/inHC9d3u56UCutkZC2mGMg/c549dec0-06e8-44d4-8fcb-6aba51b75f55.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CObAOfV8AeiuSz0LAnUUYQ/d3b5dbba-294e-4675-ab97-dbdf99c9311d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Mfg_6F9fMtvTDRTEwBGJEg/86133306-8338-44ea-af18-78be6f3e2bf2.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QadksKtW",
+            "index": 2,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "593624000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436},{\"value\":35.70042},{\"value\":51.418217},{\"value\":35.73572}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"202\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"60\",\"maximum\":\"64\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2025-11-19T19:07:15.593624Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaVAvufE",
+    "title": "۹۳ مِتر‌ ، شهرآرا/فول امکانات/تاپ لوکیشن،متریال یک",
+    "price_parsed": 225000000,
+    "age_parsed": 0,
+    "size_parsed": 93.0,
+    "map_post_card": {
+      "token": "QaVAvufE",
+      "title": "۹۳ مِتر‌ ، شهرآرا/فول امکانات/تاپ لوکیشن،متریال یک",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۲۵ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۳ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zB_AgBKG_5hJJ2nUoANtkg/6e02240d-bf25-4575-bc7b-221e4d41f07d.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaVAvufE",
+            "index": 2,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "615431000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436},{\"value\":35.70042},{\"value\":51.418217},{\"value\":35.73572}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"202\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"90\",\"maximum\":\"94\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2025-11-13T15:04:53.615431Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
