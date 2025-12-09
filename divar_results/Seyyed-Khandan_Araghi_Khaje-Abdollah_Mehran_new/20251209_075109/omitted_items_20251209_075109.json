@@ -1,0 +1,168 @@
+[
+  {
+    "id": "QaqYOM0U",
+    "title": "۱۴۳ متر/ لوکس ترین واحد منطقه (عراقی) تکواحدی",
+    "price_parsed": 270000000,
+    "age_parsed": 0,
+    "size_parsed": 143.0,
+    "map_post_card": {
+      "token": "QaqYOM0U",
+      "title": "۱۴۳ متر/ لوکس ترین واحد منطقه (عراقی) تکواحدی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۸٫۶ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۷۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۳ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_lL_VvyHGHMcxtwt63GfCQ/d8dd8fa7-cf9f-4a51-913b-95393dec4e2b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nEbAK7a7VY7mE5-tsAhliQ/85818141-94ac-43b5-a0d6-486e63912110.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Cs9ogQxrtWg31c-Gz8Oa0w/fdf0c5f4-00b6-4370-972a-7f7cd98bee68.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q8ypKYpJ3aMQLdwH46N7uQ/b56c0bd8-49bb-47aa-9c5b-deca8a000df3.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8_XNUxJdvZatthQQaVyB-Q/3134fdbc-e906-4b31-94bb-f6bfe281f382.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/w9TfaU0jg25aq6t2uZq0xQ/0fea2f67-6c64-4cea-ab44-bea55de76421.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PQoygolrx7o0oDL1jP2FOQ/84e82349-193c-4535-97b8-0432223044f0.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RC5N9wQ46z69pKeF2gzxPg/8c56def1-870d-44ff-9288-f5e0c52f7710.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/V_562bxIjD-N34AWgtyenw/5444c026-e7ef-4f51-b4f4-7b965d23acd6.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iAmeEaH1u6KZ-0_eCHXSpw/318cd47f-8c46-4261-b931-2c8fa3a3f281.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mrvReVzE7FqSw04yKCCHNQ/01edfca5-9441-4b13-aa6f-a3e3833343cc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p8lXuUrg6BAfEKMxxLyloQ/81fbd9e3-6c6c-4652-8335-822920f22b5d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/srSGqQ-3OOBbGnwR_VpxZQ/55452e4e-df74-4a71-88f0-0b223cd29e00.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sB-9vc3dPbtCSmyd9vAacg/31349951-b2fb-40d6-ad97-10d8747b5cdf.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaqYOM0U",
+            "index": 15,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "937172000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047}, {\"value\":35.717648}, {\"value\":51.527855}, {\"value\":35.775646}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"95\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"140\", \"maximum\":\"144\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-11-29T12:34:44.937172Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "AauabsT3",
+    "title": "۱۴۳ متر ۳ خوابه نوساز تک واحدی شهید عراقی",
+    "price_parsed": 269000000,
+    "age_parsed": 0,
+    "size_parsed": 143.0,
+    "map_post_card": {
+      "token": "AauabsT3",
+      "title": "۱۴۳ متر ۳ خوابه نوساز تک واحدی شهید عراقی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۸٫۶ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۶۹ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۳ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xke1j7DpMakpttYZCaDZ5w/bf02a67e-60c4-4923-8ab8-2009ecd09798.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AnAKgIoavRg7IO84oZkT5Q/bf0cd564-ddcc-4c6d-b4fd-ece07ac9cb36.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LIohXPbuHAT4zoAvVxzWFA/653eb774-eb16-4589-9195-10b448b7309f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/D4QiYM6nS4Ki_KmiIDMFNg/7df5acda-cf65-4254-b192-98365dd6c750.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/OqsJQaAL6T9Z_MIYPk_Uhg/a2f7278b-b552-4935-bf58-bf4017bedcef.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/t0uWBq4_nl1iK4drSHUf9A/342e5a5d-27e4-4397-b774-fe2f6a735605.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_VKZpj0MYwwken_828bYWw/6622f1d1-3c62-4428-bd41-d5538e8bf05d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ILdFtFlO5lKlMrXjTWlayg/d23ebf31-bf3a-40e9-9a19-12c217a5e53d.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "AauabsT3",
+            "index": 17,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "292438000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047}, {\"value\":35.717648}, {\"value\":51.527855}, {\"value\":35.775646}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"95\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"140\", \"maximum\":\"144\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-11-20T06:44:08.292438Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
