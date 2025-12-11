@@ -1,0 +1,237 @@
+[
+  {
+    "id": "Qatw9Way",
+    "title": "منطقه حسین آباد، واحد ۶۶ متری، بهترین نقشه",
+    "price_parsed": 230000000,
+    "age_parsed": 0,
+    "size_parsed": 66.0,
+    "map_post_card": {
+      "token": "Qatw9Way",
+      "title": "منطقه حسین آباد، واحد ۶۶ متری، بهترین نقشه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۵٫۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۳۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۶ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/X4gDTFN6EEkuFyjBDDJ51Q/d07c1d88-982c-4a14-98ed-a6840ef7c5bf.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/elMqyo6UHFMMpmdTAx3fjg/9596f2d5-b71c-4565-9ce3-e0f0c3b3dc3f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Pp836JSxpm-LFbuuRF4FCA/7a34dfce-f487-4b4e-affc-6939994688b8.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Jkxo_eCCvsGKS1pGH13G3A/5a352056-43ce-4a05-813d-5a4288f1b2ad.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VwCJtDMor2RyEvPdBJCEnA/5d1e295f-21b3-4ca1-b9a1-45a1824d5cfc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/R8RrHUW0bPGUvf7qMORFDg/e455a628-66c2-4b48-9322-5c25e460b22d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pD3Ommpx5PWsjJEdxQdYAQ/8910d55b-e611-45a4-9052-1989c382d3e1.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/U8TXHF74ThoE3LMKabcCEw/a99c93aa-e762-4f4f-a7b9-2ec40f0040b2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nDZiUaedrWVpj2ljeJl18g/c04a2a9c-f492-42ff-9f5b-d5253826d846.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XqK7yfL7CRwqfHXfIlLzJA/d2fc1c3a-92fc-42be-a449-402c07ae2305.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/D-X4x0bQNoPmhk9s6uaUQA/9a39de0a-baca-4c47-b61f-c3f50422e704.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qatw9Way",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "641040000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"65\",\"maximum\":\"69\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-12-11T06:27:06.641040Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaakPq4_",
+    "title": "فروش ۸۵ متر ۱ ساله پاسداران",
+    "price_parsed": 223000000,
+    "age_parsed": 1.0,
+    "size_parsed": 85.0,
+    "map_post_card": {
+      "token": "QaakPq4_",
+      "title": "فروش ۸۵ متر ۱ ساله پاسداران",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۹ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۲۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۸۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ws2ztfJTjGUQFUPoUFGHKw/2e135fd6-4da7-480c-865b-4c1dcc83e4ec.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/a4J6fz4VJdNG57SH_6_pGQ/96ed7b30-edd0-4475-81da-c31f2f79b3cf.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ka8BWVIJn3MKupwSKUqOjg/37f63608-62fa-4b16-9aac-82ed2bde0b6d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-gEIaeq0JyfCJ8DeefKrHw/763b3598-89ef-48c9-9e42-c9355dae1337.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RzOmMK6NvOhDblt81fuZdw/0836986a-6c16-4549-a4c7-b257eddb6cfa.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/N_RM0StWHlKLiwXkTDEurQ/09a7f4a4-6cfd-4dc3-9e8d-e0f441886204.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7U-ya6AaamkrRaHXEKmXiA/562fdbf2-35e4-4307-a219-a9d41850768f.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaakPq4_",
+            "index": 6,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "294406000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"85\",\"maximum\":\"89\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-11-17T10:34:56.294406Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qa1wHwj0",
+    "title": "هروی ۹۲ متری",
+    "price_parsed": 250000000,
+    "age_parsed": 0,
+    "size_parsed": 92.0,
+    "map_post_card": {
+      "token": "Qa1wHwj0",
+      "title": "هروی ۹۲ متری",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۳ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۵۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۲ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gD7Fd6x4NQDQFcG6r7yhMg/87c86b57-6d30-4131-95fa-2d7220d716e2.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa1wHwj0",
+            "index": 3,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "564311000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"90\",\"maximum\":\"94\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-12-07T13:11:20.564311Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
