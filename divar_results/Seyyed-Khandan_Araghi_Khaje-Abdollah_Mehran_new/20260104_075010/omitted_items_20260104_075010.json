@@ -1,0 +1,154 @@
+[
+  {
+    "id": "QahM974I",
+    "title": "خواجه عبدالله ۶۰ متر یک خواب کلید نخورده فروشنده",
+    "price_parsed": 300000000,
+    "age_parsed": 0,
+    "size_parsed": 60.0,
+    "map_post_card": {
+      "token": "QahM974I",
+      "title": "خواجه عبدالله ۶۰ متر یک خواب کلید نخورده فروشنده",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۰ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SkukYeLGmZMoL5Mv39ZjzA/ac306ec9-3952-4f14-b597-0f0132c0e3f2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MwY1y2DEOF1DanGjFaHizg/75135b92-3cb6-4e94-9d03-3103bda76cf6.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1mn4wGA1q_ptvgbCU5zeMw/ad7415d2-1ade-4738-9e3c-c15b4696fc1b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kza5HSQNDSyyhQQ1Y4GXxA/2c1c279a-1d41-4313-8e28-b8f4e6816d33.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QahM974I",
+            "index": 4,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "573792000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047},{\"value\":35.717648},{\"value\":51.527855},{\"value\":35.775646}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"95\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"60\",\"maximum\":\"64\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-12-20T12:43:11.573792Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaKBaOCV",
+    "title": "110متر/رونیکا دردشت/به جای 180تومن،130تومن بخر",
+    "price_parsed": 48000000,
+    "age_parsed": 0,
+    "size_parsed": 110.0,
+    "map_post_card": {
+      "token": "QaKBaOCV",
+      "title": "110متر/رونیکا دردشت/به جای 180تومن،130تومن بخر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵٫۲۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۸ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۱۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/t7DWs1a6QMdX3OBWGRPz4g/0b3bc8d0-1b8a-4136-aa33-165da61cbd9e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O3w1sphx4UN8EyqY7av9gA/ea0d57d9-2c4e-4c13-979e-97b9423a4a47.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wz3nkB7wj6JwmHi_pSkhgg/a83534b3-63f4-41c4-a3d9-a987a1f25038.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pyfOtQijOXWx2S3vs8d7Ig/8979f382-93e3-4b23-b603-72ff3dfad22d.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaKBaOCV",
+            "index": 27,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "457319000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047},{\"value\":35.717648},{\"value\":51.527855},{\"value\":35.775646}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"95\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-02T07:12:18.457319Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
