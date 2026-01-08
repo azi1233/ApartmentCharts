@@ -1,0 +1,151 @@
+[
+  {
+    "id": "QaWFsKjL",
+    "title": "عظیمه کرج تهاتر با تهران",
+    "price_parsed": 104000000,
+    "age_parsed": 14.0,
+    "size_parsed": 125.0,
+    "map_post_card": {
+      "token": "QaWFsKjL",
+      "title": "عظیمه کرج تهاتر با تهران",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۳ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۰۴ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱۴ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l9r6Gh-lQQzk6dI5MU2_Ng/0e9bd1c6-c35d-48c6-9a96-95cbe9136f9a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ERJO7KMURTylx2cmXkNk2g/26d51cbf-b3d5-4729-93f4-fd1ec1bebbba.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8Kd7DVpV1lwJ15vVtBy-qQ/45cdd8ba-5b19-4a45-83d2-a17fc52d4e27.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaWFsKjL",
+            "index": 18,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "433496000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"125\",\"maximum\":\"129\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-01T18:47:54.433496Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaP1d4O7",
+    "title": "۱۴۹ متر تک واحد تاپ لوکیشن مدبر",
+    "price_parsed": 328000000,
+    "age_parsed": 0,
+    "size_parsed": 149.0,
+    "map_post_card": {
+      "token": "QaP1d4O7",
+      "title": "۱۴۹ متر تک واحد تاپ لوکیشن مدبر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۴۹ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۲۸ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۹ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zWX6VB1fFJl7wGghVLz0rg/0815bcd6-b3cc-47bf-bf91-c19fe33a787c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/OajjM4OO-0K-AK2mH7yB6Q/54235125-fb41-4c14-aca5-ded54e2d9237.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaP1d4O7",
+            "index": 7,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "359194000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"145\",\"maximum\":\"149\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2025-12-27T13:24:12.359194Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
