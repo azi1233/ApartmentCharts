@@ -30,6 +30,17 @@ def load_all_summaries(DIVAR_RESULTS):
     summaries.sort(key=lambda x: x[0])
     return summaries
 
+def filter_zeros_connect_gaps(timestamps, values, counts):
+    filtered_ts = []
+    filtered_vals = []
+    filtered_counts = []
+    for ts, val, cnt in zip(timestamps, values, counts):
+        if val != 0:
+            filtered_ts.append(ts)
+            filtered_vals.append(val)
+            filtered_counts.append(cnt)
+    return filtered_ts, filtered_vals, filtered_counts
+
 def make_chart(summaries):
     import plotly.subplots as sp
 
@@ -58,6 +69,46 @@ def make_chart(summaries):
     size_mid, cnt_mid = get_size_data("80-120")
     size_large, cnt_large = get_size_data(">120")
 
+    # Filter out zero values for all data series
+    overall_f, overall_count_f = [], []
+    age0_4_f, cnt0_4_f = [], []
+    age5_9_f, cnt5_9_f = [], []
+    age10_14_f, cnt10_14_f = [], []
+    age15_20_f, cnt15_20_f = [], []
+    size_small_f, cnt_small_f = [], []
+    size_mid_f, cnt_mid_f = [], []
+    size_large_f, cnt_large_f = [], []
+
+    for ts, ov, oc, a0, c0, a5, c5, a10, c10, a15, c15, ss, cs, sm, cm, sl, cl in zip(
+        timestamps, overall, overall_count, age0_4, cnt0_4, age5_9, cnt5_9,
+        age10_14, cnt10_14, age15_20, cnt15_20, size_small, cnt_small,
+        size_mid, cnt_mid, size_large, cnt_large
+    ):
+        if ov != 0:
+            overall_f.append(ts)
+            overall_count_f.append(ov)
+        if a0 != 0:
+            age0_4_f.append(ts)
+            cnt0_4_f.append(a0)
+        if a5 != 0:
+            age5_9_f.append(ts)
+            cnt5_9_f.append(a5)
+        if a10 != 0:
+            age10_14_f.append(ts)
+            cnt10_14_f.append(a10)
+        if a15 != 0:
+            age15_20_f.append(ts)
+            cnt15_20_f.append(a15)
+        if ss != 0:
+            size_small_f.append(ts)
+            cnt_small_f.append(ss)
+        if sm != 0:
+            size_mid_f.append(ts)
+            cnt_mid_f.append(sm)
+        if sl != 0:
+            size_large_f.append(ts)
+            cnt_large_f.append(sl)
+
     # Create a subplot layout: 2 rows, 1 column
     fig = sp.make_subplots(
         rows=2,
@@ -71,56 +122,61 @@ def make_chart(summaries):
     # --- Chart 1: Price per sqm lines ---
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=overall,
+            x=overall_f,
+            y=overall_count_f,
             mode="lines+markers",
-            name=f"Overall Avg ({overall_count[-1]})",
+            name=f"Overall Avg ({overall_count[-1] if overall_count else 0})",
             line=dict(width=3, color="#ff9800"),
             legendgroup="price",
+            connectgaps=True,
         ),
         row=1, col=1
     )
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=age0_4,
+            x=age0_4_f,
+            y=cnt0_4_f,
             mode="lines+markers",
-            name=f"Age 0–4 ({cnt0_4[-1]})",
+            name=f"Age 0–4 ({cnt0_4[-1] if cnt0_4 else 0})",
             line=dict(color="#4caf50"),
             legendgroup="price",
+            connectgaps=True,
         ),
         row=1, col=1
     )
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=age5_9,
+            x=age5_9_f,
+            y=cnt5_9_f,
             mode="lines+markers",
-            name=f"Age 5–9 ({cnt5_9[-1]})",
+            name=f"Age 5–9 ({cnt5_9[-1] if cnt5_9 else 0})",
             line=dict(color="#2196f3"),
             legendgroup="price",
+            connectgaps=True,
         ),
         row=1, col=1
     )
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=age10_14,
+            x=age10_14_f,
+            y=cnt10_14_f,
             mode="lines+markers",
-            name=f"Age 10–14 ({cnt10_14[-1]})",
+            name=f"Age 10–14 ({cnt10_14[-1] if cnt10_14 else 0})",
             line=dict(color="#9c27b0"),
             legendgroup="price",
+            connectgaps=True,
         ),
         row=1, col=1
     )
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=age15_20,
+            x=age15_20_f,
+            y=cnt15_20_f,
             mode="lines+markers",
-            name=f"Age 15–20 ({cnt15_20[-1]})",
+            name=f"Age 15–20 ({cnt15_20[-1] if cnt15_20 else 0})",
             line=dict(color="#f44336"),
             legendgroup="price",
+            connectgaps=True,
         ),
         row=1, col=1
     )
@@ -128,34 +184,37 @@ def make_chart(summaries):
     # --- Add size-based lines ---
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=size_small,
+            x=size_small_f,
+            y=cnt_small_f,
             mode="lines+markers",
-            name=f"Size <80m² ({cnt_small[-1]})",
+            name=f"Size <80m² ({cnt_small[-1] if cnt_small else 0})",
             line=dict(color="#8bc34a", dash="dot"),
             legendgroup="size",
+            connectgaps=True,
         ),
         row=1, col=1
     )
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=size_mid,
+            x=size_mid_f,
+            y=cnt_mid_f,
             mode="lines+markers",
-            name=f"Size 80–120m² ({cnt_mid[-1]})",
+            name=f"Size 80–120m² ({cnt_mid[-1] if cnt_mid else 0})",
             line=dict(color="#03a9f4", dash="dot"),
             legendgroup="size",
+            connectgaps=True,
         ),
         row=1, col=1
     )
     fig.add_trace(
         go.Scatter(
-            x=timestamps,
-            y=size_large,
+            x=size_large_f,
+            y=cnt_large_f,
             mode="lines+markers",
-            name=f"Size >120m² ({cnt_large[-1]})",
+            name=f"Size >120m² ({cnt_large[-1] if cnt_large else 0})",
             line=dict(color="#e91e63", dash="dot"),
             legendgroup="size",
+            connectgaps=True,
         ),
         row=1, col=1
     )
