@@ -4,7 +4,7 @@
 
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 import sys
 import re
@@ -19,6 +19,7 @@ PRICE_CEILING = 300_000_000
 REQUEST_TIMEOUT = 30
 PAGE_SIZE_GUESS = 200
 RATE_LIMIT_SLEEP = 0.12  # small delay between requests to be polite
+POSTS_RETENTION_DAYS = 7  # Keep posts_collected_*.json and omitted_items_*.json files for 7 days
 
 class DivarRequest:
     def __init__(self, url: str, headers: dict, payload: dict, path: str):
@@ -499,5 +500,72 @@ def extractor(diverRequest: DivarRequest):
         "summary_file": out_dir / summary_filename,
         "out_dir": out_dir
     }
+
+# ------------------------
+# Cleanup function for old posts and omitted items files
+# ------------------------
+def cleanup_old_posts_files(district_path: str, keep_days: int = POSTS_RETENTION_DAYS):
+    """
+    Delete posts_collected_*.json and omitted_items_*.json files older than keep_days for a specific district.
+    Keeps summary_*.json files as they are much smaller and needed for charts.
+    """
+    district_dir = Path(district_path)
+    if not district_dir.exists():
+        return
+    
+    cutoff_date = datetime.now() - timedelta(days=keep_days)
+    deleted_files = []
+    deleted_size = 0
+    
+    # Iterate through all timestamped folders in district directory
+    for timestamp_dir in district_dir.iterdir():
+        if not timestamp_dir.is_dir():
+            continue
+        
+        # Try to parse the timestamp from directory name
+        try:
+            # Expected format: YYYYMMDD_HHMMSS
+            timestamp_str = timestamp_dir.name
+            dir_datetime = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
+            
+            # If directory is older than cutoff date, delete large JSON files
+            if dir_datetime < cutoff_date:
+                # Delete posts_collected files
+                posts_file = timestamp_dir / f"posts_collected_{timestamp_str}.json"
+                if posts_file.exists():
+                    file_size = posts_file.stat().st_size
+                    posts_file.unlink()
+                    deleted_files.append(str(posts_file))
+                    deleted_size += file_size
+                    
+                    print(f"Deleted old posts file: {posts_file} ({file_size/1024/1024:.1f} MB)")
+                
+                # Delete omitted_items files 
+                omitted_file = timestamp_dir / f"omitted_items_{timestamp_str}.json"
+                if omitted_file.exists():
+                    file_size = omitted_file.stat().st_size
+                    omitted_file.unlink()
+                    deleted_files.append(str(omitted_file))
+                    deleted_size += file_size
+                    
+                    print(f"Deleted old omitted items file: {omitted_file} ({file_size/1024/1024:.1f} MB)")
+                    
+                    # If the directory is now empty after deleting large files, remove it
+                try:
+                    timestamp_dir.rmdir()  # Only removes if empty
+                    print(f"Removed empty directory: {timestamp_dir}")
+                except OSError:
+                    # Directory still contains summary files or other content
+                    pass
+                        
+        except (ValueError, FileNotFoundError):
+            # Skip directories that don't match expected timestamp format
+            continue
+    
+    if deleted_files:
+        print(f"Cleanup complete for {district_path}: deleted {len(deleted_files)} files, freed {deleted_size/1024/1024:.1f} MB")
+    else:
+        print(f"No old files to delete in {district_path}")
+
 
 # ------------------------

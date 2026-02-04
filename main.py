@@ -1,4 +1,5 @@
 from pathlib import Path
+from datetime import datetime, timedelta
 import mainDraw
 
 def main():
@@ -109,6 +110,20 @@ def main():
 
     index_file.write_text("\n".join(html_lines), encoding="utf-8")
     print(f"Index created at: {index_file}")
+    
+    # --- Cleanup old posts and omitted items files ---
+    from scraper import cleanup_old_posts_files
+    print("\n=== CLEANING UP OLD POSTS AND OMITTED ITEMS FILES ===")
+    
+    divar_root = Path("divar_results")
+    folders = [f for f in divar_root.iterdir() if f.is_dir()]
+    
+    total_freed = 0
+    for folder in folders:
+        print(f"\nCleaning up {folder.name}...")
+        cleanup_old_posts_files(str(folder))
+    
+    print(f"\n=== CLEANUP COMPLETE ===")
 
 if __name__ == "__main__":
     main()
