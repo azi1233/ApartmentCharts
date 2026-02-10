@@ -48,7 +48,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qa4pOm6Z",
-            "index": 1,
+            "index": 2,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
@@ -66,79 +66,6 @@
               "map_trust_layer": "default"
             },
             "sort_date": "2026-01-27T16:41:37.716932Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
-    "id": "Qas9ZAX9",
-    "title": "واحد ۱۰۰ متری نوساز شمال شهرآرا",
-    "price_parsed": 24000000,
-    "age_parsed": 0,
-    "size_parsed": 100.0,
-    "map_post_card": {
-      "token": "Qas9ZAX9",
-      "title": "واحد ۱۰۰ متری نوساز شمال شهرآرا",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۲٫۴ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۲۴ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۱۰۰ متر"
-        },
-        {
-          "title": "۲ اتاق"
-        },
-        {
-          "title": "نوساز"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hWuJhnET4F-1UtXPc4qrag/5a8a2d6c-ab39-46cb-81fa-9b2e25d3f5ac.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "Qas9ZAX9",
-            "index": 7,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "188330000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436},{\"value\":35.70042},{\"value\":51.418217},{\"value\":35.73572}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"202\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"100\",\"maximum\":\"104\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-02-03T07:01:11.188330Z"
           },
           "item_type": {
             "type": "POST_ITEM"
