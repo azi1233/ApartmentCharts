@@ -1,0 +1,76 @@
+[
+  {
+    "id": "Qan1qp-J",
+    "title": "هروی، ۱۳۵ متر، ۳ خواب، یک خواب مستر، کلید نخورده",
+    "price_parsed": 280000000,
+    "age_parsed": 2.0,
+    "size_parsed": 135.0,
+    "map_post_card": {
+      "token": "Qan1qp-J",
+      "title": "هروی، ۱۳۵ متر، ۳ خواب، یک خواب مستر، کلید نخورده",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۷٫۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۸۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۳۵ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "۲ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7uTceYqZns98ULNAd4BrNQ/543808f7-5ca6-455a-9ec2-6bf66003431d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WMLSz2k1L1Dz_U2RWLzC6Q/cd0e6004-0b8c-4a86-abea-be6ae6eea371.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qan1qp-J",
+            "index": 4,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "464248000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"135\",\"maximum\":\"139\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-19T12:20:36.464248Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]

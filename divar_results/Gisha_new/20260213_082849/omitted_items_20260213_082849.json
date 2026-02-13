@@ -1,0 +1,694 @@
+[
+  {
+    "id": "Qa5xsVNs",
+    "title": "۶۰ متر یک خواب فرعی زوج سالن پرده خور کم نظیر",
+    "price_parsed": 370000000,
+    "age_parsed": 1.0,
+    "size_parsed": 60.0,
+    "map_post_card": {
+      "token": "Qa5xsVNs",
+      "title": "۶۰ متر یک خواب فرعی زوج سالن پرده خور کم نظیر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۲٫۲ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۷۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۰ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k7VqjYb4v3oPauRSh3atNg/8d7edfc8-189c-4894-ac2a-357dfe46f45d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XmOcBSfnZfJ6V6l65udJjQ/c57084cc-a8a1-4d51-bff0-7302be6f94db.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/b0hsPp6gHuQBpm8De34ziQ/6801710e-aaef-4d19-9084-c93ffda7a05f.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa5xsVNs",
+            "index": 6,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "386428000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"60\",\"maximum\":\"64\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-31T08:05:58.386428Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qabd341E",
+    "title": "گیشا ۶۲ متری خواب نوساز فرعی زوج",
+    "price_parsed": 403000000,
+    "age_parsed": 0,
+    "size_parsed": 62.0,
+    "map_post_card": {
+      "token": "Qabd341E",
+      "title": "گیشا ۶۲ متری خواب نوساز فرعی زوج",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۲ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/X0FXUmK5z8TplZ9Dosdpvw/07344ef4-5a83-4251-b715-38b984cac3c7.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qabd341E",
+            "index": 7,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "787798000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"60\",\"maximum\":\"64\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-29T11:09:40.787798Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qa9l7BYo",
+    "title": "*گیشا 65 متر 1 خواب بدون مشابه در منطقه",
+    "price_parsed": 407000000,
+    "age_parsed": 0,
+    "size_parsed": 65.0,
+    "map_post_card": {
+      "token": "Qa9l7BYo",
+      "title": "*گیشا 65 متر 1 خواب بدون مشابه در منطقه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۶٫۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۷ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۵ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1F00ttPHHC4ujuRcNJgPdQ/f5c00a87-8813-4370-8eb7-f5f615658c40.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XV7KTuoIDeeuesyKVgkxOg/c5a7d4f8-e5b0-48aa-a18f-4fad693b796d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Oxoc18dYqTveW6LElbaP0A/244dcca2-d28f-4f25-8eef-017df1486b87.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZeY0Ga2n14u6zRU2FYt_3A/8c4feaab-5e6f-42cb-b125-aa872c2f48d7.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oe9xAfquq1OSeAUoQiHO5w/2a7afade-c6b7-442c-91c1-b724f17b39d4.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bvRlTmi2MaSJRw6hg_RiFw/238e866c-98d4-411f-9aeb-b64089d2551b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TsikYcqDuaU22GRVKyG7ag/fc1b876a-88fd-4a90-b391-b1f0988771f4.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa9l7BYo",
+            "index": 2,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "712471000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"65\",\"maximum\":\"69\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-11T09:09:41.712471Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qa9p77Bc",
+    "title": "*۶۵ متر یکخواب لوکس فرعی زوج گیشا*",
+    "price_parsed": 381000000,
+    "age_parsed": 1.0,
+    "size_parsed": 65.0,
+    "map_post_card": {
+      "token": "Qa9p77Bc",
+      "title": "*۶۵ متر یکخواب لوکس فرعی زوج گیشا*",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۴٫۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۸۱ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۵ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BlDT38IDh_n0m3qcSBMuMg/a885850d-c0a5-47fb-bd9e-56771db6eaef.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vADU7LTc1K0cZpK6ELg1PA/6b3db122-1b1f-43fb-8d16-8e2be8c29140.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/u5R4GHJ2a4p86QNugPHUBg/0874e836-ef71-4d16-b9fe-a2f5274d39a6.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YczUQ9f2_kcaLHCELtA8Sw/88cf78c7-659d-4813-9eda-474c3969a4c7.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa9p77Bc",
+            "index": 9,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "92030000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"65\",\"maximum\":\"69\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-31T08:19:17.092030Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaK6t4WJ",
+    "title": "گیشا /  ۹۰ متر ۲ خوابه /لوکس",
+    "price_parsed": 370000000,
+    "age_parsed": 0,
+    "size_parsed": 81.0,
+    "map_post_card": {
+      "token": "QaK6t4WJ",
+      "title": "گیشا /  ۹۰ متر ۲ خوابه /لوکس",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۰ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۷۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۸۱ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5logPPeVyceeduCNKgUlHg/9da83dbb-c46c-4365-84ae-b3f7cb229e4f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wo-nNNymmp7Yo_61eamoxQ/f2db5dfb-cde0-4aa6-8215-e6f2bd91f37a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MMKih25JZZdfaK3DypSYIw/c7fcf9fd-395d-42b1-b77d-70afcbd9b6bd.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2b-xyogATIM-91wLBPY1Fg/a3f0fb02-038f-44bf-851c-82aa9062f33d.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaK6t4WJ",
+            "index": 36,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "722482000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"80\",\"maximum\":\"84\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-10T07:34:51.722482Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaNiKEju",
+    "title": "۸۰متر۲ خواب خاص",
+    "price_parsed": 420000000,
+    "age_parsed": 0,
+    "size_parsed": 80.0,
+    "map_post_card": {
+      "token": "QaNiKEju",
+      "title": "۸۰متر۲ خواب خاص",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۳٫۶ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۲۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۸۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aqxvtM7kSd7A0ZqFMnRSXQ/2d8aee93-8812-4efc-ae21-ee7dc32958b0.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SzBzJbH909BBEzohs67M6A/24c2c84e-b82f-4db7-b9a1-cb24167281db.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qsy3xw1ENQZr3LdXra7CQQ/5f6196e6-b9ad-4054-a2c3-cfd43b983c9f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5t7hctrmA7EeqqXon0dKWQ/1de5580b-6e6c-4980-b3db-3dc413161045.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-6brHWuLIj-FV2f-D4bboQ/831a2c8a-29cb-4e36-93a2-29edc64184a7.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LmISR3rOZYf1BsbrDvuGkw/274d89b3-b356-4c9e-a3f6-9f0319d27b76.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YiKaaQw79v5HUZF4l1pp5w/a9bdc6d5-1598-4bfc-bbd7-597ffef154db.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/w20B892PBzSMJcp8h5TxkA/db07f03e-088c-496c-a619-14d2ea256a60.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KclI9cXq1hfFEvSdU83rVw/42d5ebe4-5a6d-49fe-b4ad-501eb148ccb4.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaNiKEju",
+            "index": 45,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "439573000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"80\",\"maximum\":\"84\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-12T10:14:59.439573Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaNO9KRi",
+    "title": "۸۵ متر نوساز کلید نخورده بی‌نظیر در منطقه گیشا",
+    "price_parsed": 404000000,
+    "age_parsed": 0,
+    "size_parsed": 85.0,
+    "map_post_card": {
+      "token": "QaNO9KRi",
+      "title": "۸۵ متر نوساز کلید نخورده بی‌نظیر در منطقه گیشا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۴٫۴ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۴ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۸۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/c50r0WfAxeJtQQpeJca7rw/e5d7255a-cda2-4950-b437-dc0c9a79ef47.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/q3fwSt9mS3lTrqvWreHtMQ/8666dcfe-685d-4447-8e42-47ef8b47cd28.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaNO9KRi",
+            "index": 24,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "214896000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"85\",\"maximum\":\"89\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-12T13:18:52.214896Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qac0Z4xS",
+    "title": "*گیشا 92 متر 2 خواب لوکس ترین نوساز منطقه",
+    "price_parsed": 400000000,
+    "age_parsed": 0,
+    "size_parsed": 92.0,
+    "map_post_card": {
+      "token": "Qac0Z4xS",
+      "title": "*گیشا 92 متر 2 خواب لوکس ترین نوساز منطقه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۶٫۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۲ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/20oKBxc-u_Z4cIsKVBJYxQ/a4ba0c9c-4cb0-4b04-a54e-0a4b54e6b969.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sDzD3sO2_I46Q8nRidve6A/50239267-61ea-48ad-81ba-97936724a721.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ydNgxoUUnR5OMzpNKamJvg/a08a0afb-549b-43c6-a273-4c2855de00db.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/plA8Bu9P0C2Wl31lGqTWfA/8d4cb62a-1ab4-43c5-9007-6f686c834d25.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KYTfgNCBYzdZPqhKQYZGMg/9067cb05-baa0-4580-83ae-a01ee9cbb846.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bzOUJ5zkq6Bu1ohJthYwRg/fbd4bee9-f15c-44be-b49a-3c843f23e708.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/77ME6qY727kgC4rQAFLHIA/98d9bb24-3fd4-4ac2-a4fb-85d8598547cd.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aaNVC0MpDH9h5qpkkGxdFQ/203d5ce2-1402-4ab1-8a17-06fe7a89624e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jlztETQJtvqJj0PcVf6OVA/d33f458a-457d-4805-b7fd-9ca2a2c0b583.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FyFAeqMMMUebeV2d5to17Q/f133879e-889a-4a16-b994-f7a72f5b7bba.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qac0Z4xS",
+            "index": 14,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "527841000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"90\",\"maximum\":\"94\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-15T08:53:49.527841Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qa09pCj3",
+    "title": "۲ خوابه کلید نخورده برند منطقه",
+    "price_parsed": 380000000,
+    "age_parsed": 0,
+    "size_parsed": 100.0,
+    "map_post_card": {
+      "token": "Qa09pCj3",
+      "title": "۲ خوابه کلید نخورده برند منطقه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۸۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۰۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6boLyIwiIr1imVwJaiJJpQ/bff93e56-eb88-45f3-b220-81029537c20f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Hk_HLiNbYZmr9edVxh1nTA/5aee5bc3-22fa-4da0-8eb3-480caf1c8f3b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/R-rcTm10ouQACaB9yB1q8Q/94a0ca54-e72e-42e9-9aa0-d4386b89da17.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/snKjMTZv7phJTITNz5W6ag/f16811a7-f9f4-4d6a-89af-0482468ad29f.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa09pCj3",
+            "index": 43,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "846237000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"100\",\"maximum\":\"104\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-24T10:29:49.846237Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
