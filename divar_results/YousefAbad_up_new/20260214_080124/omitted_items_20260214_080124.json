@@ -80,89 +80,9 @@
     }
   },
   {
-    "id": "Qa7NV6es",
-    "title": "۸۵ متر *بی نظیر * روبه آفتاب *یوسف آباد",
-    "price_parsed": 352000000,
-    "age_parsed": 0,
-    "size_parsed": 85.0,
-    "map_post_card": {
-      "token": "Qa7NV6es",
-      "title": "۸۵ متر *بی نظیر * روبه آفتاب *یوسف آباد",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۳۰ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۳۵۲ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۸۵ متر"
-        },
-        {
-          "title": "۲ اتاق"
-        },
-        {
-          "title": "نوساز"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vjB-seQSwBBXf-y7ImN1qg/af2b4166-87ba-4f8c-99fa-013c0a5707c4.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4-EmVA5p8XPLfHQapIlfOA/f0080626-c146-42be-8ed0-9a63f4f78ef9.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LNEqN3NkRy-EiqD-4la_8w/596e17e7-602c-4bbe-8aa6-2b68ecb02dcc.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MGclUDKxOqpZaAUsobCvWw/4e11961f-8a72-4302-a8cf-55b53aa45fe0.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gWWyxcFnBvh0cJMhLRl0Iw/e691b166-1f0e-4cf7-a4f4-b977ed853062.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O0EldnNiR0TBw6EWVPvYLQ/8494c265-6860-42ed-b881-50ea658d6956.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YNrht_sOIUwNCl39I1JJjw/9f83fc63-19da-4ea8-a898-280a009cb3c4.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CjQ8QPOVdoJf6uE6kIvANw/254c8f03-27b1-4dd5-82eb-cf5ee5ffe0df.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "Qa7NV6es",
-            "index": 1,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "630846000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"85\",\"maximum\":\"89\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-02-01T05:22:32.630846Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
     "id": "Qa3Fj9zK",
     "title": "فروش آپارتمان ۱۰۵ متری // دو خواب //بالا یوسف آباد",
-    "price_parsed": 369000000,
+    "price_parsed": 371000000,
     "age_parsed": 0,
     "size_parsed": 105.0,
     "map_post_card": {
@@ -171,11 +91,11 @@
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۳۸٫۸ میلیارد"
+          "value": "۳۹ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۳۶۹ میلیون"
+          "value": "۳۷۱ میلیون"
         }
       ],
       "chips": [
@@ -207,13 +127,13 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qa3Fj9zK",
-            "index": 9,
+            "index": 6,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "135234000",
+              "last_post_sort_date": "866366000",
               "search_data": {
                 "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"105\",\"maximum\":\"109\"}}}}",
                 "cities": [
@@ -224,7 +144,80 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-02-01T07:10:17.135234Z"
+            "sort_date": "2026-02-10T09:37:01.866366Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaIuKoYe",
+    "title": "۱۰۵متر نوساز / کلید نخورده / تاپ لوکیشن یوسف آباد",
+    "price_parsed": 360000000,
+    "age_parsed": 0,
+    "size_parsed": 105.0,
+    "map_post_card": {
+      "token": "QaIuKoYe",
+      "title": "۱۰۵متر نوساز / کلید نخورده / تاپ لوکیشن یوسف آباد",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۷٫۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۶۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۰۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_krIe93_29HDcY2_ThePiw/ae246df5-9fdc-42c5-b1c2-7c137a9966bd.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaIuKoYe",
+            "index": 18,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "42386000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"105\",\"maximum\":\"109\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-08T15:28:46.042386Z"
           },
           "item_type": {
             "type": "POST_ITEM"
@@ -280,13 +273,13 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qa7hDNhY",
-            "index": 53,
+            "index": 55,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "656603000",
+              "last_post_sort_date": "611782000",
               "search_data": {
                 "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
                 "cities": [
@@ -297,7 +290,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-02-01T06:20:39.656603Z"
+            "sort_date": "2026-02-10T16:22:49.611782Z"
           },
           "item_type": {
             "type": "POST_ITEM"
