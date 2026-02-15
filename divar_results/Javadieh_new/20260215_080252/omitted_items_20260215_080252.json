@@ -1,0 +1,227 @@
+[
+  {
+    "id": "Qa7tiByt",
+    "title": "یک واحد با هزار حس خوب با نور فوق العادش",
+    "price_parsed": 58700000,
+    "age_parsed": 6.0,
+    "size_parsed": 63.0,
+    "map_post_card": {
+      "token": "Qa7tiByt",
+      "title": "یک واحد با هزار حس خوب با نور فوق العادش",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳٫۷ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۵۸٫۷ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۶۳ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "۶ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gIIB0wqPtXPPZgbya_E20w/a7781576-87de-4d3d-816a-3784a71dce7b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2P5tMIn78qhpu_IrsrW_4g/5b501256-c679-45ed-b7ba-60da7be9f43a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1QyUlNc40XOBtWHDzkWMGg/b86b8224-5223-40e4-89dc-e7adfb0c8423.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NzP3hNRWPNg7G1QEEo_7Ew/e8da1601-fc5d-437e-accd-22b3225a7f49.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sQIiRE2hRMdbeOxgKLlAog/161f9a47-310b-4a4a-b46b-a57db9ad7579.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa7tiByt",
+            "index": 2,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "825667000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476}, {\"value\":35.640343}, {\"value\":51.417137}, {\"value\":35.66328}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"265\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"60\", \"maximum\":\"64\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-29T18:31:10.825667Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qa35s-tp",
+    "title": "فروش اپارتمان مجتمع تندیس (جوادیه)",
+    "price_parsed": 95000000,
+    "age_parsed": 6.0,
+    "size_parsed": 73.0,
+    "map_post_card": {
+      "token": "Qa35s-tp",
+      "title": "فروش اپارتمان مجتمع تندیس (جوادیه)",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۶٫۹۳ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۹۵ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۳ متر"
+        },
+        {
+          "title": "۱ اتاق"
+        },
+        {
+          "title": "۶ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q0aOMODDX0iuReXmuMC3_g/ec459202-75bf-42fa-a471-58017e9d1aa9.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hvtn78viB9r8lttmrWbARA/d3aa36bd-f362-480a-ad50-27b6f54c74c5.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/U1sQVIC7GBaGUu0UNkzN3g/bb501e08-0e3d-4c8a-a17a-941191abf4e4.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa35s-tp",
+            "index": 7,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "955260000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476}, {\"value\":35.640343}, {\"value\":51.417137}, {\"value\":35.66328}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"265\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"70\", \"maximum\":\"74\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-01-26T20:33:21.955260Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaPiWW4b",
+    "title": "۱۴۰ متر جوادیه لاکچری",
+    "price_parsed": 100000000,
+    "age_parsed": 0,
+    "size_parsed": 140.0,
+    "map_post_card": {
+      "token": "QaPiWW4b",
+      "title": "۱۴۰ متر جوادیه لاکچری",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۴ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HVROpq6ijhHXwcLKGOLW2w/c1e7fc27-1945-4d46-afc6-53acc821ed76.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaPiWW4b",
+            "index": 1,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "754154000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476}, {\"value\":35.640343}, {\"value\":51.417137}, {\"value\":35.66328}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"265\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"140\", \"maximum\":\"144\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-13T18:08:04.754154Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
