@@ -1,0 +1,85 @@
+[
+  {
+    "id": "QaAuFHe2",
+    "title": "منطقه حسین آباد، واحد ۷۵ متری، بهترین نقشه",
+    "price_parsed": 304000000,
+    "age_parsed": 0,
+    "size_parsed": 74.0,
+    "map_post_card": {
+      "token": "QaAuFHe2",
+      "title": "منطقه حسین آباد، واحد ۷۵ متری، بهترین نقشه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۲٫۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۰۴ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۴ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QSX9sRRIpa9sAFDYWQedkQ/c04ae850-48b3-4f8a-a0ce-01322744b3ad.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7vonoWdwaDuL-ar4qO2bGg/5fc94a26-fa0d-4edf-aca1-9fd81ca583ee.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KNlYXhKZM3OrnOu9KPpb3g/3fcd3a9e-e490-4124-aade-4687e0bb7a79.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pyfik5W3rNnrR7bW1LOjTw/ee2f866e-cffc-44c3-ba86-6940b2813672.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NFy-RB83rRSdvMwyM9NBGA/681177ab-0aca-452e-9a2e-b195609bbd02.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EN1q2NZHh0Kdgy0WaLNPrQ/8d3e3497-f717-44f8-a995-03086c06bcd6.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PyXSJgPQ_CDUc93O_ZTBPQ/45e1186d-7a7d-421e-a789-738819d36c1a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3yG5CFus-1RL3DOONAaaFQ/aa52c8c4-f83a-4074-a680-1980910f2bef.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Jm9daxTJvIE0_FL7MQuuDQ/caebfbd1-0552-40cf-8f4e-d50830817552.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pL6-1TfZlmtf9Khl5WGcxw/b94645ce-5a47-4b16-8668-cb7b082a4e81.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5YA7ShQM4q03QMnbT0OIVQ/a58f6999-605f-4e1d-bb0a-434c151bd665.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaAuFHe2",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "297123000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305}, {\"value\":35.769012}, {\"value\":51.49804}, {\"value\":35.78689}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"70\", \"maximum\":\"74\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-17T07:55:19.297123Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
