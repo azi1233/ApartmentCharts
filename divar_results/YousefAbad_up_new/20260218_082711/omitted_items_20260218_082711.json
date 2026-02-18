@@ -52,7 +52,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaGClDCg",
-            "index": 4,
+            "index": 3,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
@@ -82,7 +82,7 @@
   {
     "id": "Qa3Fj9zK",
     "title": "فروش آپارتمان ۱۰۵ متری // دو خواب //بالا یوسف آباد",
-    "price_parsed": 371000000,
+    "price_parsed": 364000000,
     "age_parsed": 0,
     "size_parsed": 105.0,
     "map_post_card": {
@@ -91,11 +91,11 @@
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۳۹ میلیارد"
+          "value": "۳۸٫۳ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۳۷۱ میلیون"
+          "value": "۳۶۴ میلیون"
         }
       ],
       "chips": [
@@ -127,13 +127,13 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qa3Fj9zK",
-            "index": 8,
+            "index": 6,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "138345000",
+              "last_post_sort_date": "822827000",
               "search_data": {
                 "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"105\",\"maximum\":\"109\"}}}}",
                 "cities": [
@@ -144,7 +144,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-02-07T12:22:35.138345Z"
+            "sort_date": "2026-02-17T08:05:32.822827Z"
           },
           "item_type": {
             "type": "POST_ITEM"
@@ -155,22 +155,22 @@
     }
   },
   {
-    "id": "QaIuKoYe",
-    "title": "۱۰۵متر نوساز / کلید نخورده / تاپ لوکیشن یوسف آباد",
-    "price_parsed": 360000000,
+    "id": "QasJZ--i",
+    "title": "۱۰۵متری بالای میدان‌کلانتری",
+    "price_parsed": 370000000,
     "age_parsed": 0,
     "size_parsed": 105.0,
     "map_post_card": {
-      "token": "QaIuKoYe",
-      "title": "۱۰۵متر نوساز / کلید نخورده / تاپ لوکیشن یوسف آباد",
+      "token": "QasJZ--i",
+      "title": "۱۰۵متری بالای میدان‌کلانتری",
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۳۷٫۸ میلیارد"
+          "value": "۳۸٫۸ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۳۶۰ میلیون"
+          "value": "۳۷۰ میلیون"
         }
       ],
       "chips": [
@@ -193,20 +193,22 @@
         }
       ],
       "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_krIe93_29HDcY2_ThePiw/ae246df5-9fdc-42c5-b1c2-7c137a9966bd.webp"
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/v8ySSOLU-Dtg-z5-LNl0QQ/b564c176-ef22-4212-97e2-9ebaa06cf956.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/e2JWlKvPo-HKJAK69qJH5g/640028f9-1080-4f6b-83a5-b196f3ae46a9.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/s-kEnVJrmU9Lgiy4upLcPg/62946563-98c6-4195-9863-da275681d242.webp"
       ],
       "action_log": {
         "server_side_info": {
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QaIuKoYe",
-            "index": 21,
+            "post_token": "QasJZ--i",
+            "index": 9,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "42386000",
+              "last_post_sort_date": "569046000",
               "search_data": {
                 "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"105\",\"maximum\":\"109\"}}}}",
                 "cities": [
@@ -217,7 +219,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-02-08T15:28:46.042386Z"
+            "sort_date": "2026-02-15T08:22:47.569046Z"
           },
           "item_type": {
             "type": "POST_ITEM"
@@ -273,13 +275,13 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qa7hDNhY",
-            "index": 57,
+            "index": 51,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "656603000",
+              "last_post_sort_date": "738005000",
               "search_data": {
                 "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
                 "cities": [
@@ -290,7 +292,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-02-01T06:20:39.656603Z"
+            "sort_date": "2026-02-15T19:53:42.738005Z"
           },
           "item_type": {
             "type": "POST_ITEM"
@@ -301,30 +303,30 @@
     }
   },
   {
-    "id": "QaR5A9p5",
-    "title": "۱۴۰متر....بهترین سه خواب یوسف آباد",
-    "price_parsed": 357000000,
+    "id": "QaQOtaiU",
+    "title": "۰۰ ویو مشجر و ابدی - مدرن - نوساز - ۱۲۱ متر ۰۰",
+    "price_parsed": 400000000,
     "age_parsed": 0,
-    "size_parsed": 140.0,
+    "size_parsed": 121.0,
     "map_post_card": {
-      "token": "QaR5A9p5",
-      "title": "۱۴۰متر....بهترین سه خواب یوسف آباد",
+      "token": "QaQOtaiU",
+      "title": "۰۰ ویو مشجر و ابدی - مدرن - نوساز - ۱۲۱ متر ۰۰",
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۵۰ میلیارد"
+          "value": "۴۸٫۴ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۳۵۷ میلیون"
+          "value": "۴۰۰ میلیون"
         }
       ],
       "chips": [
         {
-          "title": "۱۴۰ متر"
+          "title": "۱۲۱ متر"
         },
         {
-          "title": "۳ اتاق"
+          "title": "۲ اتاق"
         },
         {
           "title": "نوساز"
@@ -339,26 +341,30 @@
         }
       ],
       "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FZZsgiXShKiYLCQmYQ6z_g/4a9578e2-23b3-4e99-8130-931cc493ae0e.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/w4HmzedrrFyP70qIYxL4IQ/7b97d005-d8b1-4fa3-b088-3e004350c083.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mkliwzlzTZMgzq2mMqhJhA/4078cd07-cfe8-4354-b312-4e530fc6ca28.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JtzNyJwirxVcz-Ig-k7j9Q/9cc75917-8d07-4c60-9574-897c485ec186.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Uq2O6447eZqAlEJd9XBp5g/bcfa0c46-f9f9-40fe-be0a-2d49da01fe14.webp"
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8JQs7qAhPGssyfBWOzyhIQ/c31e3b62-15f4-442c-b507-178d22b78913.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_qY9qC0LSkN95JoJXTAkBg/05d3daa8-5bc1-4ade-8966-87eb77c9b38d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5X_vGWtOuWa4bOvJZYZgUA/67d10398-902e-4ec4-acea-8a7b7bfcff2c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7bZM_w7w5KydUBlyQWEvqA/5267a697-1579-4f23-a4c7-e4a978f60915.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/U6uy6b9USfJ3hFqstC6VGA/6a45879f-8890-4ef6-a130-95cde15c2efc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/20que6RX3JnrQIamB_SgMw/c106e100-07cf-403d-8086-460201e271e9.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ggctzT0xzxZ4YlSY3qN_9Q/5dfc5fd9-d254-45aa-be1a-8e6b6c8e5d36.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5fQq5I5GaoBQ5B3TM0vAvg/24e0c725-26b4-43b4-800f-4e051aa5757b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bUxLDhIyWPzNkN1IrN91Qw/a40d795c-a05b-4c7b-ab48-af34e1261472.webp"
       ],
       "action_log": {
         "server_side_info": {
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QaR5A9p5",
-            "index": 27,
+            "post_token": "QaQOtaiU",
+            "index": 4,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "873076000",
+              "last_post_sort_date": "32412000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"140\",\"maximum\":\"144\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"120\",\"maximum\":\"124\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -367,7 +373,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-02-10T06:54:00.873076Z"
+            "sort_date": "2026-02-14T19:56:58.032412Z"
           },
           "item_type": {
             "type": "POST_ITEM"
