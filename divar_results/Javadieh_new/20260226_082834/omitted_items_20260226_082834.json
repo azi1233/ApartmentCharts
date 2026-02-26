@@ -1,83 +1,5 @@
 [
   {
-    "id": "Qa498UcJ",
-    "title": "۷۰ متر نوساز دوخوابه کوچه سلیمانی",
-    "price_parsed": 90000000,
-    "age_parsed": 1.0,
-    "size_parsed": 70.0,
-    "map_post_card": {
-      "token": "Qa498UcJ",
-      "title": "۷۰ متر نوساز دوخوابه کوچه سلیمانی",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۶٫۳ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۹۰ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۷۰ متر"
-        },
-        {
-          "title": "۲ اتاق"
-        },
-        {
-          "title": "۱ سال"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vQibprElbVLK1XAxc2cOOA/8a837415-f789-4cb5-b6e1-00aa5654ee6a.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vlBkaWH2gd7be9XYL_yzzA/3fbdfd0d-a26f-4a43-8c9e-63016f292de7.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aOKFM19lhxG-Zg3gsqR1tQ/a098e292-2ac8-415a-8785-040f10c1061d.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JZ_sFxZVy5o0Fb6PXk7-mQ/ecec1879-3b0c-495e-99c1-ddc04aa3179b.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/c5WS403VQU29Oyi11kEF5w/50c0ae9d-40e1-4eb2-9a02-4e3cd44da98e.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PxBmX68UBWxgyV3ZQ10bdQ/93b0c529-72a4-4fce-9eb0-5b3fd21dff05.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "Qa498UcJ",
-            "index": 2,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "156078000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476}, {\"value\":35.640343}, {\"value\":51.417137}, {\"value\":35.66328}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"265\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"70\", \"maximum\":\"74\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-02-18T20:25:45.156078Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
     "id": "Qa35s-tp",
     "title": "فروش اپارتمان مجتمع تندیس (جوادیه)",
     "price_parsed": 95000000,
@@ -133,7 +55,7 @@
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
               "last_post_sort_date": "955260000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476}, {\"value\":35.640343}, {\"value\":51.417137}, {\"value\":35.66328}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"265\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"70\", \"maximum\":\"74\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476},{\"value\":35.640343},{\"value\":51.417137},{\"value\":35.66328}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"265\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"70\",\"maximum\":\"74\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -206,7 +128,7 @@
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
               "last_post_sort_date": "931079000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476}, {\"value\":35.640343}, {\"value\":51.417137}, {\"value\":35.66328}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"265\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"140\", \"maximum\":\"144\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476},{\"value\":35.640343},{\"value\":51.417137},{\"value\":35.66328}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"265\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"140\",\"maximum\":\"144\"}}}}",
                 "cities": [
                   "1"
                 ],
