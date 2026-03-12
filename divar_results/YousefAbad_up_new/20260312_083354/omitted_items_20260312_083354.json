@@ -216,7 +216,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qa7hDNhY",
-            "index": 38,
+            "index": 36,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
@@ -374,7 +374,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "Qadmmt9c",
-            "index": 48,
+            "index": 46,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
@@ -467,85 +467,6 @@
               "map_trust_layer": "default"
             },
             "sort_date": "2026-02-23T11:20:37.599190Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
-    "id": "QaAKagix",
-    "title": "جهان آرا/۱۳۰ متر/۳خوابه/فول امکانات",
-    "price_parsed": 167000000,
-    "age_parsed": 19.0,
-    "size_parsed": 130.0,
-    "map_post_card": {
-      "token": "QaAKagix",
-      "title": "جهان آرا/۱۳۰ متر/۳خوابه/فول امکانات",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۲۱٫۸ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۱۶۷ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۱۳۰ متر"
-        },
-        {
-          "title": "۳ اتاق"
-        },
-        {
-          "title": "۱۹ سال"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KOGKKt7rNE874cAJGF90RQ/32323bea-d038-4b0d-b214-f5e10dcdaef7.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/L5qqg1pRoei0gHY5NQhLxg/f1495ce6-9531-44a9-a8e8-6a8871d8b815.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZBB6ME3ndlwXzHMsobmFfg/237fe0ae-97d3-47a6-acce-87dc5d2da2b3.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xSWRohaXkRgDMRbbrAlkdA/6f294289-cbb8-4ed8-b2b6-5076fbaa8a9f.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7uWBNlQ92d5RnxhmxY76wg/0a07135c-6ca0-4b51-b920-fc9ef8945036.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YGQ4_P5kEX5ol7MY1vDVZQ/ca2409eb-3791-4c08-b8f7-688824aa1348.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8rJZeNooCFzTxAul3vxX4w/de46ebc6-d6be-4449-b632-d59cdacb009a.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QaAKagix",
-            "index": 1,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "137832000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"130\",\"maximum\":\"134\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-02-02T14:00:08.137832Z"
           },
           "item_type": {
             "type": "POST_ITEM"
