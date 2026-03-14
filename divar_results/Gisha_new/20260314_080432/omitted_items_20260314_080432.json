@@ -1,84 +1,5 @@
 [
   {
-    "id": "QaZGuXTn",
-    "title": "گیشا یک خواب نوساز ویو برج میلاد",
-    "price_parsed": 426000000,
-    "age_parsed": 0,
-    "size_parsed": 61.0,
-    "map_post_card": {
-      "token": "QaZGuXTn",
-      "title": "گیشا یک خواب نوساز ویو برج میلاد",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۲۶ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۴۲۶ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۶۱ متر"
-        },
-        {
-          "title": "۱ اتاق"
-        },
-        {
-          "title": "نوساز"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hJoT2Ukags36Pr1aDH4xXg/339176f5-76af-45d2-a271-c50f9d2b6b1f.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jyh8uFWwuRPspgG6UTiY0Q/913d4a2c-4800-4334-9287-f47929c58f22.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6u2hFsqz3xZ53PXKhHd3iw/803058ee-e724-448d-bea5-cbd3896577f3.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/eYhBGnaZnB_taeOfopFqdA/c15ca6e0-af39-47c2-b7f8-ff5f6bb8e8fe.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/u6VpKw1tSO_OvG5cUd9T4g/d480ea40-a881-4265-a533-a6a3148d32ee.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lZe2aWFd0yvKEvmx8zJRsg/092383e0-9daa-43d4-8e06-a34460003532.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k0BJXBJawJj8Sak3pXydrA/26a4054f-e69f-4a85-b8ad-f8926d1d94d2.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QaZGuXTn",
-            "index": 2,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "294382000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"60\",\"maximum\":\"64\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-03-04T15:11:08.294382Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
     "id": "Qa9l7BYo",
     "title": "*گیشا 65 متر 1 خواب بدون مشابه در منطقه",
     "price_parsed": 407000000,
@@ -292,7 +213,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaVeWFwC",
-            "index": 11,
+            "index": 9,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
@@ -372,7 +293,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaWyMHKI",
-            "index": 15,
+            "index": 11,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
@@ -438,8 +359,8 @@
         }
       ],
       "images": [
-        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/c50r0WfAxeJtQQpeJca7rw/e5d7255a-cda2-4950-b437-dc0c9a79ef47.webp",
-        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/q3fwSt9mS3lTrqvWreHtMQ/8666dcfe-685d-4447-8e42-47ef8b47cd28.webp"
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/c50r0WfAxeJtQQpeJca7rw/e5d7255a-cda2-4950-b437-dc0c9a79ef47.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/q3fwSt9mS3lTrqvWreHtMQ/8666dcfe-685d-4447-8e42-47ef8b47cd28.webp"
       ],
       "action_log": {
         "server_side_info": {
@@ -612,7 +533,7 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaK-uiV_",
-            "index": 9,
+            "index": 8,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
