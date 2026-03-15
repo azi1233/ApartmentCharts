@@ -1,0 +1,237 @@
+[
+  {
+    "id": "QadyuPWP",
+    "title": "۷۵متر روبنما تراورتن/آسانسور/پکیج/پارکینگ سندی",
+    "price_parsed": 33299999,
+    "age_parsed": 7.0,
+    "size_parsed": 75.0,
+    "map_post_card": {
+      "token": "QadyuPWP",
+      "title": "۷۵متر روبنما تراورتن/آسانسور/پکیج/پارکینگ سندی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲٫۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۳٫۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۷ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/3C8-B2VCZaj4UbHmBwjbwQ/9c112c22-4991-407f-bf31-38a663f33500.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/0Z4Jn1SMEHGYb4OD0Ws-EQ/6a442594-4d71-474b-b898-798564767c6f.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/tpQQYAX6J1_3knCp65sz6w/d4f73939-9a21-4c9e-a5ad-c092c2fe1755.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/Xz_Jb1-guhJ6g0rrzr_3sw/6498c640-594f-43ca-961f-caf7e89f4f2a.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/C2r1PCAdYaVWf9jHpFb_dQ/bc6faa7b-5835-461d-84e2-18725b79d603.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/pzq3lODoPzkrmbCxD04i0A/c1c6816a-c811-49a3-b9bb-25e36df806fa.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/I1alqwfJW6TQ_y4b6gYreA/8c4c3f2d-b6b4-4224-aef0-70ebc0b683ad.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/CMoFIfydB73xqvVS1wCmOQ/9b7b5ddd-a32d-4234-a321-943b6d58d85a.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/cCVYr9JYa5K43eSoLCwLZg/6ed8dcd2-4eb6-4406-99dc-6d2fbb3ab7d3.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QadyuPWP",
+            "index": 4,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "997305000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617},{\"value\":35.687027},{\"value\":51.36234},{\"value\":35.701786}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"75\",\"maximum\":\"79\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-24T18:22:15.997305Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaYaIRzI",
+    "title": "۷۸متری/دکتر هوشیار/خوش نقشه/فول بازسازی",
+    "price_parsed": 81900000,
+    "age_parsed": 9.0,
+    "size_parsed": 78.0,
+    "map_post_card": {
+      "token": "QaYaIRzI",
+      "title": "۷۸متری/دکتر هوشیار/خوش نقشه/فول بازسازی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۶٫۳۹ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۸۱٫۹ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۸ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۹ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/BORgEm4nR7glLDczfIrlLw/cb210b59-055e-4dbb-a811-64e173be1e5c.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/eVgFVCSIzlsRH7byl_rzNg/122c0c55-8849-4a4d-a237-5afb025a8cae.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/1ryQEBSTiklV4iDzOL12gA/95197094-8878-404f-8b8f-64ee8e7155f3.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/LS_GlwOn6uljy1iP7BUtwQ/ec38a4c8-f05f-4e7e-8396-8b64386b77ec.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/oPpR1xLUGlu1JlnI0lMBDw/e0028500-f827-4c7e-8113-91448feab157.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/UYZc_eqXteLk8Ti_fEP3FA/a3e138c7-8051-4457-8423-08693b630fb0.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/MzMYY87la7rzxQWqak1LZg/3b56e632-d2f2-40fe-922a-ebfae65d08d7.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/y4f6gUP5C5sna8CLODzCow/2473e210-cbdf-4f6b-8e36-ad5ea6240cb7.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaYaIRzI",
+            "index": 8,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "673115000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617},{\"value\":35.687027},{\"value\":51.36234},{\"value\":35.701786}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"75\",\"maximum\":\"79\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-20T16:05:47.673115Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QahOntb0",
+    "title": "۱۱۰ متری نوساز * سالن پرده‌خور * شمال هوشیار",
+    "price_parsed": 180000000,
+    "age_parsed": 0,
+    "size_parsed": 110.0,
+    "map_post_card": {
+      "token": "QahOntb0",
+      "title": "۱۱۰ متری نوساز * سالن پرده‌خور * شمال هوشیار",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۹٫۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۸۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۱۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/M14cUg2EOdwI_qI0R5Z3WQ/f0ab19ab-ae28-41ec-97ec-69e647f8ed3a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bcHZwGqr2iIEmi-SgjAzuw/0b6585ae-bf9a-48c7-8fe6-078e72ad0167.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QahOntb0",
+            "index": 8,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "56070000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617},{\"value\":35.687027},{\"value\":51.36234},{\"value\":35.701786}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-03-14T10:58:00.056070Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
