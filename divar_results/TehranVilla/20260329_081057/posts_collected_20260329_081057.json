@@ -1,0 +1,794 @@
+[
+  {
+    "map_post_card": {
+      "token": "QaiOIm3c",
+      "title": "۹۰ متر شمال ستارخان،تهران ویلا،فوری فروشی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۲٫۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۵۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۶ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pc_8zqmIkNFmdpFg1wUuYw/61729116-f44f-4932-b1aa-7edf811f2a96.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cScctFSBje3bK3EfPZh2CA/63a81b0c-d6b9-456e-a9e8-37939d88ec85.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/M4yj2NcEVXeCNIVtCMNcJg/86018440-90f0-40ec-b602-0c522216b87c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dlqdzhKM7isGNhI6hvU0lg/ad1e15e1-5587-4b63-9723-8489c64e63ec.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aOTP6YAMbt-E9UbDs-RXyg/d8baaa59-b87e-41b5-bf1a-ff47c2d9da96.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p8kdVmyos6WHzJWFmWssaA/58ceb62b-01cf-4f28-8f00-1660b5d33a8d.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaiOIm3c",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "74690000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"90\",\"maximum\":\"94\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-28T06:00:52.074690Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    },
+    "map_pin_feature": {
+      "lon": 51.36657334845404,
+      "lat": 35.72023308401408,
+      "approximate_location": true,
+      "long_preview_title": "۲۲٫۵ میلیارد",
+      "properties": {
+        "properties": {
+          "is_stock_image": false,
+          "subtitle1": "۲۲,۵۰۰,۰۰۰,۰۰۰ تومان",
+          "location_type": "A",
+          "trust_score": "default",
+          "images": [
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pc_8zqmIkNFmdpFg1wUuYw/61729116-f44f-4932-b1aa-7edf811f2a96.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cScctFSBje3bK3EfPZh2CA/63a81b0c-d6b9-456e-a9e8-37939d88ec85.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/M4yj2NcEVXeCNIVtCMNcJg/86018440-90f0-40ec-b602-0c522216b87c.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dlqdzhKM7isGNhI6hvU0lg/ad1e15e1-5587-4b63-9723-8489c64e63ec.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aOTP6YAMbt-E9UbDs-RXyg/d8baaa59-b87e-41b5-bf1a-ff47c2d9da96.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p8kdVmyos6WHzJWFmWssaA/58ceb62b-01cf-4f28-8f00-1660b5d33a8d.webp"
+          ],
+          "image_count": 6,
+          "is_sort_date_recent": false,
+          "seen": false,
+          "lon": 51.36657334845404,
+          "subtitle3": "۴ هفته پیش، شخصی",
+          "image_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pc_8zqmIkNFmdpFg1wUuYw/61729116-f44f-4932-b1aa-7edf811f2a96.webp",
+          "prices": [
+            {
+              "unit": "",
+              "title": "قیمت:",
+              "value": "۲۲٫۵ میلیارد"
+            },
+            {
+              "unit": "",
+              "title": "متری:",
+              "value": "۲۵۰ میلیون"
+            }
+          ],
+          "chips": [
+            {
+              "title": "۹۰ متر",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "icon_url_dark": "",
+              "title": "۲ اتاق",
+              "icon_url_light": ""
+            },
+            {
+              "title": "۶ سال",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+            },
+            {
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png",
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png"
+            }
+          ],
+          "chat_enabled": true,
+          "subtitle2": "متری: ۲۵۰,۰۰۰,۰۰۰ تومان",
+          "long_preview_title": "۲۲٫۵ میلیارد",
+          "lat": 35.72023308401408,
+          "sort-index": 0,
+          "short_preview_title": "۲۲٫۵ میلیارد",
+          "is_verified": false,
+          "cat_type": "sell-type",
+          "title": "۹۰ متر شمال ستارخان،تهران ویلا،فوری فروشی",
+          "approximate_location": true,
+          "preview_title": "۲۲٫۵ میلیارد",
+          "token": "QaiOIm3c"
+        },
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.36657334845404,
+            35.72023308401408
+          ]
+        }
+      }
+    }
+  },
+  {
+    "map_post_card": {
+      "token": "QagiFMmA",
+      "title": "۹۶‌متر‌‌‌‌خوش‌نقشه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۲ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۲۹ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۶ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۹ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1bVZBNHCxXWevDNxZjeSAQ/9b0839df-1be7-40c7-8d90-201f571e3a63.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aioHriNzZw_z8oGGbwXG7w/98fbccb5-191a-4035-b6f7-e710bd958b98.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E_0n8qJo_49ar791wPB-Ew/fde96fe5-f8d3-495c-aa8c-70ee13f2b8d0.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QagiFMmA",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "770321000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"95\",\"maximum\":\"99\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-26T14:27:53.770321Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    },
+    "map_pin_feature": {
+      "lon": 51.369216711379,
+      "lat": 35.72359993634,
+      "long_preview_title": "۲۲ میلیارد",
+      "properties": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            51.369216711379,
+            35.72359993634
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "short_preview_title": "۲۲ میلیارد",
+          "preview_title": "۲۲ میلیارد",
+          "is_stock_image": false,
+          "cat_type": "sell-type",
+          "image_count": 3,
+          "trust_score": "default",
+          "prices": [
+            {
+              "value": "۲۲ میلیارد",
+              "unit": "",
+              "title": "قیمت:"
+            },
+            {
+              "value": "۲۲۹ میلیون",
+              "unit": "",
+              "title": "متری:"
+            }
+          ],
+          "subtitle1": "۲۲,۰۰۰,۰۰۰,۰۰۰ تومان",
+          "chips": [
+            {
+              "title": "۹۶ متر",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "icon_url_dark": "",
+              "title": "۲ اتاق",
+              "icon_url_light": ""
+            },
+            {
+              "icon_url_light": "",
+              "icon_url_dark": "",
+              "title": "۹ سال"
+            },
+            {
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png",
+              "title": ""
+            },
+            {
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+            }
+          ],
+          "title": "۹۶‌متر‌‌‌‌خوش‌نقشه",
+          "token": "QagiFMmA",
+          "lat": 35.72359993634,
+          "chat_enabled": true,
+          "seen": false,
+          "sort-index": 0,
+          "subtitle2": "متری: ۲۲۹,۱۶۶,۶۶۶ تومان",
+          "images": [
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1bVZBNHCxXWevDNxZjeSAQ/9b0839df-1be7-40c7-8d90-201f571e3a63.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aioHriNzZw_z8oGGbwXG7w/98fbccb5-191a-4035-b6f7-e710bd958b98.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E_0n8qJo_49ar791wPB-Ew/fde96fe5-f8d3-495c-aa8c-70ee13f2b8d0.webp"
+          ],
+          "approximate_location": false,
+          "is_verified": false,
+          "long_preview_title": "۲۲ میلیارد",
+          "lon": 51.369216711379,
+          "is_sort_date_recent": false,
+          "subtitle3": "۴ هفته پیش، شخصی",
+          "image_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1bVZBNHCxXWevDNxZjeSAQ/9b0839df-1be7-40c7-8d90-201f571e3a63.webp",
+          "location_type": "E"
+        }
+      }
+    }
+  },
+  {
+    "map_post_card": {
+      "token": "Qa2azKZq",
+      "title": "آپارتمان 100متر 5ساله فول/تهرانویلا/معاوضه",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۲ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۲۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۰۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۷ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/KXErWOm9elIbHlWNudV0Mw/b54e108b-2141-471c-841e-9ccdebd84559.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/EX565Vtnmr7Iw4Z2r59zNw/219663fb-4863-4a61-9a3f-01f0cbeb084a.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/G6W_eklY-l1UukGbuMX1bQ/666d1df9-5d04-446b-be75-a69955ce6c67.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/CezNM__bQAWzCQTX4NcwyA/60ef87e5-994a-47df-924d-6e1fa6f5f3f2.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/0vSpGiT1o8n-dNtWMB4VpQ/a6fae8af-c6f5-4217-8a20-cf9cc918c216.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/-xVXc8M3VKMEtifLSHaacA/54fc3fa1-c744-4cd2-a30d-6045152654fc.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/OZExuWBnhZBGLK_z-lsLHQ/40917343-5118-4a8a-9771-3e7054454272.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/SPQ8UvWIqaQCy1uD1bzX2g/33e8e8f5-ff9e-4f1a-9710-3f02f5096775.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/z3QyMhtbWGFa6cvO9VxZSw/9cce6b3d-3674-42b3-8ee8-a91225bcfc93.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/j5tVPRxY9UEuSZiqvuVf4g/e5f99acd-3414-4873-836d-142af6d2ec66.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa2azKZq",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "694581000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"100\",\"maximum\":\"104\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-03-15T05:52:02.694581Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    },
+    "map_pin_feature": {
+      "lon": 51.36216526428909,
+      "lat": 35.72049427021321,
+      "approximate_location": true,
+      "long_preview_title": "۲۲ میلیارد",
+      "properties": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.36216526428909,
+            35.72049427021321
+          ]
+        },
+        "properties": {
+          "lon": 51.36216526428909,
+          "subtitle1": "۲۲,۰۰۰,۰۰۰,۰۰۰ تومان",
+          "preview_title": "۲۲ میلیارد",
+          "image_count": 10,
+          "approximate_location": true,
+          "image_url": "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/KXErWOm9elIbHlWNudV0Mw/b54e108b-2141-471c-841e-9ccdebd84559.webp",
+          "short_preview_title": "۲۲ میلیارد",
+          "location_type": "A",
+          "chat_enabled": false,
+          "is_sort_date_recent": false,
+          "is_stock_image": false,
+          "long_preview_title": "۲۲ میلیارد",
+          "seen": false,
+          "images": [
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/KXErWOm9elIbHlWNudV0Mw/b54e108b-2141-471c-841e-9ccdebd84559.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/EX565Vtnmr7Iw4Z2r59zNw/219663fb-4863-4a61-9a3f-01f0cbeb084a.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/G6W_eklY-l1UukGbuMX1bQ/666d1df9-5d04-446b-be75-a69955ce6c67.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/CezNM__bQAWzCQTX4NcwyA/60ef87e5-994a-47df-924d-6e1fa6f5f3f2.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/0vSpGiT1o8n-dNtWMB4VpQ/a6fae8af-c6f5-4217-8a20-cf9cc918c216.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/-xVXc8M3VKMEtifLSHaacA/54fc3fa1-c744-4cd2-a30d-6045152654fc.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/OZExuWBnhZBGLK_z-lsLHQ/40917343-5118-4a8a-9771-3e7054454272.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/SPQ8UvWIqaQCy1uD1bzX2g/33e8e8f5-ff9e-4f1a-9710-3f02f5096775.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/z3QyMhtbWGFa6cvO9VxZSw/9cce6b3d-3674-42b3-8ee8-a91225bcfc93.webp",
+            "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/j5tVPRxY9UEuSZiqvuVf4g/e5f99acd-3414-4873-836d-142af6d2ec66.webp"
+          ],
+          "title": "آپارتمان 100متر 5ساله فول/تهرانویلا/معاوضه",
+          "lat": 35.72049427021321,
+          "is_verified": false,
+          "sort-index": 0,
+          "token": "Qa2azKZq",
+          "cat_type": "sell-type",
+          "subtitle3": "۲ هفته پیش",
+          "chips": [
+            {
+              "title": "۱۰۰ متر",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "title": "۲ اتاق",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "title": "۷ سال",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png",
+              "title": ""
+            },
+            {
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png",
+              "title": ""
+            }
+          ],
+          "trust_score": "default",
+          "subtitle2": "متری: ۲۲۰,۰۰۰,۰۰۰ تومان",
+          "prices": [
+            {
+              "title": "قیمت:",
+              "value": "۲۲ میلیارد",
+              "unit": ""
+            },
+            {
+              "unit": "",
+              "title": "متری:",
+              "value": "۲۲۰ میلیون"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "map_post_card": {
+      "token": "QahO2K0C",
+      "title": "۱۱۳ متر*۲ خواب*تاپ لوکیشن*سرتاسر پرده* متریال برند",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۶٫۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۳۱ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۱۳ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uuigYCXU4yVzO6yG18H4CQ/59a48225-5ed8-4568-af02-401c4c6cd0e7.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_7b_ILOh03Op088W3My3CQ/a4ae46ec-0173-4eaf-9770-98fa408f1593.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l-UnIxZ1daHytIZ_NO8Wjw/f34dac7d-718a-4225-a5ef-54ceffce67b2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7it9NsQLmPi86AB3dz-Ijw/ae5bbbc9-5509-4093-9e20-af4692df0685.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_VlNlOZM1fEHyKy_LSjt_w/de6f8026-2466-4126-82d7-02e6e64bcf38.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QrxyAXEbd5Pk9dvj0xFKhA/25199c37-9a44-452d-a2c0-0e921446436c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YyZ-qV9zeaKoD5HqyQpWJQ/1fbb2c65-2e06-4546-baaa-92903b796db9.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QahO2K0C",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "353040000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-27T09:26:27.353040Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    },
+    "map_pin_feature": {
+      "lon": 51.365170950247474,
+      "lat": 35.720677266641815,
+      "approximate_location": true,
+      "long_preview_title": "۲۶٫۱ میلیارد",
+      "properties": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.365170950247474,
+            35.720677266641815
+          ]
+        },
+        "properties": {
+          "is_stock_image": false,
+          "is_sort_date_recent": false,
+          "trust_score": "default",
+          "preview_title": "۲۶٫۱ میلیارد",
+          "location_type": "A",
+          "images": [
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uuigYCXU4yVzO6yG18H4CQ/59a48225-5ed8-4568-af02-401c4c6cd0e7.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_7b_ILOh03Op088W3My3CQ/a4ae46ec-0173-4eaf-9770-98fa408f1593.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l-UnIxZ1daHytIZ_NO8Wjw/f34dac7d-718a-4225-a5ef-54ceffce67b2.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7it9NsQLmPi86AB3dz-Ijw/ae5bbbc9-5509-4093-9e20-af4692df0685.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_VlNlOZM1fEHyKy_LSjt_w/de6f8026-2466-4126-82d7-02e6e64bcf38.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QrxyAXEbd5Pk9dvj0xFKhA/25199c37-9a44-452d-a2c0-0e921446436c.webp",
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YyZ-qV9zeaKoD5HqyQpWJQ/1fbb2c65-2e06-4546-baaa-92903b796db9.webp"
+          ],
+          "subtitle3": "۴ هفته پیش",
+          "chat_enabled": false,
+          "lon": 51.365170950247474,
+          "cat_type": "sell-type",
+          "approximate_location": true,
+          "short_preview_title": "۲۶٫۱ میلیارد",
+          "long_preview_title": "۲۶٫۱ میلیارد",
+          "chips": [
+            {
+              "title": "۱۱۳ متر",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "title": "۲ اتاق",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "icon_url_light": "",
+              "icon_url_dark": "",
+              "title": "۱ سال"
+            },
+            {
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png",
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png"
+            },
+            {
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+            }
+          ],
+          "seen": false,
+          "subtitle2": "متری: ۲۳۱,۴۱۵,۹۲۹ تومان",
+          "image_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uuigYCXU4yVzO6yG18H4CQ/59a48225-5ed8-4568-af02-401c4c6cd0e7.webp",
+          "image_count": 7,
+          "lat": 35.720677266641815,
+          "prices": [
+            {
+              "value": "۲۶٫۱ میلیارد",
+              "unit": "",
+              "title": "قیمت:"
+            },
+            {
+              "title": "متری:",
+              "value": "۲۳۱ میلیون",
+              "unit": ""
+            }
+          ],
+          "is_verified": false,
+          "sort-index": 0,
+          "title": "۱۱۳ متر*۲ خواب*تاپ لوکیشن*سرتاسر پرده* متریال برند",
+          "subtitle1": "۲۶,۱۵۰,۰۰۰,۰۰۰ تومان",
+          "token": "QahO2K0C"
+        }
+      }
+    }
+  },
+  {
+    "map_post_card": {
+      "token": "QagK1Lq_",
+      "title": "۱۳۰‌متر‌تک‌واحدی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۰ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۵۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۳۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "۲ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jPiElpgo9aF8gnep9-E0Rw/47231ec1-fbbd-4911-b886-78e8c8dc110b.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QagK1Lq_",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "320216000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"130\",\"maximum\":\"134\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-02-26T14:04:16.320216Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    },
+    "map_pin_feature": {
+      "lon": 51.370327090473,
+      "lat": 35.726584920067,
+      "long_preview_title": "۲۰ میلیارد",
+      "properties": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.370327090473,
+            35.726584920067
+          ]
+        },
+        "properties": {
+          "subtitle3": "۴ هفته پیش، شخصی",
+          "chat_enabled": true,
+          "cat_type": "sell-type",
+          "sort-index": 0,
+          "prices": [
+            {
+              "title": "قیمت:",
+              "value": "۲۰ میلیارد",
+              "unit": ""
+            },
+            {
+              "value": "۱۵۳ میلیون",
+              "unit": "",
+              "title": "متری:"
+            }
+          ],
+          "is_sort_date_recent": false,
+          "short_preview_title": "۲۰ میلیارد",
+          "preview_title": "۲۰ میلیارد",
+          "location_type": "E",
+          "trust_score": "default",
+          "subtitle2": "متری: ۱۵۳,۸۴۶,۱۵۳ تومان",
+          "approximate_location": false,
+          "long_preview_title": "۲۰ میلیارد",
+          "is_stock_image": false,
+          "lon": 51.370327090473,
+          "seen": false,
+          "is_verified": false,
+          "images": [
+            "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jPiElpgo9aF8gnep9-E0Rw/47231ec1-fbbd-4911-b886-78e8c8dc110b.webp"
+          ],
+          "title": "۱۳۰‌متر‌تک‌واحدی",
+          "subtitle1": "۲۰,۰۰۰,۰۰۰,۰۰۰ تومان",
+          "image_count": 1,
+          "token": "QagK1Lq_",
+          "image_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jPiElpgo9aF8gnep9-E0Rw/47231ec1-fbbd-4911-b886-78e8c8dc110b.webp",
+          "chips": [
+            {
+              "title": "۱۳۰ متر",
+              "icon_url_light": "",
+              "icon_url_dark": ""
+            },
+            {
+              "icon_url_light": "",
+              "icon_url_dark": "",
+              "title": "۳ اتاق"
+            },
+            {
+              "icon_url_light": "",
+              "icon_url_dark": "",
+              "title": "۲ سال"
+            },
+            {
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+            },
+            {
+              "title": "",
+              "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+              "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+            }
+          ],
+          "lat": 35.726584920067
+        }
+      }
+    }
+  }
+]
