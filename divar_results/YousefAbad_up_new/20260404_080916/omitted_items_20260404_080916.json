@@ -1,0 +1,158 @@
+[
+  {
+    "id": "QaQOtaiU",
+    "title": "۰۰ ویو مشجر و ابدی - مدرن - نوساز - ۱۲۱ متر ۰۰",
+    "price_parsed": 400000000,
+    "age_parsed": 1.0,
+    "size_parsed": 121.0,
+    "map_post_card": {
+      "token": "QaQOtaiU",
+      "title": "۰۰ ویو مشجر و ابدی - مدرن - نوساز - ۱۲۱ متر ۰۰",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۴۸٫۴ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۱ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/8JQs7qAhPGssyfBWOzyhIQ/c31e3b62-15f4-442c-b507-178d22b78913.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/_qY9qC0LSkN95JoJXTAkBg/05d3daa8-5bc1-4ade-8966-87eb77c9b38d.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/5X_vGWtOuWa4bOvJZYZgUA/67d10398-902e-4ec4-acea-8a7b7bfcff2c.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/7bZM_w7w5KydUBlyQWEvqA/5267a697-1579-4f23-a4c7-e4a978f60915.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/U6uy6b9USfJ3hFqstC6VGA/6a45879f-8890-4ef6-a130-95cde15c2efc.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/20que6RX3JnrQIamB_SgMw/c106e100-07cf-403d-8086-460201e271e9.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/ggctzT0xzxZ4YlSY3qN_9Q/5dfc5fd9-d254-45aa-be1a-8e6b6c8e5d36.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/5fQq5I5GaoBQ5B3TM0vAvg/24e0c725-26b4-43b4-800f-4e051aa5757b.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/bUxLDhIyWPzNkN1IrN91Qw/a40d795c-a05b-4c7b-ab48-af34e1261472.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaQOtaiU",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "464262000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"120\",\"maximum\":\"124\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-03-12T19:23:44.464262Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qa_8a9o0",
+    "title": "یوسف آباد - ۱۲۵ متر ۳ خواب - لا‌کچری - مشاعات آبی",
+    "price_parsed": 400000000,
+    "age_parsed": 1.0,
+    "size_parsed": 125.0,
+    "map_post_card": {
+      "token": "Qa_8a9o0",
+      "title": "یوسف آباد - ۱۲۵ متر ۳ خواب - لا‌کچری - مشاعات آبی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵۰ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۵ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dosKd5Cn29Ufln8Z2wAV9w/4a5bc0d5-60f9-46f6-9445-2552ddf368aa.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RZM4PrAjX-4e5k1cw5pkzQ/802492ed-cc53-45be-8190-245a032987fc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dbjFEXljWbt1GiM50uedHg/3c43601f-9445-456f-8bc5-a4bd9ae5b69f.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa_8a9o0",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "514879000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"125\",\"maximum\":\"129\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-03-12T19:26:03.514879Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
