@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-04-06 08:57:18",
+  "requested_size_min": 60,
+  "requested_size_max": 150,
+  "total_posts": 3,
+  "valid_for_averages": 3,
+  "overall_avg_price_per_sqm": 200000000,
+  "age_intervals": {
+    "0-4": {
+      "avg": 190000000,
+      "count": 2
+    },
+    "5-9": {
+      "avg": 220000000,
+      "count": 1
+    },
+    "10-14": {
+      "avg": 0,
+      "count": 0
+    },
+    "15-20": {
+      "avg": 0,
+      "count": 0
+    }
+  },
+  "size_intervals": {
+    "<80": {
+      "avg": 0,
+      "count": 0
+    },
+    "80-120": {
+      "avg": 200000000,
+      "count": 3
+    },
+    ">120": {
+      "avg": 0,
+      "count": 0
+    }
+  },
+  "age_size_matrix": {
+    "0-4": {
+      "<80": {
+        "avg": 0,
+        "count": 0
+      },
+      "80-120": {
+        "avg": 190000000,
+        "count": 2
+      },
+      ">120": {
+        "avg": 0,
+        "count": 0
+      }
+    },
+    "5-9": {
+      "<80": {
+        "avg": 0,
+        "count": 0
+      },
+      "80-120": {
+        "avg": 220000000,
+        "count": 1
+      },
+      ">120": {
+        "avg": 0,
+        "count": 0
+      }
+    },
+    "10-14": {
+      "<80": {
+        "avg": 0,
+        "count": 0
+      },
+      "80-120": {
+        "avg": 0,
+        "count": 0
+      },
+      ">120": {
+        "avg": 0,
+        "count": 0
+      }
+    },
+    "15-20": {
+      "<80": {
+        "avg": 0,
+        "count": 0
+      },
+      "80-120": {
+        "avg": 0,
+        "count": 0
+      },
+      ">120": {
+        "avg": 0,
+        "count": 0
+      }
+    }
+  }
+}
