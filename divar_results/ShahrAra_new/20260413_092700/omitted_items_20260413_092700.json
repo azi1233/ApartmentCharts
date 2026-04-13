@@ -1,0 +1,80 @@
+[
+  {
+    "id": "Qa2y8Lib",
+    "title": "122متر/سالن پرده خور و مربعی/شهرارا",
+    "price_parsed": 152000000,
+    "age_parsed": 20.0,
+    "size_parsed": 122.0,
+    "map_post_card": {
+      "token": "Qa2y8Lib",
+      "title": "122متر/سالن پرده خور و مربعی/شهرارا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۸٫۶ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۵۲ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۲ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۲۰ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4dGeiQkBs_bDjhPaHRn0Vg/f7472148-9a9d-4efe-b2d1-b61618d91a73.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bLgic5F_f1g-y303l7mJmQ/c31c409a-491f-4352-ad78-c5a939975564.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IJ0uKViG9a4JnMRhCxdp6w/404a061a-22e9-41f5-9591-a8a71c070528.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4bpRqoeywXSMXcuPytnlfw/9266bd99-0213-4e64-902c-1d28521a3d5d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bzKGFzdUDrAVNCHR7N3otQ/8a16e7ce-be0e-4818-b905-0521a0e668c1.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZlpPROLdd54VdOCCePO__Q/baa276b6-aeb6-4a2c-bd63-e7ca6e8f035b.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa2y8Lib",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "364247000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"120\", \"maximum\":\"124\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-03-15T16:17:51.364247Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
