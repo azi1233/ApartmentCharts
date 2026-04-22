@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Qakjv5u4",
+    "title": "آپارتمان درگوهردشت کرج۱۲۶متر دوخوابه،تهاتر",
+    "price_parsed": 142000000,
+    "age_parsed": 1.0,
+    "size_parsed": 126.0,
+    "map_post_card": {
+      "token": "Qakjv5u4",
+      "title": "آپارتمان درگوهردشت کرج۱۲۶متر دوخوابه،تهاتر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۴۲ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۶ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WBKvL7rV064Nt7Oz5sO2Vg/fd3c554d-e587-4595-8027-3235e325f57c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ign8j4iHdxZ1iKuEAZ_74A/159ecffb-b8d7-496e-a957-8901e87f7c81.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/seRcM-ZFaQ3xMjuTQl5OBQ/53e1edcb-c5e1-42d0-ab75-3f922e12f16b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UAQFd6hcLp5Wf8BLcbbUXQ/6d2dc59d-0d43-4383-932c-8a1ca1f8ae3b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nHogRhiAlDynjHWbjuYiLw/3cf08307-1cfe-49fd-8f8b-83a3f5a4a867.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/o-axGerjgBTm7Pk1UWfh9w/8261f2c3-e287-4ed9-891d-68fc5d1f90e8.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Tk9UkV5zeIxg1Hb37bA_jw/f8dc14f8-29b2-43d7-881b-887861a43c5b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VI1lEuo77vLUUfAEjdwQpA/d1e04da5-7f47-4da4-a8a7-4e5b55f36b64.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qakjv5u4",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "559942000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305}, {\"value\":35.769012}, {\"value\":51.49804}, {\"value\":35.78689}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"125\", \"maximum\":\"129\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-04-19T15:59:36.559942Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
