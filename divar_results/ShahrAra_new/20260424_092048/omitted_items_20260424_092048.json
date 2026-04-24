@@ -1,26 +1,26 @@
 [
   {
-    "id": "QaXno7yx",
-    "title": "پیش فروش مطمئن و سود آور از سازنده خوش نام منطقه",
-    "price_parsed": 168000000,
+    "id": "Qajv5JEQ",
+    "title": "آپارتمان۹۴متر۲ خواب نوساز شهرآرا کیا منصوری",
+    "price_parsed": 361000000,
     "age_parsed": 1.0,
-    "size_parsed": 110.0,
+    "size_parsed": 94.0,
     "map_post_card": {
-      "token": "QaXno7yx",
-      "title": "پیش فروش مطمئن و سود آور از سازنده خوش نام منطقه",
+      "token": "Qajv5JEQ",
+      "title": "آپارتمان۹۴متر۲ خواب نوساز شهرآرا کیا منصوری",
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۱۸٫۵ میلیارد"
+          "value": "۳۴ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۱۶۸ میلیون"
+          "value": "۳۶۱ میلیون"
         }
       ],
       "chips": [
         {
-          "title": "۱۱۰ متر"
+          "title": "۹۴ متر"
         },
         {
           "title": "۲ اتاق"
@@ -38,24 +38,22 @@
         }
       ],
       "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QPPniOTKlpO02_azkxTQqw/5773934d-c42f-4370-8381-ac9e94f50f90.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bM9ld8G2vbUyui9OuHH53A/964ae7f8-3df1-440f-a9e0-7db0585e8d71.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KL8YjY3C0MFeotZ1yv0L6Q/576bf591-8b57-4019-90b2-3d158de27398.webp"
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E5Lu6_vraTEe7yyRKZWDaQ/40080baf-c3ee-45b1-aefd-2a6dc3d7f501.webp"
       ],
       "action_log": {
         "server_side_info": {
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QaXno7yx",
-            "index": 11,
+            "post_token": "Qajv5JEQ",
+            "index": 0,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "677454000",
+              "last_post_sort_date": "926238000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.378773},{\"value\":35.717262},{\"value\":51.425957},{\"value\":35.75499}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"90\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436},{\"value\":35.70042},{\"value\":51.418217},{\"value\":35.73572}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"202\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"90\",\"maximum\":\"94\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -64,7 +62,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-04-14T15:14:49.677454Z"
+            "sort_date": "2026-04-20T07:55:44.926238Z"
           },
           "item_type": {
             "type": "POST_ITEM"
