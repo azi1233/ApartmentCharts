@@ -1,0 +1,241 @@
+[
+  {
+    "id": "QaifT9hj",
+    "title": "شهرآرا*۱۱۷متر*کلیدنخورده*تکواحدی*۲خواب مستر",
+    "price_parsed": 350000000,
+    "age_parsed": 1.0,
+    "size_parsed": 117.0,
+    "map_post_card": {
+      "token": "QaifT9hj",
+      "title": "شهرآرا*۱۱۷متر*کلیدنخورده*تکواحدی*۲خواب مستر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۴۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۵۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۱۷ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sBIOj9gMyRA2OjG0Ap4-uQ/96f56b85-ac74-4e3e-a5e4-900e21a3e2a9.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wKFkXcCAZJ2dp_E3qwBmDA/e732af99-2ffe-4ed0-a315-8dcf1ada14f4.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bu1oqY9OgTAeD5wEqYkpAA/3b670419-fa96-4b0c-ae1f-ddc028195c6b.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uwV8LK0HdaB4zUmvDzClJA/9e48cba9-7a40-4f43-a54d-f29e1856620c.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6ZsaNPPqmIpQPfWI34bQTQ/e7e75a70-aeba-4a6e-baf8-c3a44e713239.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AaDK2eFsqC8jH-zakyP6ug/086131d6-f7e3-444f-8439-8bc80cc331dc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wtCHA9RFotzl7v8YDBmr2Q/5261b698-1e9b-492f-87fe-696c8f7ff8bd.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1jQAM3Go7-sArpoMLY7QHg/bc836d16-51b9-4eb7-92ff-a4a0dea7c3e7.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/OaJyEbFvjwLAQNwvzrVt1w/99d3be7e-e463-4909-bc1b-173df330961a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JzpdjWISli57WClTklEC0Q/544218ec-36ea-43b6-a7c3-9ef1a86141c2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VfuqkdJrstvke-OZvD5VcQ/3d4f7932-944a-4512-91b7-985237cf6bbb.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jm_pcamgTicrCZZWT0TkKw/52f22ce4-d51b-47bf-8e18-6be3b25b78cc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/g6qmWDVGG5pFBm5Ljx1uiw/ddc97779-9e68-40aa-a3fe-ab0ff34a3a9f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Gi205AnyODKR-YrlLtig2A/a006ec80-5d16-4ffc-a522-93184fc7eed5.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qkKL-KHSIBIsY3WFInEzkg/2d831bc7-e2c8-4e21-8a09-77e3a310a312.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaifT9hj",
+            "index": 3,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "381714000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"115\",\"maximum\":\"119\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-04-25T15:48:55.381714Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QanrlARj",
+    "title": "۱۲۰متر/ ۳خواب/۱۰ساله/ قیمت قبل عید",
+    "price_parsed": 200000000,
+    "age_parsed": 11.0,
+    "size_parsed": 120.0,
+    "map_post_card": {
+      "token": "QanrlARj",
+      "title": "۱۲۰متر/ ۳خواب/۱۰ساله/ قیمت قبل عید",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۴ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "۱۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qbSLl5thzOPacitnWHJirg/0a4c48f7-6857-431e-b0a4-2e4d8b757353.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Tk7HGZnz9up3znypY1DNhw/d5ca1d9b-7da9-430c-9631-ab19ceeb5756.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TXF9afvDHnQ0m9KseWq4bw/bb23bc34-24ac-4009-8990-ddc93a697bd3.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xIKu2QdgdwZszy83tCRb1w/dbffc097-f730-4e95-a84d-bf443c68d044.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/H2pnVUa-dgIkPVif14gueA/7fcabe63-9c02-4635-ae6d-1a6b913fbcf5.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gjDsv8V6QtL6u_76jLBSgA/b6b0b82d-7bc3-480f-bcc8-e00163b2d0fe.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dTp9JtteSvbOrtqxa8u3GQ/6edbdbdf-ff7f-4af5-84b9-df75ca4207e9.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QanrlARj",
+            "index": 3,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "739929000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"120\",\"maximum\":\"124\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-04-21T11:06:42.739929Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QakLXnsQ",
+    "title": "۱۲۵متری/۳خواب /۲نبش (غرق نور)",
+    "price_parsed": 310000000,
+    "age_parsed": 1.0,
+    "size_parsed": 125.0,
+    "map_post_card": {
+      "token": "QakLXnsQ",
+      "title": "۱۲۵متری/۳خواب /۲نبش (غرق نور)",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۸٫۷ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۱۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۵ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6gTmYaShdXyARgzwpWg8vg/6ef2b73a-de0a-4971-a0a7-48fb4299e164.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QakLXnsQ",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "891300000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"125\",\"maximum\":\"129\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              },
+              "map_trust_score": -1,
+              "map_trust_layer": "default"
+            },
+            "sort_date": "2026-04-19T06:14:00.891300Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
