@@ -2,7 +2,7 @@
   {
     "id": "QaifT9hj",
     "title": "شهرآرا*۱۱۷متر*کلیدنخورده*تکواحدی*۲خواب مستر",
-    "price_parsed": 341000000,
+    "price_parsed": 350000000,
     "age_parsed": 1.0,
     "size_parsed": 117.0,
     "map_post_card": {
@@ -11,11 +11,11 @@
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۴۰ میلیارد"
+          "value": "۴۱ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۳۴۱ میلیون"
+          "value": "۳۵۰ میلیون"
         }
       ],
       "chips": [
@@ -59,15 +59,15 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaifT9hj",
-            "index": 2,
+            "index": 3,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "342605000",
+              "last_post_sort_date": "381714000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"115\",\"maximum\":\"119\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631}, {\"value\":35.70942}, {\"value\":51.381687}, {\"value\":35.73771}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"201\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"115\", \"maximum\":\"119\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -76,7 +76,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-04-17T13:39:47.342605Z"
+            "sort_date": "2026-04-25T15:48:55.381714Z"
           },
           "item_type": {
             "type": "POST_ITEM"
