@@ -59,15 +59,15 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaifT9hj",
-            "index": 2,
+            "index": 3,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "493576000",
+              "last_post_sort_date": "381714000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"115\",\"maximum\":\"119\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631}, {\"value\":35.70942}, {\"value\":51.381687}, {\"value\":35.73771}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"201\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"115\", \"maximum\":\"119\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -76,82 +76,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-04-20T17:51:46.493576Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
-    "id": "QakLXnsQ",
-    "title": "۱۲۵متری/۳خواب /۲نبش (غرق نور)",
-    "price_parsed": 320000000,
-    "age_parsed": 1.0,
-    "size_parsed": 125.0,
-    "map_post_card": {
-      "token": "QakLXnsQ",
-      "title": "۱۲۵متری/۳خواب /۲نبش (غرق نور)",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۴۰ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۳۲۰ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۱۲۵ متر"
-        },
-        {
-          "title": "۳ اتاق"
-        },
-        {
-          "title": "۱ سال"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/o097f8tfWDKgdEex5M3nzA/e0386a60-6180-4fe4-ad4e-ba8aad5853c9.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TsM5Kj395pqZ7i-prN5zTA/3ec10623-572c-48fa-801c-cb7bcd01374e.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/g3BPK1QTjeYR6ZIbSGSySQ/8518ed7a-43ec-49e8-835d-b9d146b67892.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QakLXnsQ",
-            "index": 0,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "891300000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631},{\"value\":35.70942},{\"value\":51.381687},{\"value\":35.73771}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"201\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"125\",\"maximum\":\"129\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-04-19T06:14:00.891300Z"
+            "sort_date": "2026-04-25T15:48:55.381714Z"
           },
           "item_type": {
             "type": "POST_ITEM"

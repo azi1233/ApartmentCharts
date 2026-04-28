@@ -59,7 +59,7 @@
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
               "last_post_sort_date": "248336000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617},{\"value\":35.687027},{\"value\":51.36234},{\"value\":35.701786}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"60\",\"maximum\":\"64\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617}, {\"value\":35.687027}, {\"value\":51.36234}, {\"value\":35.701786}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"60\", \"maximum\":\"64\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -142,7 +142,7 @@
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
               "last_post_sort_date": "914641000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617},{\"value\":35.687027},{\"value\":51.36234},{\"value\":35.701786}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"70\",\"maximum\":\"74\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617}, {\"value\":35.687027}, {\"value\":51.36234}, {\"value\":35.701786}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"70\", \"maximum\":\"74\"}}}}",
                 "cities": [
                   "1"
                 ],
@@ -152,85 +152,6 @@
               "map_trust_layer": "default"
             },
             "sort_date": "2026-04-09T07:13:58.914641Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
-    "id": "QaX3JQzt",
-    "title": "75متری*دوخواب*فول دیزاین *روبنما*پارکینگ سندی",
-    "price_parsed": 50600000,
-    "age_parsed": 3.0,
-    "size_parsed": 75.0,
-    "map_post_card": {
-      "token": "QaX3JQzt",
-      "title": "75متری*دوخواب*فول دیزاین *روبنما*پارکینگ سندی",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۳٫۸ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۵۰٫۶ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۷۵ متر"
-        },
-        {
-          "title": "۲ اتاق"
-        },
-        {
-          "title": "۳ سال"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JVM4RLlSET4yI-SLX406mA/76333255-a18b-441e-992b-675c9efd2fbb.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p7cEP1EOAcyutDAjuRKwdg/cb1f0f93-81f5-49dc-8f8b-eb787fe40f5f.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hfY0onpePimGZGHQ5jx3FA/f063fc94-402a-4597-b31e-fcf96236925b.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/D3ZUWG0OzYwj5POFD_pNKw/902d6745-00f4-4b21-88f7-0e5ad64880df.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UhgWNbHJsIDFi9EpsUpOsQ/f392e520-8b8c-42fa-9ba5-5c7deafacc31.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EX5ddnoxv-DX4i6yyzv2WA/f303d930-a70d-49a2-86da-3ffc9a7c7b81.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9L21_7iKif1BS2bdNYaHUA/0d1df25e-33d0-47c3-8ad6-1608796c27e4.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QaX3JQzt",
-            "index": 0,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "81849000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.33617},{\"value\":35.687027},{\"value\":51.36234},{\"value\":35.701786}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1029\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"75\",\"maximum\":\"79\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-04-09T13:12:23.081849Z"
           },
           "item_type": {
             "type": "POST_ITEM"
