@@ -59,13 +59,13 @@
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
             "post_token": "QaifT9hj",
-            "index": 2,
+            "index": 3,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "253420000",
+              "last_post_sort_date": "381714000",
               "search_data": {
                 "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631}, {\"value\":35.70942}, {\"value\":51.381687}, {\"value\":35.73771}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"201\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"115\", \"maximum\":\"119\"}}}}",
                 "cities": [
@@ -76,86 +76,7 @@
               "map_trust_score": -1,
               "map_trust_layer": "default"
             },
-            "sort_date": "2026-04-22T06:19:25.253420Z"
-          },
-          "item_type": {
-            "type": "POST_ITEM"
-          }
-        },
-        "enabled": true
-      }
-    }
-  },
-  {
-    "id": "QanrlARj",
-    "title": "۱۲۰متر/ ۳خواب/ ستارخان",
-    "price_parsed": 200000000,
-    "age_parsed": 11.0,
-    "size_parsed": 120.0,
-    "map_post_card": {
-      "token": "QanrlARj",
-      "title": "۱۲۰متر/ ۳خواب/ ستارخان",
-      "price_fields": [
-        {
-          "title": "قیمت:",
-          "value": "۲۴ میلیارد"
-        },
-        {
-          "title": "متری:",
-          "value": "۲۰۰ میلیون"
-        }
-      ],
-      "chips": [
-        {
-          "title": "۱۲۰ متر"
-        },
-        {
-          "title": "۳ اتاق"
-        },
-        {
-          "title": "۱۱ سال"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
-        },
-        {
-          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
-          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
-        }
-      ],
-      "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qbSLl5thzOPacitnWHJirg/0a4c48f7-6857-431e-b0a4-2e4d8b757353.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Tk7HGZnz9up3znypY1DNhw/d5ca1d9b-7da9-430c-9631-ab19ceeb5756.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TXF9afvDHnQ0m9KseWq4bw/bb23bc34-24ac-4009-8990-ddc93a697bd3.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xIKu2QdgdwZszy83tCRb1w/dbffc097-f730-4e95-a84d-bf443c68d044.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/H2pnVUa-dgIkPVif14gueA/7fcabe63-9c02-4635-ae6d-1a6b913fbcf5.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gjDsv8V6QtL6u_76jLBSgA/b6b0b82d-7bc3-480f-bcc8-e00163b2d0fe.webp",
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dTp9JtteSvbOrtqxa8u3GQ/6edbdbdf-ff7f-4af5-84b9-df75ca4207e9.webp"
-      ],
-      "action_log": {
-        "server_side_info": {
-          "info": {
-            "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "QanrlARj",
-            "index": 2,
-            "post_type": "SEARCH",
-            "list_type": "PAGE",
-            "source_page": "MAP_DISCOVERY_CARD",
-            "extra_data": {
-              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "739929000",
-              "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.34631}, {\"value\":35.70942}, {\"value\":51.381687}, {\"value\":35.73771}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"201\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"120\", \"maximum\":\"124\"}}}}",
-                "cities": [
-                  "1"
-                ],
-                "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
-            },
-            "sort_date": "2026-04-21T11:06:42.739929Z"
+            "sort_date": "2026-04-25T15:48:55.381714Z"
           },
           "item_type": {
             "type": "POST_ITEM"
