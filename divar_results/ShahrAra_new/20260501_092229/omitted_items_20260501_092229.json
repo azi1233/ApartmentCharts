@@ -1,0 +1,77 @@
+[
+  {
+    "id": "QaxzeHOJ",
+    "title": "واحد ۷۵ متری فروشی",
+    "price_parsed": 33299999,
+    "age_parsed": 8.0,
+    "size_parsed": 75.0,
+    "map_post_card": {
+      "token": "QaxzeHOJ",
+      "title": "واحد ۷۵ متری فروشی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲٫۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۳٫۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۸ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6rxkF5vlg-1M-orV6YCXug/9ec960ff-481e-40bf-b611-467ba1a84a88.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cpHbbUw7JbOXzcB1vXb-AQ/8faf4c18-3cbf-4f7a-8eaa-74ec57c0d572.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Um47iZuMJRZFmrvKBugJmg/35786db4-913b-4a58-a2b1-9bdc6a1ec95d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/A7sIkr00TTghI8WjWb8W5g/b23671a8-7175-4bed-8604-4db39cd82568.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cl51325FTf2hyd_7qKq6Gw/1b4e247f-ed10-46c7-8bf6-471a4171a575.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaxzeHOJ",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "83859000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"75\", \"maximum\":\"79\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-04-29T11:33:46.083859Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
