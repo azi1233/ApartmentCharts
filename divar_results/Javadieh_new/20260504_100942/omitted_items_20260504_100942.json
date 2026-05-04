@@ -1,0 +1,83 @@
+[
+  {
+    "id": "Qa1Tjpwy",
+    "title": "اپارتمان  فروشی",
+    "price_parsed": 129000000,
+    "age_parsed": 5.0,
+    "size_parsed": 131.0,
+    "map_post_card": {
+      "token": "Qa1Tjpwy",
+      "title": "اپارتمان  فروشی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۷ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۲۹ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۳۱ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۵ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Uc8bankWIMofAUZ27P9msg/d3fa1451-4e1d-4b1e-a59d-93a5b68f4c5f.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2OYVm-jU5gj7Vkh105dgEg/7fecf5cc-66be-4e3d-a03f-ac97f7d45fb2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1eQuP44kYuxkWF8FahhCYg/b5e1ae94-8092-482d-804e-c86ed3a1a157.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MJCfpSIyh7gzWsBd4gCMNg/477a66e2-562e-4c6a-89b4-0be16e7ae035.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WJaRjEKXJ2bg6UGGYYv61g/d02b2a04-f7c3-4666-b305-8c88fcc1bb49.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fdTaU50_4MnmncvBSjSlcw/53b5529b-596e-43a9-bba2-55d69d2d7477.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IK9G3o1f9YpL6gdMyuPhbw/9c476839-ba2f-48f8-bbe6-99e5ca9818b5.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p3n6JWYSGDt4gusroDxPIQ/9d074255-0dcf-473a-bea8-f23bb2b2686a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lUEvRopsPekPL_D3W0BTbQ/b7401b98-dd59-4241-a591-a7fda90a66bf.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iyWSSmYeUY2XSNcJS21ksg/c3294947-001a-48f2-ba3b-5ec32a4eeca1.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ka0qgN6wRcGi0zaWfnj7QQ/500a6a98-7e0e-4c8f-8e22-31a7f3a42bd9.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa1Tjpwy",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "154317000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.376476},{\"value\":35.640343},{\"value\":51.417137},{\"value\":35.66328}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"265\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"130\",\"maximum\":\"134\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-01T23:19:07.154317Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]

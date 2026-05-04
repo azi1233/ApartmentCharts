@@ -1,26 +1,26 @@
 [
   {
-    "id": "Qajv5JEQ",
-    "title": "آپارتمان۹۴متر۲ خواب نوساز شهرآرا کیا منصوری",
-    "price_parsed": 361000000,
+    "id": "QaxTxiph",
+    "title": "۱۳۰ متر سوپرمدرن/نوساز کلیدنخورده",
+    "price_parsed": 400000000,
     "age_parsed": 1.0,
-    "size_parsed": 94.0,
+    "size_parsed": 130.0,
     "map_post_card": {
-      "token": "Qajv5JEQ",
-      "title": "آپارتمان۹۴متر۲ خواب نوساز شهرآرا کیا منصوری",
+      "token": "QaxTxiph",
+      "title": "۱۳۰ متر سوپرمدرن/نوساز کلیدنخورده",
       "price_fields": [
         {
           "title": "قیمت:",
-          "value": "۳۴ میلیارد"
+          "value": "۵۲ میلیارد"
         },
         {
           "title": "متری:",
-          "value": "۳۶۱ میلیون"
+          "value": "۴۰۰ میلیون"
         }
       ],
       "chips": [
         {
-          "title": "۹۴ متر"
+          "title": "۱۳۰ متر"
         },
         {
           "title": "۲ اتاق"
@@ -38,31 +38,29 @@
         }
       ],
       "images": [
-        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E5Lu6_vraTEe7yyRKZWDaQ/40080baf-c3ee-45b1-aefd-2a6dc3d7f501.webp"
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tpfSzWsyWXcb3Pv2Y3BpNA/3b8a39f0-2e81-44a1-ac39-0d7e30f5ab5b.webp"
       ],
       "action_log": {
         "server_side_info": {
           "info": {
             "@type": "type.googleapis.com/action_log.PostItemInfo",
-            "post_token": "Qajv5JEQ",
-            "index": 1,
+            "post_token": "QaxTxiph",
+            "index": 7,
             "post_type": "SEARCH",
             "list_type": "PAGE",
             "source_page": "MAP_DISCOVERY_CARD",
             "extra_data": {
               "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
-              "last_post_sort_date": "926238000",
+              "last_post_sort_date": "728498000",
               "search_data": {
-                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"90\", \"maximum\":\"94\"}}}}",
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"130\",\"maximum\":\"134\"}}}}",
                 "cities": [
                   "1"
                 ],
                 "query_input_type": "TEXT"
-              },
-              "map_trust_score": -1,
-              "map_trust_layer": "default"
+              }
             },
-            "sort_date": "2026-04-20T07:55:44.926238Z"
+            "sort_date": "2026-05-03T04:17:54.728498Z"
           },
           "item_type": {
             "type": "POST_ITEM"
