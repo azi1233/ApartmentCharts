@@ -1,0 +1,151 @@
+[
+  {
+    "id": "Qa-L-2vB",
+    "title": "آپارتمان ۱۲۸ متر ۲ خواب (نوساز)",
+    "price_parsed": 398000000,
+    "age_parsed": 1.0,
+    "size_parsed": 128.0,
+    "map_post_card": {
+      "token": "Qa-L-2vB",
+      "title": "آپارتمان ۱۲۸ متر ۲ خواب (نوساز)",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۳۹۸ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۸ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-u_EVkxJMwWDALH95QhtlQ/4eebe98c-0fa0-47b9-acd6-908833b9b9ef.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2Y-jJXhHzfF4Vyf7kDsK3A/0024ef65-4bca-4d39-b9bf-22021a353888.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8Gbb1ri5JgQ50lM-yTkOeg/539a2a4d-b0c9-4308-b558-86b7ed054ebf.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ND2rOMXaPa63mUEWjl2azw/0e0b900c-c083-4907-a6fe-212e1198eb1e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qmomEcAEKd3VbEaakBvypw/26f4eae4-a93a-4f9d-b20b-bd9f20fbb8d2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MXPmvln63zi0z-xU47JGpw/0ec36ca3-00f0-4576-b3e9-9803e01bd24d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UOHYi0sUQLEjKStAlRCohA/0e36a482-d7bd-412b-bd60-ec7eb7a3986e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/02F5qIovJx2TXYuCwjnK6A/b7b8b25c-2a3d-48f5-894f-06543f06c479.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa-L-2vB",
+            "index": 4,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "552377000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305}, {\"value\":35.769012}, {\"value\":51.49804}, {\"value\":35.78689}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"125\", \"maximum\":\"129\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-09T07:32:39.552377Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QaxTxiph",
+    "title": "۱۳۰ متر سوپرمدرن/نوساز کلیدنخورده",
+    "price_parsed": 400000000,
+    "age_parsed": 1.0,
+    "size_parsed": 130.0,
+    "map_post_card": {
+      "token": "QaxTxiph",
+      "title": "۱۳۰ متر سوپرمدرن/نوساز کلیدنخورده",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵۲ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۳۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tpfSzWsyWXcb3Pv2Y3BpNA/3b8a39f0-2e81-44a1-ac39-0d7e30f5ab5b.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QaxTxiph",
+            "index": 7,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "728498000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305}, {\"value\":35.769012}, {\"value\":51.49804}, {\"value\":35.78689}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"130\", \"maximum\":\"134\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-03T04:17:54.728498Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
