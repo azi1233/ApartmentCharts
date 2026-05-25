@@ -1,0 +1,149 @@
+[
+  {
+    "id": "gaEgDqXC",
+    "title": "فروش آپارتمان ۹۸ متر ۲ خواب گیشا",
+    "price_parsed": 214000000,
+    "age_parsed": 20.0,
+    "size_parsed": 98.0,
+    "map_post_card": {
+      "token": "gaEgDqXC",
+      "title": "فروش آپارتمان ۹۸ متر ۲ خواب گیشا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۱۴ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۸ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۲۰ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/4dqh-lOxxp8nUoFSxiwyxg/e6538187-4437-4b64-863a-c1af0a0c67d3.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/I_x2e2eaGN3FmutPpXMHVA/a0dce159-4917-457a-9bb8-68b7239e8884.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gaEgDqXC",
+            "index": 24,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "448554000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"95\",\"maximum\":\"99\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-13T08:42:44.448554Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qaw_WCoU",
+    "title": "۱۲۰ متر ۲ خواب ویو دار (بهترین گزینه سرمایه گذاری)",
+    "price_parsed": 258000000,
+    "age_parsed": 20.0,
+    "size_parsed": 120.0,
+    "map_post_card": {
+      "token": "Qaw_WCoU",
+      "title": "۱۲۰ متر ۲ خواب ویو دار (بهترین گزینه سرمایه گذاری)",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۱ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۵۸ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۲۰ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ta_so71-rktZT1e-uFaGPQ/8ca235e4-1b6d-47b3-ab14-e654a2a2e4c1.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DVxD7PjrzBlOLlzOLYn0tA/c81f1df1-8ecb-47f2-8285-f1350cfb7987.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FXvP9dvpGw3r4hYHgtgMJA/e343006e-9a04-4f3c-8ff3-7571d6185b84.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ia7clHiOnVlfj_fM4YIgBg/413b8a9d-f232-40d5-aca5-62e709985746.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5LEvWi6b1tveDApnUsU47g/8c7415cd-8a1e-4aa4-9995-50004fe73fba.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qaw_WCoU",
+            "index": 6,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "672098000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037},{\"value\":35.724197},{\"value\":51.40884},{\"value\":35.750042}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"88\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"120\",\"maximum\":\"124\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-04-28T08:38:58.672098Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
