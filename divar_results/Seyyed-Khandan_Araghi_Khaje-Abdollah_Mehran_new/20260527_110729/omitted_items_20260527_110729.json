@@ -1,0 +1,365 @@
+[
+  {
+    "id": "Qa17KiVK",
+    "title": "۸۸ متر / ۲ پارکینگ سندی/ بازسازی",
+    "price_parsed": 206000000,
+    "age_parsed": 16.0,
+    "size_parsed": 88.0,
+    "map_post_card": {
+      "token": "Qa17KiVK",
+      "title": "۸۸ متر / ۲ پارکینگ سندی/ بازسازی",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۸٫۲ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۰۶ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۸۸ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱۶ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/2Mw17kje8eo5e3CAwPaPJA/d84c6d3e-0cfa-4265-95d4-c6dadc69efb0.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qa17KiVK",
+            "index": 6,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "165547000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047}, {\"value\":35.717648}, {\"value\":51.527855}, {\"value\":35.775646}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"95\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"85\", \"maximum\":\"89\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-02T08:01:17.165547Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "gaBkYLaO",
+    "title": "پارک شریعتی/۱۰۰متر/۲ خواب/رو به افتاب",
+    "price_parsed": 186000000,
+    "age_parsed": 20.0,
+    "size_parsed": 99.0,
+    "map_post_card": {
+      "token": "gaBkYLaO",
+      "title": "پارک شریعتی/۱۰۰متر/۲ خواب/رو به افتاب",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۸٫۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۱۸۶ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۹ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۲۰ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/4Tr-cfYS0ipIhE8zT1x8Mw/60d4b65e-7703-4ecc-9b7e-744c02770e60.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/TdrpWQih5erKxHPyd7xUfA/f32c4e57-fff9-4da5-b301-d930da531240.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/iC_UHuDk65wyDRQZdGBgZw/37f18015-1ed9-4438-afd9-94647155c002.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/W_vILMqkdJYYMTKaHHHd6g/c19798c9-5809-4b4a-a323-a436483e4f24.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/we8qVOT1p_QfXyytlmbejg/fb50e5d9-8ef0-4b51-b82c-20ffc4c8a0fc.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/Y4W46ciIRmbDvt5LE79zWw/564aef98-0b43-48f5-ad60-974bd270bb2c.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gaBkYLaO",
+            "index": 11,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "680989000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047},{\"value\":35.717648},{\"value\":51.527855},{\"value\":35.775646}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"95\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"95\",\"maximum\":\"99\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-11T09:59:30.680989Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "Qaq3SO7W",
+    "title": "شهید عراقی ۱۰۲ متر تک واحدی شرایط پرداخت ایده آل",
+    "price_parsed": 430000000,
+    "age_parsed": 1.0,
+    "size_parsed": 102.0,
+    "map_post_card": {
+      "token": "Qaq3SO7W",
+      "title": "شهید عراقی ۱۰۲ متر تک واحدی شرایط پرداخت ایده آل",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۴۳٫۹ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۳۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۰۲ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iIKVawTJ8eBEQwiXSiwgAQ/740947b1-744a-4b73-9b09-1c5fc016947e.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Xb4qzYwGnf1ayk5AI9917Q/26bbf0d3-43d4-4a5c-813f-28027c63c25b.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "Qaq3SO7W",
+            "index": 1,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "563477000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047},{\"value\":35.717648},{\"value\":51.527855},{\"value\":35.775646}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"95\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"100\",\"maximum\":\"104\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-20T07:53:37.563477Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "gaRo6u0e",
+    "title": "۱۲۵ متر زیر قیمت فروش فوری",
+    "price_parsed": 200000000,
+    "age_parsed": 2.0,
+    "size_parsed": 125.0,
+    "map_post_card": {
+      "token": "gaRo6u0e",
+      "title": "۱۲۵ متر زیر قیمت فروش فوری",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۵ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۰۰ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۲۵ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۲ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/Ab5d-gf0l-xX4HQ7LM3hHg/f020e502-5f7a-495b-b8c0-b53a2dbbf561.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gaRo6u0e",
+            "index": 1,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "997878000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047},{\"value\":35.717648},{\"value\":51.527855},{\"value\":35.775646}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"95\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"125\",\"maximum\":\"129\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-23T13:25:28.997878Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "gaAwZkxP",
+    "title": "پاسداران  شهید عراقی  / ۱۵۰ متر  آپارتمان /. فروش",
+    "price_parsed": 453000000,
+    "age_parsed": 2.0,
+    "size_parsed": 150.0,
+    "map_post_card": {
+      "token": "gaAwZkxP",
+      "title": "پاسداران  شهید عراقی  / ۱۵۰ متر  آپارتمان /. فروش",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۶۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۵۳ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۵۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "۲ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/vDvWBocMeUKle7iTMB-_5g/5477f204-44db-4348-9fb4-55e24193a6f3.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/zgwfg-8lLjTACOPn9Un9Eg/79bc74a0-7dec-4e22-8cf5-2ca62db45205.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/XKwKOYDslaClt3JyzkLqrA/82c7a5db-61fc-4347-9761-b1a76dd48eff.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gaAwZkxP",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "657794000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.393047}, {\"value\":35.717648}, {\"value\":51.527855}, {\"value\":35.775646}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"95\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"150\", \"maximum\":\"150\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-10T14:56:34.657794Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
