@@ -1,0 +1,294 @@
+[
+  {
+    "id": "gadIbHb1",
+    "title": "۹۴متر / نوساز /پارک شهرآر",
+    "price_parsed": 408000000,
+    "age_parsed": 1.0,
+    "size_parsed": 94.0,
+    "map_post_card": {
+      "token": "gadIbHb1",
+      "title": "۹۴متر / نوساز /پارک شهرآر",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۳۸٫۴ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۸ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۴ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/B0mmtbLYH-C0Te2Wjc0WUg/3ee6fdd9-83e0-44be-a408-e15c970a4918.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gadIbHb1",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "984740000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"90\", \"maximum\":\"94\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-06-01T16:25:02.984740Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "gagQFsVO",
+    "title": "102 متر کلیدنخورده دور پارک شهرآرا",
+    "price_parsed": 429000000,
+    "age_parsed": 0,
+    "size_parsed": 102.0,
+    "map_post_card": {
+      "token": "gagQFsVO",
+      "title": "102 متر کلیدنخورده دور پارک شهرآرا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۴۳٫۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۲۹ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۰۲ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/iG4GnpLvkNaf2LdNhE-oiQ/e9abf6e0-e1d9-4638-82d6-476a47517e81.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/ChjW9XgD-cgbaeZPrKe_Cw/9f311f7e-a498-4be7-9e7e-2a31d84a0be2.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/TagRa8zQ7Vj_cqxLrfw1Ww/2cd9fbf8-86aa-4cad-93db-173129b51956.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/a4fbcR_zIp0TTAOqTUwCvQ/3dd87973-e59b-463e-b768-7db4381e5693.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gagQFsVO",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "514374000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"100\", \"maximum\":\"104\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-06-03T16:22:25.514374Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "QafHE826",
+    "title": "۱۴۰متر نوساز کلیدنخورده فوق لوکس پارک شهرآرا",
+    "price_parsed": 404000000,
+    "age_parsed": 0,
+    "size_parsed": 140.0,
+    "map_post_card": {
+      "token": "QafHE826",
+      "title": "۱۴۰متر نوساز کلیدنخورده فوق لوکس پارک شهرآرا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵۶٫۶ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۴ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XvpApLd6qv8rHV_PFGQJHQ/65113204-ca64-4e16-a3c9-08c66f24f33a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ucyPdQ1lXW8KffUv0_svzw/3c08b24b-3d04-4e41-9909-fa9eca820783.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VT0Ke05yekzvdrt6B1IQeA/2a53ad2c-6765-4798-ba47-2269f31c3ca6.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Doyqcqxeccw8fgyU_lw9MQ/9d89294e-1f50-4781-b74d-43994407ec25.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/s0o_b5pXuasbVtqr0UMFgg/7bf5c71d-6cfd-4d23-819f-d1f22afc05c3.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "QafHE826",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "770162000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"140\", \"maximum\":\"144\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-06-05T15:04:21.770162Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "gajosQ5n",
+    "title": "۱۴۰ متری ،۳ خواب، خاص ترین لوکیشن پاتریس",
+    "price_parsed": 407000000,
+    "age_parsed": 0,
+    "size_parsed": 140.0,
+    "map_post_card": {
+      "token": "gajosQ5n",
+      "title": "۱۴۰ متری ،۳ خواب، خاص ترین لوکیشن پاتریس",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵۷ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۰۷ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/yy4It_yM5Do3Lix_31LxOA/43addc41-f937-412a-b821-8612de158b12.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ns2wO4L233g5cft6xIzKhA/4a2c7b6c-92cd-4bf6-9dcc-56a3aab4dbce.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gajosQ5n",
+            "index": 5,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "785665000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436}, {\"value\":35.70042}, {\"value\":51.418217}, {\"value\":35.73572}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"202\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"140\", \"maximum\":\"144\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-06-06T07:21:43.785665Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
