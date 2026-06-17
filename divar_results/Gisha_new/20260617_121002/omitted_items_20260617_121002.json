@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gaXEvBiW",
+    "title": "آپارتمان ۹۶ متری ۲ خواب نوسازی شده گیشا",
+    "price_parsed": 291000000,
+    "age_parsed": 20.0,
+    "size_parsed": 96.0,
+    "map_post_card": {
+      "token": "gaXEvBiW",
+      "title": "آپارتمان ۹۶ متری ۲ خواب نوسازی شده گیشا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۲۸ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۹۱ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۹۶ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۲۰ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/M3S77hGTn88ckH-iTz6gOg/92a18981-0bc1-4d9c-a5f8-63ae73efb4b8.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/IEpT7aZZRFs2dQCJ12iJBw/6020242d-5258-4acd-a7bc-530838cb1c19.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/RfaUlYfurrNA0QtJXfzhqw/9d2d0d12-0129-42ac-b985-27144a2e2b77.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/pfgpJA6gZhxwuGbNcEInjA/e6ce6424-bf99-453c-855e-70696857c01a.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/qSWHrnWECucC2YuadSckXg/2cbf73ac-f016-45dc-869c-3f75fe24bddb.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/vGwykewf2yXqVkGdtT5gaQ/7916fb9c-2524-4f29-95fd-53efdab1189e.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/0Np-rwRtLjnMat9j0_qp3A/589cb479-03bc-4010-9ec7-7521e362f27a.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/IfofhfdDKm-kNM5x8DpaWQ/2d0d496c-af17-415b-b15d-f045633f54b7.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gaXEvBiW",
+            "index": 2,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "487695000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.335037}, {\"value\":35.724197}, {\"value\":51.40884}, {\"value\":35.750042}]}}, \"building-age\":{\"number_range\":{\"maximum\":\"20\"}}, \"category\":{\"str\":{\"value\":\"apartment-sell\"}}, \"districts\":{\"repeated_string\":{\"value\":[\"88\"]}}, \"elevator\":{\"boolean\":{\"value\":true}}, \"exclude_quality_limitations\":{\"repeated_float\":{\"value\":[{\"value\":8}]}}, \"has-photo\":{\"boolean\":{\"value\":true}}, \"parking\":{\"boolean\":{\"value\":true}}, \"size\":{\"number_range\":{\"minimum\":\"95\", \"maximum\":\"99\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-28T07:39:19.487695Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
