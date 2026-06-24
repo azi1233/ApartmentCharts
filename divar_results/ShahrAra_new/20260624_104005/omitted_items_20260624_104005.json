@@ -1,0 +1,77 @@
+[
+  {
+    "id": "gam8KdHO",
+    "title": "۱۴۰متر نوساز کلیدنخورده فوق لوکس پارک شهرآرا",
+    "price_parsed": 428000000,
+    "age_parsed": 0,
+    "size_parsed": 140.0,
+    "map_post_card": {
+      "token": "gam8KdHO",
+      "title": "۱۴۰متر نوساز کلیدنخورده فوق لوکس پارک شهرآرا",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۶۰ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۲۸ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۴۰ متر"
+        },
+        {
+          "title": "۳ اتاق"
+        },
+        {
+          "title": "نوساز"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/D0vndknVcXPClXunU-Lngw/3ceffb2c-53a4-4a77-a257-837cd52280a8.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EUdY3rOuZg5eOLDBXX4nrg/c672972d-c947-44e0-9fa3-43e7a1e6f331.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wj82OuheOITe-G35DEqojw/f46897cf-5974-4b8e-b5bc-cc1472fd605a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IccbdBicAR19s01afhIXFg/ab5acd8a-213b-474e-9a98-dc3301fe1185.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EHW2pfhCVANzTadmZdXuqA/bb55ec1f-19c4-4c56-b30d-15e53d149f38.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gam8KdHO",
+            "index": 1,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "703840000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.317436},{\"value\":35.70042},{\"value\":51.418217},{\"value\":35.73572}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"202\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"140\",\"maximum\":\"144\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-06-20T15:43:23.703840Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
