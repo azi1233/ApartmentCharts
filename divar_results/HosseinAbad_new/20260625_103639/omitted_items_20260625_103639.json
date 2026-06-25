@@ -1,0 +1,168 @@
+[
+  {
+    "id": "gamQ_z-0",
+    "title": "۷۲مترآپارتمان حسین آباد خیابان شعبانلو کم واحد",
+    "price_parsed": 222000000,
+    "age_parsed": 14.0,
+    "size_parsed": 72.0,
+    "map_post_card": {
+      "token": "gamQ_z-0",
+      "title": "۷۲مترآپارتمان حسین آباد خیابان شعبانلو کم واحد",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۱۶ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۲۲۲ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۷۲ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۱۴ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/ZAPxEFyJTfSPp4Ne3IkVGg/81285157-6edf-43aa-9558-5ac0c0a3536a.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/qUE7z09xiYgCVH_Bby5U4g/d93db958-3653-4201-ae5a-509ffdba2a39.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/izQRR0H9AGtuGPvlCM0V8A/baa14334-ad5e-4d89-9bda-5aa46d15bb4e.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/oUUbCUynwkEBt-912RUenQ/d0a71ca6-0892-493e-96fa-60adf36ea8ef.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/aNDzS9N92DmNmT61dyHZqA/87223be1-675b-4db0-b115-417c14528a88.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/95oBFnKkOLiPGVcWKfyIxg/c617cc14-7881-4c50-9f2e-489e4e41e35e.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/KV24CpXynTjYpgve1TtmTw/5d2327d8-303b-4be2-aaa7-994d9dcf1899.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/QJMWh95Uap9ZBQymW6IjkA/2728e2b2-58f6-485d-a1d6-d2a7da8909bf.webp",
+        "https://postimage01.divarcdn.com/static/photo/neda/webp_thumbnail/YIS1zA5Ie23XFkUVGDj3hQ/4ce743fe-d3ab-4fa3-a782-076be6d95973.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gamQ_z-0",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "851601000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"70\",\"maximum\":\"74\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-06-16T13:58:20.851601Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "id": "gaZQFD_D",
+    "title": "۱۱۰ متر تیپ ۴ ، رونیکا پالاس حسین آباد (پاسداران)",
+    "price_parsed": 454000000,
+    "age_parsed": 3.0,
+    "size_parsed": 110.0,
+    "map_post_card": {
+      "token": "gaZQFD_D",
+      "title": "۱۱۰ متر تیپ ۴ ، رونیکا پالاس حسین آباد (پاسداران)",
+      "price_fields": [
+        {
+          "title": "قیمت:",
+          "value": "۵۰ میلیارد"
+        },
+        {
+          "title": "متری:",
+          "value": "۴۵۴ میلیون"
+        }
+      ],
+      "chips": [
+        {
+          "title": "۱۱۰ متر"
+        },
+        {
+          "title": "۲ اتاق"
+        },
+        {
+          "title": "۳ سال"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/parking.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/parking.png"
+        },
+        {
+          "icon_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/elevator.png",
+          "icon_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/elevator.png"
+        }
+      ],
+      "images": [
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VpCr7EkSyvEt7Sm65IlA2w/bdaf202e-154f-44b6-8a32-cf32f2db91fb.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/eHl45K-et7WCfGKFP4YrQQ/4bbb62ac-cabf-46de-9d46-ad1a46b119e2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/r8amunOX6qfiVAMrdeWITg/49b16fa6-d68e-4cd0-8015-92e253c1abd8.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TzaPTtSIB3eJeqyYI0Zh7w/a8a4dd8e-9813-4bbc-88f0-7eb1d1918c42.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jV5zkfFiK-txjMuYoA8J6g/8a637fa5-055d-443c-8160-867654d3cd78.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DPAAxHAU22O3ef0of_OUoQ/bcadb453-d2ad-4694-90be-ec5673e605f2.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wNDRXslUAg-hDq4sK_tTPg/34af62ea-240c-4575-8333-22a87b245219.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PS4eQXbibwy8Q0NrYKDKnA/f6782166-1a3c-44dd-b431-646365ff0e49.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lc9riHlIW8aou32jRXTpgA/4a1557f7-0006-42e8-8c15-415aeb239191.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_mTTJON2CCCzj9cCWboFtA/7e297f82-6a67-4c0a-af7c-b83a9be342ea.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xJN5xZZf1BOUS72Bl2f3wA/195884e4-8feb-44b9-af7a-1e929d3eab63.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ir8rH0XGN1yWQR2WouwcYw/3ef07d1b-b8d5-4ce9-9241-5b198f8ab32d.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DhL0BCJzsGDvPvcmiTBnDg/ba9febdf-4fb8-4d46-ba56-2b84fc205bcc.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/glDAWuIktswkBfGgfJWzMQ/3bbf0477-dd32-4e28-95fe-712b73b7bc0a.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nkBwv-c6-SxUDIU115K4fQ/83d2e31b-f2b0-4d16-9ccb-85a2f7212188.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FdORf_LZpZ4jQsmqWI8_9A/9161fb2e-fa82-489c-bc65-b85c0036f8d1.webp",
+        "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FLFmf05HwxOVAf1Bn8hwlw/91b5812d-f392-407b-bc9e-b12eb8dfc98f.webp"
+      ],
+      "action_log": {
+        "server_side_info": {
+          "info": {
+            "@type": "type.googleapis.com/action_log.PostItemInfo",
+            "post_token": "gaZQFD_D",
+            "index": 0,
+            "post_type": "SEARCH",
+            "list_type": "PAGE",
+            "source_page": "MAP_DISCOVERY_CARD",
+            "extra_data": {
+              "@type": "type.googleapis.com/action_log.PostItemInfo.SearchExtraData",
+              "last_post_sort_date": "649445000",
+              "search_data": {
+                "form_data_json": "{\"data\":{\"bbox\":{\"repeated_float\":{\"value\":[{\"value\":51.466305},{\"value\":35.769012},{\"value\":51.49804},{\"value\":35.78689}]}},\"building-age\":{\"number_range\":{\"maximum\":\"20\"}},\"category\":{\"str\":{\"value\":\"apartment-sell\"}},\"districts\":{\"repeated_string\":{\"value\":[\"1025\"]}},\"elevator\":{\"boolean\":{\"value\":true}},\"has-photo\":{\"boolean\":{\"value\":true}},\"parking\":{\"boolean\":{\"value\":true}},\"size\":{\"number_range\":{\"minimum\":\"110\",\"maximum\":\"114\"}}}}",
+                "cities": [
+                  "1"
+                ],
+                "query_input_type": "TEXT"
+              }
+            },
+            "sort_date": "2026-05-29T08:57:28.649445Z"
+          },
+          "item_type": {
+            "type": "POST_ITEM"
+          }
+        },
+        "enabled": true
+      }
+    }
+  }
+]
