@@ -13,5 +13,5 @@ districts:
       size:
         minimum: 75
         maximum: 120
-      price_floor: 50000000
-      price_ceiling: 400000000
+      price_floor: 70000000
+      price_ceiling: 900000000

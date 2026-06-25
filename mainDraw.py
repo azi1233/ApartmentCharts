@@ -5,7 +5,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 from pathlib import Path
 from datetime import datetime
-import json, os
+import json, os, gzip
 import threading,schedule, time
 from jinja2 import Environment, FileSystemLoader
 import runner
@@ -19,14 +19,19 @@ def load_all_summaries(DIVAR_RESULTS):
     for folder in sorted(DIVAR_RESULTS.iterdir()):
         if not folder.is_dir():
             continue
-        for file in folder.glob("summary_*.json"):
-            try:
-                with open(file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    ts = datetime.strptime(data["timestamp"], "%Y-%m-%d %H:%M:%S")
-                    summaries.append((ts, data))
-            except Exception:
-                pass
+        for pattern in ("summary_*.json.gz", "summary_*.json"):
+            for file in folder.glob(pattern):
+                try:
+                    if file.suffix == ".gz":
+                        opener = lambda f: gzip.open(f, "rt", encoding="utf-8")
+                    else:
+                        opener = lambda f: open(f, "r", encoding="utf-8")
+                    with opener(file) as f:
+                        data = json.load(f)
+                        ts = datetime.strptime(data["timestamp"], "%Y-%m-%d %H:%M:%S")
+                        summaries.append((ts, data))
+                except Exception:
+                    pass
     summaries.sort(key=lambda x: x[0])
     return summaries
 
@@ -43,22 +48,29 @@ def filter_zeros_connect_gaps(timestamps, values, counts):
 
 def make_chart(summaries):
     import plotly.subplots as sp
+    import plotly.graph_objs as go
 
     timestamps = [s[0] for s in summaries]
-
+    data_count = len(summaries)
+    
+    # Trading-style configuration
+    is_large_dataset = data_count >= 1000  # Enable advanced features for 1000+ days
+    
     # Price-related data
     overall = [s[1]["overall_avg_price_per_sqm"] for s in summaries]
     overall_count = [s[1]["valid_for_averages"] for s in summaries]
 
     def get_age_data(interval):
-        return [s[1]["age_intervals"][interval]["avg"] for s in summaries], [
-            s[1]["age_intervals"][interval]["count"] for s in summaries
-        ]
+        return (
+            [s[1]["age_intervals"][interval]["avg"] for s in summaries],
+            [s[1]["age_intervals"][interval]["count"] for s in summaries],
+        )
 
     def get_size_data(interval):
-        return [s[1]["size_intervals"][interval]["avg"] for s in summaries], [
-            s[1]["size_intervals"][interval]["count"] for s in summaries
-        ]
+        return (
+            [s[1]["size_intervals"][interval]["avg"] for s in summaries],
+            [s[1]["size_intervals"][interval]["count"] for s in summaries],
+        )
 
     age0_4, cnt0_4 = get_age_data("0-4")
     age5_9, cnt5_9 = get_age_data("5-9")
@@ -109,152 +121,255 @@ def make_chart(summaries):
             size_large_f.append(ts)
             cnt_large_f.append(sl)
 
-    # Create a subplot layout: 2 rows, 1 column
-    fig = sp.make_subplots(
-        rows=2,
-        cols=1,
-        shared_xaxes=True,
-        vertical_spacing=0.1,
-        row_heights=[0.7, 0.3],
-        subplot_titles=("Average Price per m² Over Time", "Number of Listings Over Time"),
-    )
+    # Create trading-view subplot layout with enhanced features
+    if is_large_dataset:
+        # Advanced layout for 1000+ days - trading view style
+        fig = sp.make_subplots(
+            rows=3,  # Add extra row for volume and indicators
+            cols=1,
+            shared_xaxes=True,
+            vertical_spacing=0.05,
+            row_heights=[0.5, 0.3, 0.2],  # Price chart larger, volume and indicators smaller
+            subplot_titles=(
+                "Apartment Price Trends (IRR/m²)", 
+                "Market Activity", 
+                "Trading Indicators"
+            ),
+            specs=[[{"secondary_y": False}], [{"secondary_y": True, "type": "bar"}], [{"secondary_y": True, "type": "indicator"}]]
+        )
+    else:
+        # Standard layout for smaller datasets
+        fig = sp.make_subplots(
+            rows=2,
+            cols=1,
+            shared_xaxes=True,
+            vertical_spacing=0.1,
+            row_heights=[0.7, 0.3],
+            subplot_titles=("Average Price per m² Over Time", "Number of Listings Over Time"),
+        )
 
-    # --- Chart 1: Price per sqm lines ---
+    # --- Chart 1: Enhanced Price Lines with Trading Style ---
+    # Overall price with gradient fill
     fig.add_trace(
         go.Scatter(
             x=overall_f,
             y=overall_count_f,
             mode="lines+markers",
-            name=f"Overall Avg ({overall_count[-1] if overall_count else 0})",
-            line=dict(width=3, color="#ff9800"),
-            legendgroup="price",
+            name=f"Overall ({overall_count[-1] if overall_count else 0})",
+            line=dict(width=4, color="#FF6B35"),  # Trading gold
+            fill='tonexty',  # Gradient fill below line
+            fillcolor='rgba(255, 107, 53, 0.1)',  # Light gold fill
             connectgaps=True,
+            hovertemplate="<b>%{fullData.name}</b><br>Price: %{y:,.0f}<br>Date: %{x}",
         ),
         row=1, col=1
     )
-    fig.add_trace(
-        go.Scatter(
-            x=age0_4_f,
-            y=cnt0_4_f,
-            mode="lines+markers",
-            name=f"Age 0–4 ({cnt0_4[-1] if cnt0_4 else 0})",
-            line=dict(color="#4caf50"),
-            legendgroup="price",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
-    fig.add_trace(
-        go.Scatter(
-            x=age5_9_f,
-            y=cnt5_9_f,
-            mode="lines+markers",
-            name=f"Age 5–9 ({cnt5_9[-1] if cnt5_9 else 0})",
-            line=dict(color="#2196f3"),
-            legendgroup="price",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
-    fig.add_trace(
-        go.Scatter(
-            x=age10_14_f,
-            y=cnt10_14_f,
-            mode="lines+markers",
-            name=f"Age 10–14 ({cnt10_14[-1] if cnt10_14 else 0})",
-            line=dict(color="#9c27b0"),
-            legendgroup="price",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
-    fig.add_trace(
-        go.Scatter(
-            x=age15_20_f,
-            y=cnt15_20_f,
-            mode="lines+markers",
-            name=f"Age 15–20 ({cnt15_20[-1] if cnt15_20 else 0})",
-            line=dict(color="#f44336"),
-            legendgroup="price",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
+    
+    # Age group lines with enhanced styling
+    age_configs = [
+        ("0-4", cnt0_4_f, "#00D08B", "Buildings 0-4 years"),  # Blue
+        ("5-9", cnt5_9_f, "#0087FF", "Buildings 5-9 years"),  # Light blue  
+        ("10-14", cnt10_14_f, "#FF4500", "Buildings 10-14 years"),  # Orange
+        ("15-20", cnt15_20_f, "#DC143C", "Buildings 15-20 years")  # Orange-red
+    ]
+    
+    for age_label, data, color, hover_name in age_configs:
+        fig.add_trace(
+            go.Scatter(
+                x=data,
+                y=[s[1]["age_intervals"][age_label]["avg"] for s in summaries if s[1]["age_intervals"][age_label]["avg"] != 0],
+                mode="lines+markers",
+                name=f"{hover_name} ({len([s for s in summaries if s[1]['age_intervals'][age_label]['avg'] != 0])})",
+                line=dict(width=2, color=color),
+                connectgaps=True,
+                hovertemplate=f"<b>{hover_name}</b><br>Price: %{{y:,.0f}}<br>Date: %{{x}}",
+            ),
+            row=1, col=1
+        )
 
-    # --- Add size-based lines ---
-    fig.add_trace(
-        go.Scatter(
-            x=size_small_f,
-            y=cnt_small_f,
-            mode="lines+markers",
-            name=f"Size <80m² ({cnt_small[-1] if cnt_small else 0})",
-            line=dict(color="#8bc34a", dash="dot"),
-            legendgroup="size",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
-    fig.add_trace(
-        go.Scatter(
-            x=size_mid_f,
-            y=cnt_mid_f,
-            mode="lines+markers",
-            name=f"Size 80–120m² ({cnt_mid[-1] if cnt_mid else 0})",
-            line=dict(color="#03a9f4", dash="dot"),
-            legendgroup="size",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
-    fig.add_trace(
-        go.Scatter(
-            x=size_large_f,
-            y=cnt_large_f,
-            mode="lines+markers",
-            name=f"Size >120m² ({cnt_large[-1] if cnt_large else 0})",
-            line=dict(color="#e91e63", dash="dot"),
-            legendgroup="size",
-            connectgaps=True,
-        ),
-        row=1, col=1
-    )
+    # --- Size category lines with trading style ---
+    size_configs = [
+        ("<80m²", cnt_small_f, "#32CD32", "Small apartments"),  # Green
+        ("80-120m²", cnt_mid_f, "#10B981", "Medium apartments"),  # Blue
+        (">120m²", cnt_large_f, "#F59E0B", "Large apartments")  # Red
+    ]
 
-    # --- Chart 2: Listing volume bars ---
+    for size_label, data, color, hover_name in size_configs:
+        fig.add_trace(
+            go.Scatter(
+                x=data,
+                y=[s[1]["size_intervals"][("<80" if size_label == "<80m²" else ("80-120" if size_label == "80-120m²" else ">120"))]["avg"] for s in summaries if s[1]["size_intervals"][("<80" if size_label == "<80m²" else ("80-120" if size_label == "80-120m²" else ">120"))]["avg"] != 0],
+                mode="lines+markers",
+                name=f"{hover_name} ({len([s for s in summaries if s[1]['size_intervals'][('<80' if size_label == '<80m²' else ('80-120' if size_label == '80-120m²' else '>120'))]['avg'] != 0])})",
+                line=dict(width=2, color=color, dash="dot"),
+                connectgaps=True,
+                hovertemplate=f"<b>{hover_name}</b><br>Price: %{{y:,.0f}}<br>Date: %{{x}}",
+            ),
+            row=1, col=1
+        )
+
+    # --- Chart 2: Enhanced Volume Bars ---
     total_posts = [s[1]["total_posts"] for s in summaries]
     valid_posts = [s[1]["valid_for_averages"] for s in summaries]
 
-    fig.add_trace(
-        go.Bar(
-            x=timestamps,
-            y=total_posts,
-            name="Total Listings",
-            marker_color="rgba(100, 149, 237, 0.7)",
-            legendgroup="volume",
-        ),
-        row=2, col=1
-    )
-    fig.add_trace(
-        go.Bar(
-            x=timestamps,
-            y=valid_posts,
-            name="Valid Listings (for averages)",
-            marker_color="rgba(255, 152, 0, 0.7)",
-            legendgroup="volume",
-        ),
-        row=2, col=1
-    )
+    if is_large_dataset:
+        fig.add_trace(
+            go.Bar(
+                x=timestamps,
+                y=total_posts,
+                name="Total Listings",
+                marker=dict(color="rgba(52, 152, 219, 0.8)"),
+                line=dict(color="rgba(52, 152, 219, 1)"),
+                opacity=0.8,
+                hovertemplate="<b>Total Listings</b><br>Count: %{y}<br>Date: %{x}"
+            ),
+            row=2, col=1
+        )
+        fig.add_trace(
+            go.Bar(
+                x=timestamps,
+                y=valid_posts,
+                name="Valid Listings",
+                marker=dict(color="rgba(46, 204, 113, 0.8)"),
+                line=dict(color="rgba(46, 204, 113, 1)"),
+                opacity=0.8,
+                hovertemplate="<b>Valid Listings</b><br>Count: %{y}<br>Date: %{x}",
+            ),
+            row=2, col=1
+        )
+    else:
+        # Standard volume bars for smaller datasets
+        fig.add_trace(
+            go.Bar(
+                x=timestamps,
+                y=total_posts,
+                name="Total Listings",
+                marker_color="rgba(100, 149, 237, 0.7)",
+                legendgroup="volume",
+            ),
+            row=2, col=1
+        )
+        fig.add_trace(
+            go.Bar(
+                x=timestamps,
+                y=valid_posts,
+                name="Valid Listings (for averages)",
+                marker_color="rgba(255, 152, 0, 0.7)",
+                legendgroup="volume",
+            ),
+            row=2, col=1
+        )
+    
+    # --- Chart 3: Trading Indicators (only for large datasets) ---
+    if is_large_dataset and len(overall_f) > 0:
+        # Calculate price changes for volatility and momentum
+        if len(overall_f) > 1:
+            price_changes = [overall_f[i] - overall_f[i-1] for i in range(1, len(overall_f))]
+            avg_change = sum(price_changes) / len(price_changes)
+            
+            # Moving averages
+            ma_short = sum(overall_f[-20:]) / len(overall_f[-20:]) if len(overall_f) >= 20 else overall_f[-1]
+            ma_long = sum(overall_f[-50:]) / len(overall_f[-50:]) if len(overall_f) >= 50 else overall_f[-1]
+            
+            # Volatility (standard deviation)
+            if len(overall_f) > 10:
+                import statistics
+                volatility = statistics.stdev(overall_f[-30:])
+            else:
+                volatility = 0
+            
+            # Add indicators
+            fig.add_trace(
+                go.Indicator(
+                    mode="number+gauge+delta",
+                    value=overall_f[-1],
+                    delta=dict(reference=ma_short, valueformat=".2s"),
+                    title=dict(text="Current Price"),
+                    gauge=dict(
+                        axis=dict(range=[None, max(overall_f) * 1.2], tickwidth=1),
+                        bar=dict(color="darkblue", thickness=0.3),
+                        bgcolor="lightgray",
+                        steps=[
+                            dict(range=[None, max(overall_f) * 0.7], color="lightgreen"),
+                            dict(range=[max(overall_f) * 0.7, max(overall_f) * 0.9], color="yellow"),
+                            dict(range=[max(overall_f) * 0.9, max(overall_f)], color="orange")
+                        ]
+                    ),
+                    domain=dict(row=0, column=0),
+                    number=dict(font=dict(size=26), valueformat=",.0f")
+                ),
+                row=3, col=1
+            )
+            
+            # Moving average lines
+            fig.add_trace(
+                go.Scatter(
+                    x=timestamps[-len(ma_short):],
+                    y=ma_short,
+                    mode="lines",
+                    name=f"MA({len(ma_short)})",
+                    line=dict(color="orange", width=2, dash="dash"),
+                    connectgaps=False
+                ),
+                row=1, col=1
+            )
+            
+            fig.add_trace(
+                go.Scatter(
+                    x=timestamps[-len(ma_long):],
+                    y=ma_long,
+                    mode="lines",
+                    name=f"MA({len(ma_long)})",
+                    line=dict(color="purple", width=2, dash="dot"),
+                    connectgaps=False
+                ),
+                row=1, col=1
+            )
 
-    fig.update_layout(
+    # Enhanced layout configuration
+    layout_config = dict(
         template="plotly_dark",
         hovermode="x unified",
-        height=850,
-        margin=dict(t=80, b=40, l=60, r=20),
-        legend_tracegroupgap=160,
+        height=1000 if is_large_dataset else 850,  # Taller for trading view
+        margin=dict(t=100, b=60, l=80, r=50),  # More space for indicators
+        legend=dict(
+            orientation="h",  # Horizontal legend for better space usage
+            yanchor="bottom",
+            xanchor="right",
+            bgcolor="rgba(0,0,0,0.5)",
+            bordercolor="rgba(255,255,255,0.1)",
+            borderwidth=1
+        ),
+        showlegend=True,
+        xaxis=dict(
+            showgrid=True,
+            gridcolor="rgba(255,255,255,0.1)",
+            type="date"
+        ),
+        yaxis=dict(
+            showgrid=True,
+            gridcolor="rgba(255,255,255,0.1)",
+            title_text="Price (IRR/m²)" if not is_large_dataset else "Price (IRR)",
+            side="left"
+        )
     )
-
-    fig.update_yaxes(title_text="Price (IRR)", row=1, col=1)
+    
+    if is_large_dataset:
+        layout_config.update({
+            'yaxis2': dict(title="Market Activity", side="left"),
+            'yaxis3': dict(title="Trading Indicators", side="left", showgrid=False)
+        })
+    else:
+        layout_config.update({
+            'yaxis2': dict(title="Number of Listings")
+        })
+    
+    fig.update_layout(**layout_config)
+    
+    # Update axes titles for all rows
+    fig.update_yaxes(title_text="Price (IRR/m²)", row=1, col=1)
     fig.update_yaxes(title_text="Listings", row=2, col=1)
-    fig.update_xaxes(title_text="Timestamp", row=2, col=1)
+    fig.update_xaxes(title_text="Date", row=2, col=1)
 
     return pyo.plot(fig, include_plotlyjs=False, output_type="div")
 

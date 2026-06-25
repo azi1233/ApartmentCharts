@@ -4,6 +4,7 @@
 
 import requests
 import json
+import gzip
 from datetime import datetime, timedelta
 from pathlib import Path
 import sys
@@ -14,8 +15,8 @@ import time
 # ------------------------
 # Config: tweak as needed
 # ------------------------
-PRICE_FLOOR = 50_000_000
-PRICE_CEILING = 300_000_000
+PRICE_FLOOR = 70_000_000
+PRICE_CEILING = 900_000_000
 REQUEST_TIMEOUT = 30
 PAGE_SIZE_GUESS = 200
 RATE_LIMIT_SLEEP = 0.12  # small delay between requests to be polite
@@ -42,9 +43,11 @@ def extractor(diverRequest: DivarRequest):
     out_dir = Path("./divar_results/" + path_d) / ts
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    def save_json(data: Any, filename: str):
-        with open(out_dir / filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+    def save_json(data: Any, filename: str) -> str:
+        gz_filename = filename.replace('.json', '.json.gz')
+        with gzip.open(out_dir / gz_filename, 'wt', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+        return gz_filename
 
     # ------------------------
     # Parsers (for price, age, size)
@@ -367,8 +370,7 @@ def extractor(diverRequest: DivarRequest):
     posts = all_posts_combined
 
     # Save raw posts for traceability
-    posts_filename = f"posts_collected_{ts}.json"
-    save_json(posts, posts_filename)
+    posts_filename = save_json(posts, f"posts_collected_{ts}.json")
     print(f"Saved collected posts -> {out_dir / posts_filename}")
 
     # ------------------------
@@ -466,8 +468,7 @@ def extractor(diverRequest: DivarRequest):
         "age_size_matrix": {k: {kk: {"avg": int(avg(vv)) if vv else 0, "count": len(vv)} for kk, vv in v.items()} for k, v in age_size_matrix.items()},
     }
 
-    summary_filename = f"summary_{ts}.json"
-    save_json(summary, summary_filename)
+    summary_filename = save_json(summary, f"summary_{ts}.json")
 
     # Print human-readable summary
     print("\n=== SUMMARY ===")
@@ -506,8 +507,9 @@ def extractor(diverRequest: DivarRequest):
 # ------------------------
 def cleanup_old_posts_files(district_path: str, keep_days: int = POSTS_RETENTION_DAYS):
     """
-    Delete posts_collected_*.json and omitted_items_*.json files older than keep_days for a specific district.
-    Keeps summary_*.json files as they are much smaller and needed for charts.
+    Delete posts_collected_*.json(.gz) and omitted_items_*.json(.gz) files older than keep_days for a specific district.
+    Keeps summary_*.json.gz files as they are much smaller and needed for charts.
+    Handles both .json and .json.gz file extensions for backward compatibility.
     """
     district_dir = Path(district_path)
     if not district_dir.exists():
@@ -517,49 +519,39 @@ def cleanup_old_posts_files(district_path: str, keep_days: int = POSTS_RETENTION
     deleted_files = []
     deleted_size = 0
     
-    # Iterate through all timestamped folders in district directory
     for timestamp_dir in district_dir.iterdir():
         if not timestamp_dir.is_dir():
             continue
         
-        # Try to parse the timestamp from directory name
         try:
-            # Expected format: YYYYMMDD_HHMMSS
             timestamp_str = timestamp_dir.name
             dir_datetime = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
             
-            # If directory is older than cutoff date, delete large JSON files
             if dir_datetime < cutoff_date:
-                # Delete posts_collected files
-                posts_file = timestamp_dir / f"posts_collected_{timestamp_str}.json"
-                if posts_file.exists():
-                    file_size = posts_file.stat().st_size
-                    posts_file.unlink()
-                    deleted_files.append(str(posts_file))
-                    deleted_size += file_size
+                for ext in ("json.gz", "json"):
+                    posts_file = timestamp_dir / f"posts_collected_{timestamp_str}.{ext}"
+                    if posts_file.exists():
+                        file_size = posts_file.stat().st_size
+                        posts_file.unlink()
+                        deleted_files.append(str(posts_file))
+                        deleted_size += file_size
+                        print(f"Deleted old posts file: {posts_file} ({file_size/1024/1024:.1f} MB)")
                     
-                    print(f"Deleted old posts file: {posts_file} ({file_size/1024/1024:.1f} MB)")
+                    omitted_file = timestamp_dir / f"omitted_items_{timestamp_str}.{ext}"
+                    if omitted_file.exists():
+                        file_size = omitted_file.stat().st_size
+                        omitted_file.unlink()
+                        deleted_files.append(str(omitted_file))
+                        deleted_size += file_size
+                        print(f"Deleted old omitted items file: {omitted_file} ({file_size/1024/1024:.1f} MB)")
                 
-                # Delete omitted_items files 
-                omitted_file = timestamp_dir / f"omitted_items_{timestamp_str}.json"
-                if omitted_file.exists():
-                    file_size = omitted_file.stat().st_size
-                    omitted_file.unlink()
-                    deleted_files.append(str(omitted_file))
-                    deleted_size += file_size
-                    
-                    print(f"Deleted old omitted items file: {omitted_file} ({file_size/1024/1024:.1f} MB)")
-                    
-                    # If the directory is now empty after deleting large files, remove it
                 try:
-                    timestamp_dir.rmdir()  # Only removes if empty
+                    timestamp_dir.rmdir()
                     print(f"Removed empty directory: {timestamp_dir}")
                 except OSError:
-                    # Directory still contains summary files or other content
                     pass
                         
         except (ValueError, FileNotFoundError):
-            # Skip directories that don't match expected timestamp format
             continue
     
     if deleted_files:

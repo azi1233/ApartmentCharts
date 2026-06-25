@@ -4,6 +4,7 @@
 
 import requests
 import json
+import gzip
 from datetime import datetime
 from pathlib import Path
 import sys
@@ -14,8 +15,8 @@ import time
 # ------------------------
 # Config: tweak as needed
 # ------------------------
-PRICE_FLOOR_2 = 5_000_000
-PRICE_CEILING_2 = 500_000_000
+PRICE_FLOOR_2 = 70_000_000
+PRICE_CEILING_2 = 900_000_000
 REQUEST_TIMEOUT = 30
 PAGE_SIZE_GUESS = 200
 RATE_LIMIT_SLEEP = 0.12  # small delay between requests to be polite
@@ -41,9 +42,11 @@ def extractor2(diverRequest: DivarRequest):
     out_dir = Path("./divar_results/" + path_d) / ts
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    def save_json(data: Any, filename: str):
-        with open(out_dir / filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+    def save_json(data: Any, filename: str) -> str:
+        gz_filename = filename.replace('.json', '.json.gz')
+        with gzip.open(out_dir / gz_filename, 'wt', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+        return gz_filename
 
     # ------------------------
     # Parsers (for price, age, size)
@@ -655,8 +658,7 @@ def extractor2(diverRequest: DivarRequest):
             "map_post_card": c.get("map_post_card")
         })
 
-    omitted_filename = f"omitted_items_{ts}.json"
-    save_json(omitted_items, omitted_filename)
+    omitted_filename = save_json(omitted_items, f"omitted_items_{ts}.json")
     print(f"Robust-clean: candidates={len(candidate_prices)}, kept={len(final_prices)}, omitted={len(omitted_items)}, strategy={used_strategy}")
     print(f"Saved omitted items -> {out_dir / omitted_filename}")
 
@@ -678,8 +680,7 @@ def extractor2(diverRequest: DivarRequest):
     # Sort by price ascending
     sorted_valid_items = sorted(sorted_valid_items, key=lambda x: x["price_per_sqm"])
 
-    valid_sorted_filename = f"valid_sorted_items_{ts}.json"
-    save_json(sorted_valid_items, valid_sorted_filename)
+    valid_sorted_filename = save_json(sorted_valid_items, f"valid_sorted_items_{ts}.json")
     print(f"Saved sorted valid items -> {out_dir / valid_sorted_filename}")
 
 
@@ -699,8 +700,7 @@ def extractor2(diverRequest: DivarRequest):
         "age_size_matrix": {k: {kk: {"avg": int(avg(vv)) if vv else 0, "count": len(vv)} for kk, vv in v.items()} for k, v in age_size_matrix.items()},
     }
 
-    summary_filename = f"summary_{ts}.json"
-    save_json(summary, summary_filename)
+    summary_filename = save_json(summary, f"summary_{ts}.json")
 
     # Print human-readable summary
     print("\n=== SUMMARY ===")
