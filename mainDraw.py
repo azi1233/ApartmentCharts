@@ -100,26 +100,26 @@ def make_chart(summaries):
             overall_f.append(ts)
             overall_count_f.append(ov)
         if a0 != 0:
-            age0_4_f.append(ts)
-            cnt0_4_f.append(a0)
+            age0_4_f.append(a0)
+            cnt0_4_f.append(ts)
         if a5 != 0:
-            age5_9_f.append(ts)
-            cnt5_9_f.append(a5)
+            age5_9_f.append(a5)
+            cnt5_9_f.append(ts)
         if a10 != 0:
-            age10_14_f.append(ts)
-            cnt10_14_f.append(a10)
+            age10_14_f.append(a10)
+            cnt10_14_f.append(ts)
         if a15 != 0:
-            age15_20_f.append(ts)
-            cnt15_20_f.append(a15)
+            age15_20_f.append(a15)
+            cnt15_20_f.append(ts)
         if ss != 0:
-            size_small_f.append(ts)
-            cnt_small_f.append(ss)
+            size_small_f.append(ss)
+            cnt_small_f.append(ts)
         if sm != 0:
-            size_mid_f.append(ts)
-            cnt_mid_f.append(sm)
+            size_mid_f.append(sm)
+            cnt_mid_f.append(ts)
         if sl != 0:
-            size_large_f.append(ts)
-            cnt_large_f.append(sl)
+            size_large_f.append(sl)
+            cnt_large_f.append(ts)
 
     # Create trading-view subplot layout with enhanced features
     if is_large_dataset:
@@ -148,114 +148,141 @@ def make_chart(summaries):
             subplot_titles=("Average Price per m² Over Time", "Number of Listings Over Time"),
         )
 
-    # --- Chart 1: Enhanced Price Lines with Trading Style ---
-    # Overall price with gradient fill
+    # --- Chart 1: Overall Price + Age + Size ---
+    age_configs = [
+        ("0-4", "#00D08B"),
+        ("5-9", "#0087FF"),
+        ("10-14", "#FF4500"),
+        ("15-20", "#DC143C"),
+    ]
+
+    latest = summaries[-1][1]
+    total_valid = latest["valid_for_averages"]
+    age_counts = {label: latest["age_intervals"][label]["count"] for label, _ in age_configs}
+
+    min_price = min(overall_count_f)
+    max_price = max(overall_count_f)
+
     fig.add_trace(
         go.Scatter(
             x=overall_f,
             y=overall_count_f,
             mode="lines+markers",
-            name=f"Overall ({overall_count[-1] if overall_count else 0})",
-            line=dict(width=4, color="#FF6B35"),  # Trading gold
-            fill='tonexty',  # Gradient fill below line
-            fillcolor='rgba(255, 107, 53, 0.1)',  # Light gold fill
+            name=f"Overall ({total_valid})",
+            legendrank=1,
+            line=dict(width=4, color="#FF6B35"),
+            marker=dict(size=4, color="#FF6B35"),
             connectgaps=True,
-            hovertemplate="<b>%{fullData.name}</b><br>Price: %{y:,.0f}<br>Date: %{x}",
+            hovertemplate="Overall<br>%{y:,.0f}<extra></extra>",
         ),
         row=1, col=1
     )
-    
-    # Age group lines with enhanced styling
-    age_configs = [
-        ("0-4", cnt0_4_f, "#00D08B", "Buildings 0-4 years"),  # Blue
-        ("5-9", cnt5_9_f, "#0087FF", "Buildings 5-9 years"),  # Light blue  
-        ("10-14", cnt10_14_f, "#FF4500", "Buildings 10-14 years"),  # Orange
-        ("15-20", cnt15_20_f, "#DC143C", "Buildings 15-20 years")  # Orange-red
-    ]
-    
-    for age_label, data, color, hover_name in age_configs:
+
+    for i, (age_label, color) in enumerate(age_configs):
+        age_count = age_counts[age_label]
         fig.add_trace(
             go.Scatter(
-                x=data,
+                x=overall_f,
                 y=[s[1]["age_intervals"][age_label]["avg"] for s in summaries if s[1]["age_intervals"][age_label]["avg"] != 0],
                 mode="lines+markers",
-                name=f"{hover_name} ({len([s for s in summaries if s[1]['age_intervals'][age_label]['avg'] != 0])})",
+                name=f"Age {age_label} ({age_count})",
+                legendrank=10 + i,
                 line=dict(width=2, color=color),
+                marker=dict(size=4, color=color),
                 connectgaps=True,
-                hovertemplate=f"<b>{hover_name}</b><br>Price: %{{y:,.0f}}<br>Date: %{{x}}",
+                hovertemplate=f"Age {age_label}<br>%{{y:,.0f}}<extra></extra>",
             ),
             row=1, col=1
         )
 
-    # --- Size category lines with trading style ---
     size_configs = [
-        ("<80m²", cnt_small_f, "#32CD32", "Small apartments"),  # Green
-        ("80-120m²", cnt_mid_f, "#10B981", "Medium apartments"),  # Blue
-        (">120m²", cnt_large_f, "#F59E0B", "Large apartments")  # Red
+        ("<80", "#32CD32", "<80m²"),
+        ("80-120", "#10B981", "80-120m²"),
+        (">120", "#F59E0B", ">120m²"),
     ]
 
-    for size_label, data, color, hover_name in size_configs:
+    size_counts = {key: latest["size_intervals"][key]["count"] for key, _, _ in size_configs}
+
+    for i, (size_key, color, label) in enumerate(size_configs):
+        size_count = size_counts[size_key]
         fig.add_trace(
             go.Scatter(
-                x=data,
-                y=[s[1]["size_intervals"][("<80" if size_label == "<80m²" else ("80-120" if size_label == "80-120m²" else ">120"))]["avg"] for s in summaries if s[1]["size_intervals"][("<80" if size_label == "<80m²" else ("80-120" if size_label == "80-120m²" else ">120"))]["avg"] != 0],
+                x=overall_f,
+                y=[s[1]["size_intervals"][size_key]["avg"] for s in summaries if s[1]["size_intervals"][size_key]["avg"] != 0],
                 mode="lines+markers",
-                name=f"{hover_name} ({len([s for s in summaries if s[1]['size_intervals'][('<80' if size_label == '<80m²' else ('80-120' if size_label == '80-120m²' else '>120'))]['avg'] != 0])})",
+                name=f"Size {label} ({size_count})",
+                legendrank=20 + i,
                 line=dict(width=2, color=color, dash="dot"),
+                marker=dict(size=4, color=color),
                 connectgaps=True,
-                hovertemplate=f"<b>{hover_name}</b><br>Price: %{{y:,.0f}}<br>Date: %{{x}}",
+                hovertemplate=f"Size {label}<br>%{{y:,.0f}}<extra></extra>",
             ),
             row=1, col=1
         )
 
-    # --- Chart 2: Enhanced Volume Bars ---
+    # --- Chart 2: Listing Counts ---
     total_posts = [s[1]["total_posts"] for s in summaries]
     valid_posts = [s[1]["valid_for_averages"] for s in summaries]
+    latest_total = latest["total_posts"]
+    latest_valid = latest["valid_for_averages"]
 
     if is_large_dataset:
         fig.add_trace(
-            go.Bar(
+            go.Scatter(
                 x=timestamps,
                 y=total_posts,
-                name="Total Listings",
-                marker=dict(color="rgba(52, 152, 219, 0.8)"),
-                line=dict(color="rgba(52, 152, 219, 1)"),
-                opacity=0.8,
-                hovertemplate="<b>Total Listings</b><br>Count: %{y}<br>Date: %{x}"
+                name=f"Total ({latest_total})",
+                legendgroup="listings",
+                mode="lines",
+                line=dict(width=1, color="rgba(52, 152, 219, 0.8)"),
+                fill='tozeroy',
+                fillcolor="rgba(52, 152, 219, 0.15)",
+                hovertemplate="Total listings: %{y}<extra></extra>"
             ),
             row=2, col=1
         )
         fig.add_trace(
-            go.Bar(
+            go.Scatter(
                 x=timestamps,
                 y=valid_posts,
-                name="Valid Listings",
-                marker=dict(color="rgba(46, 204, 113, 0.8)"),
-                line=dict(color="rgba(46, 204, 113, 1)"),
-                opacity=0.8,
-                hovertemplate="<b>Valid Listings</b><br>Count: %{y}<br>Date: %{x}",
+                name=f"Valid ({latest_valid})",
+                legendgroup="listings",
+                mode="lines",
+                line=dict(width=1, color="rgba(46, 204, 113, 0.8)"),
+                fill='tozeroy',
+                fillcolor="rgba(46, 204, 113, 0.15)",
+                hovertemplate="Valid listings: %{y}<extra></extra>",
             ),
             row=2, col=1
         )
     else:
-        # Standard volume bars for smaller datasets
         fig.add_trace(
-            go.Bar(
+            go.Scatter(
                 x=timestamps,
                 y=total_posts,
-                name="Total Listings",
-                marker_color="rgba(100, 149, 237, 0.7)",
-                legendgroup="volume",
+                name=f"Total ({latest_total})",
+                legendgroup="listings",
+                mode="lines+markers",
+                marker=dict(size=4, color="rgba(100, 149, 237, 0.8)"),
+                line=dict(width=1, color="rgba(100, 149, 237, 0.5)"),
+                fill='tozeroy',
+                fillcolor="rgba(100, 149, 237, 0.1)",
+                hovertemplate="Total listings: %{y}<extra></extra>"
             ),
             row=2, col=1
         )
         fig.add_trace(
-            go.Bar(
+            go.Scatter(
                 x=timestamps,
                 y=valid_posts,
-                name="Valid Listings (for averages)",
-                marker_color="rgba(255, 152, 0, 0.7)",
-                legendgroup="volume",
+                name=f"Valid ({latest_valid})",
+                legendgroup="listings",
+                mode="lines+markers",
+                marker=dict(size=4, color="rgba(255, 152, 0, 0.8)"),
+                line=dict(width=1, color="rgba(255, 152, 0, 0.5)"),
+                fill='tozeroy',
+                fillcolor="rgba(255, 152, 0, 0.1)",
+                hovertemplate="Valid listings: %{y}<extra></extra>",
             ),
             row=2, col=1
         )
@@ -301,27 +328,30 @@ def make_chart(summaries):
                 row=3, col=1
             )
             
-            # Moving average lines
             fig.add_trace(
                 go.Scatter(
                     x=timestamps[-len(ma_short):],
                     y=ma_short,
                     mode="lines",
-                    name=f"MA({len(ma_short)})",
+                    name="MA(20)",
+                    legendrank=30,
                     line=dict(color="orange", width=2, dash="dash"),
-                    connectgaps=False
+                    connectgaps=False,
+                    hovertemplate="MA(20)<br>%{y:,.0f}<extra></extra>"
                 ),
                 row=1, col=1
             )
-            
+
             fig.add_trace(
                 go.Scatter(
                     x=timestamps[-len(ma_long):],
                     y=ma_long,
                     mode="lines",
-                    name=f"MA({len(ma_long)})",
+                    name="MA(50)",
+                    legendrank=31,
                     line=dict(color="purple", width=2, dash="dot"),
-                    connectgaps=False
+                    connectgaps=False,
+                    hovertemplate="MA(50)<br>%{y:,.0f}<extra></extra>"
                 ),
                 row=1, col=1
             )
@@ -330,13 +360,16 @@ def make_chart(summaries):
     layout_config = dict(
         template="plotly_dark",
         hovermode="x unified",
-        height=1000 if is_large_dataset else 850,  # Taller for trading view
-        margin=dict(t=100, b=60, l=80, r=50),  # More space for indicators
+        height=1000 if is_large_dataset else 850,
+        margin=dict(t=100, b=60, l=80, r=120),
         legend=dict(
-            orientation="h",  # Horizontal legend for better space usage
-            yanchor="bottom",
-            xanchor="right",
-            bgcolor="rgba(0,0,0,0.5)",
+            orientation="v",
+            yanchor="top",
+            y=1.0,
+            xanchor="left",
+            x=1.02,
+            font=dict(size=13),
+            bgcolor="rgba(0,0,0,0.3)",
             bordercolor="rgba(255,255,255,0.1)",
             borderwidth=1
         ),
@@ -350,25 +383,25 @@ def make_chart(summaries):
             showgrid=True,
             gridcolor="rgba(255,255,255,0.1)",
             title_text="Price (IRR/m²)" if not is_large_dataset else "Price (IRR)",
-            side="left"
+            side="left",
+            range=[min_price, None]
         )
     )
     
     if is_large_dataset:
         layout_config.update({
-            'yaxis2': dict(title="Market Activity", side="left"),
+            'yaxis2': dict(title="Listings", side="left"),
             'yaxis3': dict(title="Trading Indicators", side="left", showgrid=False)
         })
     else:
         layout_config.update({
-            'yaxis2': dict(title="Number of Listings")
+            'yaxis2': dict(title="Listings"),
         })
-    
+
     fig.update_layout(**layout_config)
-    
-    # Update axes titles for all rows
-    fig.update_yaxes(title_text="Price (IRR/m²)", row=1, col=1)
-    fig.update_yaxes(title_text="Listings", row=2, col=1)
+
+    fig.update_yaxes(title_text="Price (IRR/m²)", row=1, col=1, range=[min_price, None])
+    fig.update_yaxes(title_text="Listings", row=2, col=1, autorange=True)
     fig.update_xaxes(title_text="Date", row=2, col=1)
 
     return pyo.plot(fig, include_plotlyjs=False, output_type="div")
