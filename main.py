@@ -80,8 +80,7 @@ def main():
         "    </header>",
         "",
         "    <div class='grid'>",
-        "      <!-- Buttons for each folder will be inserted here -->",
-        "      <!-- Example: <a class='btn' href='FOLDERNAME_report.html'>FOLDERNAME</a> -->",
+        "      __BUTTONS__",
         "    </div>",
         "",
         "    <footer>",
@@ -103,12 +102,12 @@ def main():
 
 
         
-    for folder in folders:
-        link = f"{folder.name}_report.html"
-        html_lines.append(f"  <a class='btn' href='{link}'>{folder.name}</a>")
-    html_lines += ["</body>", "</html>"]
-
-    index_file.write_text("\n".join(html_lines), encoding="utf-8")
+    buttons = "\n".join(
+        f"  <a class='btn' href='{f.name}_report.html'>{f.name}</a>"
+        for f in folders
+    )
+    html = "\n".join(html_lines).replace("      __BUTTONS__", buttons)
+    index_file.write_text(html, encoding="utf-8")
     print(f"Index created at: {index_file}")
     
     # --- Cleanup old posts and omitted items files ---

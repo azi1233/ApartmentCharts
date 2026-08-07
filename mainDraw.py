@@ -81,45 +81,12 @@ def make_chart(summaries):
     size_mid, cnt_mid = get_size_data("80-120")
     size_large, cnt_large = get_size_data(">120")
 
-    # Filter out zero values for all data series
+    # Filter out zero values for overall data series
     overall_f, overall_count_f = [], []
-    age0_4_f, cnt0_4_f = [], []
-    age5_9_f, cnt5_9_f = [], []
-    age10_14_f, cnt10_14_f = [], []
-    age15_20_f, cnt15_20_f = [], []
-    size_small_f, cnt_small_f = [], []
-    size_mid_f, cnt_mid_f = [], []
-    size_large_f, cnt_large_f = [], []
-
-    for ts, ov, oc, a0, c0, a5, c5, a10, c10, a15, c15, ss, cs, sm, cm, sl, cl in zip(
-        timestamps, overall, overall_count, age0_4, cnt0_4, age5_9, cnt5_9,
-        age10_14, cnt10_14, age15_20, cnt15_20, size_small, cnt_small,
-        size_mid, cnt_mid, size_large, cnt_large
-    ):
+    for ts, ov in zip(timestamps, overall):
         if ov != 0:
             overall_f.append(ts)
             overall_count_f.append(ov)
-        if a0 != 0:
-            age0_4_f.append(a0)
-            cnt0_4_f.append(ts)
-        if a5 != 0:
-            age5_9_f.append(a5)
-            cnt5_9_f.append(ts)
-        if a10 != 0:
-            age10_14_f.append(a10)
-            cnt10_14_f.append(ts)
-        if a15 != 0:
-            age15_20_f.append(a15)
-            cnt15_20_f.append(ts)
-        if ss != 0:
-            size_small_f.append(ss)
-            cnt_small_f.append(ts)
-        if sm != 0:
-            size_mid_f.append(sm)
-            cnt_mid_f.append(ts)
-        if sl != 0:
-            size_large_f.append(sl)
-            cnt_large_f.append(ts)
 
     # Create trading-view subplot layout with enhanced features
     if is_large_dataset:
@@ -180,10 +147,15 @@ def make_chart(summaries):
 
     for i, (age_label, color) in enumerate(age_configs):
         age_count = age_counts[age_label]
+        age_pairs = [
+            (s[0], s[1]["age_intervals"][age_label]["avg"])
+            for s in summaries
+            if s[1]["age_intervals"][age_label]["avg"] != 0
+        ]
         fig.add_trace(
             go.Scatter(
-                x=overall_f,
-                y=[s[1]["age_intervals"][age_label]["avg"] for s in summaries if s[1]["age_intervals"][age_label]["avg"] != 0],
+                x=[p[0] for p in age_pairs],
+                y=[p[1] for p in age_pairs],
                 mode="lines+markers",
                 name=f"Age {age_label} ({age_count})",
                 legendrank=10 + i,
@@ -205,10 +177,15 @@ def make_chart(summaries):
 
     for i, (size_key, color, label) in enumerate(size_configs):
         size_count = size_counts[size_key]
+        size_pairs = [
+            (s[0], s[1]["size_intervals"][size_key]["avg"])
+            for s in summaries
+            if s[1]["size_intervals"][size_key]["avg"] != 0
+        ]
         fig.add_trace(
             go.Scatter(
-                x=overall_f,
-                y=[s[1]["size_intervals"][size_key]["avg"] for s in summaries if s[1]["size_intervals"][size_key]["avg"] != 0],
+                x=[p[0] for p in size_pairs],
+                y=[p[1] for p in size_pairs],
                 mode="lines+markers",
                 name=f"Size {label} ({size_count})",
                 legendrank=20 + i,
