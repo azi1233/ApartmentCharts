@@ -1,0 +1,15 @@
+git restore -- divar_results/  #ignoring data generated locally
+git clean -fd -- divar_results/ #ignoring untracked data
+git stash push -u -m "my changes before rebase" #stashing you changes
+git pull --rebase origin main #getting latest data
+git stash pop #returing your stash changes
+git checkout --theirs -- '*.py' #prefer local change for and py files
+git checkout --theirs --  '*.py' #add them
+# later on, see what to do with '*.html' (it was there near the '*.py' in two previous lines.
+git checkout --ours -- '**/*.pyc'
+git add '**/*.pyc' ##ignoring pyc files
+
+git commit #commit new changes
+# now you can run locally to check things. python3.13  main.py
+git reset --hard HEAD #removing test case data and changes
+git push origin main # push it on remote 
