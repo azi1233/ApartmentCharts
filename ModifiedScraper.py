@@ -343,7 +343,7 @@ def extractor2(diverRequest: DivarRequest):
         time.sleep(0.02)
 
         for post in posts_for_range:
-            pid = post.get("map_post_card").get("id") or post.get("map_post_card").get("token") or post.get("map_post_card").get("post_token") or post.get("map_post_card").get("postId")
+            pid = (post.get("map_post_card") or {}).get("id") or (post.get("map_post_card") or {}).get("token") or (post.get("map_post_card") or {}).get("post_token") or (post.get("map_post_card") or {}).get("postId")
             if not pid:
                 pid = json.dumps(post, sort_keys=True, ensure_ascii=False)
             if pid not in all_seen_ids:
